@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="OfficeModelStoreContainer" CdmEntityContainer="OfficeEntities">
+    <EntitySetMapping Name="employees">
+      <EntityTypeMapping TypeName="OfficeModel.employee">
+        <MappingFragment StoreEntitySet="employee">
+          <ScalarProperty Name="emp_id" ColumnName="emp_id" />
+          <ScalarProperty Name="emp_name" ColumnName="emp_name" />
+          <ScalarProperty Name="emp_salary" ColumnName="emp_salary" />
+          <ScalarProperty Name="emp_address" ColumnName="emp_address" />
+          <ScalarProperty Name="emp_designation" ColumnName="emp_designation" />
+          <ScalarProperty Name="emp_dept" ColumnName="emp_dept" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Users">
+      <EntityTypeMapping TypeName="OfficeModel.User">
+        <MappingFragment StoreEntitySet="User">
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="Emailid" ColumnName="Emailid" />
+          <ScalarProperty Name="Mobile_Number" ColumnName="Mobile_Number" />
+          <ScalarProperty Name="Age" ColumnName="Age" />
+          <ScalarProperty Name="Username" ColumnName="Username" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
