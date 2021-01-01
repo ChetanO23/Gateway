@@ -4,6 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 using Source_Control_Final_Assignment.Models;
+using System.Web.Security;
 
 namespace Source_Control_Final_Assignment.Controllers
 {
@@ -16,9 +17,20 @@ namespace Source_Control_Final_Assignment.Controllers
         }
 
         [HttpPost]
-        public ActionResult Login(Membership model)
+        public ActionResult Login(Models.Membership model)
         {
-            return View();
+            using (var context = new OfficeEntities())
+            {
+                bool isValid = context.Users.Any(x => x.Username == model.Username && x.Password == model.Password);
+                if (isValid)
+                {
+                    FormsAuthentication.SetAuthCookie(model.Username, false);
+                    return RedirectToAction("Index", "employees");
+                }
+                ModelState.AddModelError("", "Invalid username and password");
+                return View();
+            }
+           
         }
 
 
@@ -28,9 +40,20 @@ namespace Source_Control_Final_Assignment.Controllers
         }
 
         [HttpPost]
-        public ActionResult Signup(Membership model)
+        public ActionResult Signup(User model)
         {
-            return View();
+            using (var context = new OfficeEntities())
+            {
+                context.Users.Add(model);
+                context.SaveChanges();
+            }
+            return RedirectToAction("Login");
+        }
+
+        public ActionResult Logout()
+        {
+            FormsAuthentication.SignOut();
+            return RedirectToAction("Login");
         }
     }
 }
