@@ -1,0 +1,9 @@
+E:\Gateway\Jan-Apr Traning WFH\.Net Training Final Assignment\Service Booking System\Data Access\bin\Debug\Data Access.dll
+E:\Gateway\Jan-Apr Traning WFH\.Net Training Final Assignment\Service Booking System\Data Access\bin\Debug\Data Access.pdb
+E:\Gateway\Jan-Apr Traning WFH\.Net Training Final Assignment\Service Booking System\Data Access\obj\Debug\Data Access.csprojAssemblyReference.cache
+E:\Gateway\Jan-Apr Traning WFH\.Net Training Final Assignment\Service Booking System\Data Access\obj\Debug\Data Access.csproj.CoreCompileInputs.cache
+E:\Gateway\Jan-Apr Traning WFH\.Net Training Final Assignment\Service Booking System\Data Access\obj\Debug\Data Access.dll
+E:\Gateway\Jan-Apr Traning WFH\.Net Training Final Assignment\Service Booking System\Data Access\obj\Debug\Data Access.pdb
+E:\Gateway\Jan-Apr Traning WFH\.Net Training Final Assignment\Service Booking System\Data Access\bin\Debug\Business Entity Object.dll
+E:\Gateway\Jan-Apr Traning WFH\.Net Training Final Assignment\Service Booking System\Data Access\bin\Debug\Business Entity Object.pdb
+E:\Gateway\Jan-Apr Traning WFH\.Net Training Final Assignment\Service Booking System\Data Access\obj\Debug\Data Access.csproj.CopyComplete

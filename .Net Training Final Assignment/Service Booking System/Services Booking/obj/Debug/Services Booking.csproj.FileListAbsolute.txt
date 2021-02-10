@@ -1,0 +1,76 @@
+E:\Gateway\Jan-Apr Traning WFH\.Net Training Final Assignment\Service Booking System\Services Booking\bin\Services Booking.dll.config
+E:\Gateway\Jan-Apr Traning WFH\.Net Training Final Assignment\Service Booking System\Services Booking\bin\Services Booking.dll
+E:\Gateway\Jan-Apr Traning WFH\.Net Training Final Assignment\Service Booking System\Services Booking\bin\Services Booking.pdb
+E:\Gateway\Jan-Apr Traning WFH\.Net Training Final Assignment\Service Booking System\Services Booking\bin\roslyn\csc.exe
+E:\Gateway\Jan-Apr Traning WFH\.Net Training Final Assignment\Service Booking System\Services Booking\bin\roslyn\csc.exe.config
+E:\Gateway\Jan-Apr Traning WFH\.Net Training Final Assignment\Service Booking System\Services Booking\bin\roslyn\csc.rsp
+E:\Gateway\Jan-Apr Traning WFH\.Net Training Final Assignment\Service Booking System\Services Booking\bin\roslyn\csi.exe
+E:\Gateway\Jan-Apr Traning WFH\.Net Training Final Assignment\Service Booking System\Services Booking\bin\roslyn\csi.exe.config
+E:\Gateway\Jan-Apr Traning WFH\.Net Training Final Assignment\Service Booking System\Services Booking\bin\roslyn\csi.rsp
+E:\Gateway\Jan-Apr Traning WFH\.Net Training Final Assignment\Service Booking System\Services Booking\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Gateway\Jan-Apr Traning WFH\.Net Training Final Assignment\Service Booking System\Services Booking\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Gateway\Jan-Apr Traning WFH\.Net Training Final Assignment\Service Booking System\Services Booking\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\Gateway\Jan-Apr Traning WFH\.Net Training Final Assignment\Service Booking System\Services Booking\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Gateway\Jan-Apr Traning WFH\.Net Training Final Assignment\Service Booking System\Services Booking\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\Gateway\Jan-Apr Traning WFH\.Net Training Final Assignment\Service Booking System\Services Booking\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Gateway\Jan-Apr Traning WFH\.Net Training Final Assignment\Service Booking System\Services Booking\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Gateway\Jan-Apr Traning WFH\.Net Training Final Assignment\Service Booking System\Services Booking\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\Gateway\Jan-Apr Traning WFH\.Net Training Final Assignment\Service Booking System\Services Booking\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\Gateway\Jan-Apr Traning WFH\.Net Training Final Assignment\Service Booking System\Services Booking\bin\roslyn\Microsoft.Managed.Core.targets
+E:\Gateway\Jan-Apr Traning WFH\.Net Training Final Assignment\Service Booking System\Services Booking\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Gateway\Jan-Apr Traning WFH\.Net Training Final Assignment\Service Booking System\Services Booking\bin\roslyn\Microsoft.Win32.Primitives.dll
+E:\Gateway\Jan-Apr Traning WFH\.Net Training Final Assignment\Service Booking System\Services Booking\bin\roslyn\System.AppContext.dll
+E:\Gateway\Jan-Apr Traning WFH\.Net Training Final Assignment\Service Booking System\Services Booking\bin\roslyn\System.Collections.Immutable.dll
+E:\Gateway\Jan-Apr Traning WFH\.Net Training Final Assignment\Service Booking System\Services Booking\bin\roslyn\System.Console.dll
+E:\Gateway\Jan-Apr Traning WFH\.Net Training Final Assignment\Service Booking System\Services Booking\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+E:\Gateway\Jan-Apr Traning WFH\.Net Training Final Assignment\Service Booking System\Services Booking\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\Gateway\Jan-Apr Traning WFH\.Net Training Final Assignment\Service Booking System\Services Booking\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\Gateway\Jan-Apr Traning WFH\.Net Training Final Assignment\Service Booking System\Services Booking\bin\roslyn\System.Globalization.Calendars.dll
+E:\Gateway\Jan-Apr Traning WFH\.Net Training Final Assignment\Service Booking System\Services Booking\bin\roslyn\System.IO.Compression.dll
+E:\Gateway\Jan-Apr Traning WFH\.Net Training Final Assignment\Service Booking System\Services Booking\bin\roslyn\System.IO.Compression.ZipFile.dll
+E:\Gateway\Jan-Apr Traning WFH\.Net Training Final Assignment\Service Booking System\Services Booking\bin\roslyn\System.IO.FileSystem.dll
+E:\Gateway\Jan-Apr Traning WFH\.Net Training Final Assignment\Service Booking System\Services Booking\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\Gateway\Jan-Apr Traning WFH\.Net Training Final Assignment\Service Booking System\Services Booking\bin\roslyn\System.Net.Http.dll
+E:\Gateway\Jan-Apr Traning WFH\.Net Training Final Assignment\Service Booking System\Services Booking\bin\roslyn\System.Net.Sockets.dll
+E:\Gateway\Jan-Apr Traning WFH\.Net Training Final Assignment\Service Booking System\Services Booking\bin\roslyn\System.Reflection.Metadata.dll
+E:\Gateway\Jan-Apr Traning WFH\.Net Training Final Assignment\Service Booking System\Services Booking\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+E:\Gateway\Jan-Apr Traning WFH\.Net Training Final Assignment\Service Booking System\Services Booking\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\Gateway\Jan-Apr Traning WFH\.Net Training Final Assignment\Service Booking System\Services Booking\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\Gateway\Jan-Apr Traning WFH\.Net Training Final Assignment\Service Booking System\Services Booking\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\Gateway\Jan-Apr Traning WFH\.Net Training Final Assignment\Service Booking System\Services Booking\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\Gateway\Jan-Apr Traning WFH\.Net Training Final Assignment\Service Booking System\Services Booking\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\Gateway\Jan-Apr Traning WFH\.Net Training Final Assignment\Service Booking System\Services Booking\bin\roslyn\System.Threading.Tasks.Extensions.dll
+E:\Gateway\Jan-Apr Traning WFH\.Net Training Final Assignment\Service Booking System\Services Booking\bin\roslyn\System.ValueTuple.dll
+E:\Gateway\Jan-Apr Traning WFH\.Net Training Final Assignment\Service Booking System\Services Booking\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\Gateway\Jan-Apr Traning WFH\.Net Training Final Assignment\Service Booking System\Services Booking\bin\roslyn\System.Xml.XmlDocument.dll
+E:\Gateway\Jan-Apr Traning WFH\.Net Training Final Assignment\Service Booking System\Services Booking\bin\roslyn\System.Xml.XPath.dll
+E:\Gateway\Jan-Apr Traning WFH\.Net Training Final Assignment\Service Booking System\Services Booking\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\Gateway\Jan-Apr Traning WFH\.Net Training Final Assignment\Service Booking System\Services Booking\bin\roslyn\vbc.exe
+E:\Gateway\Jan-Apr Traning WFH\.Net Training Final Assignment\Service Booking System\Services Booking\bin\roslyn\vbc.exe.config
+E:\Gateway\Jan-Apr Traning WFH\.Net Training Final Assignment\Service Booking System\Services Booking\bin\roslyn\vbc.rsp
+E:\Gateway\Jan-Apr Traning WFH\.Net Training Final Assignment\Service Booking System\Services Booking\bin\roslyn\VBCSCompiler.exe
+E:\Gateway\Jan-Apr Traning WFH\.Net Training Final Assignment\Service Booking System\Services Booking\bin\roslyn\VBCSCompiler.exe.config
+E:\Gateway\Jan-Apr Traning WFH\.Net Training Final Assignment\Service Booking System\Services Booking\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Gateway\Jan-Apr Traning WFH\.Net Training Final Assignment\Service Booking System\Services Booking\bin\Microsoft.Web.Infrastructure.dll
+E:\Gateway\Jan-Apr Traning WFH\.Net Training Final Assignment\Service Booking System\Services Booking\bin\System.Web.Helpers.dll
+E:\Gateway\Jan-Apr Traning WFH\.Net Training Final Assignment\Service Booking System\Services Booking\bin\System.Web.Mvc.dll
+E:\Gateway\Jan-Apr Traning WFH\.Net Training Final Assignment\Service Booking System\Services Booking\bin\System.Web.Razor.dll
+E:\Gateway\Jan-Apr Traning WFH\.Net Training Final Assignment\Service Booking System\Services Booking\bin\System.Web.Webpages.Deployment.dll
+E:\Gateway\Jan-Apr Traning WFH\.Net Training Final Assignment\Service Booking System\Services Booking\bin\System.Web.Webpages.dll
+E:\Gateway\Jan-Apr Traning WFH\.Net Training Final Assignment\Service Booking System\Services Booking\bin\System.Web.Webpages.Razor.dll
+E:\Gateway\Jan-Apr Traning WFH\.Net Training Final Assignment\Service Booking System\Services Booking\bin\System.Web.Razor.xml
+E:\Gateway\Jan-Apr Traning WFH\.Net Training Final Assignment\Service Booking System\Services Booking\bin\System.Web.Webpages.xml
+E:\Gateway\Jan-Apr Traning WFH\.Net Training Final Assignment\Service Booking System\Services Booking\bin\System.Web.Webpages.Deployment.xml
+E:\Gateway\Jan-Apr Traning WFH\.Net Training Final Assignment\Service Booking System\Services Booking\bin\System.Web.Webpages.Razor.xml
+E:\Gateway\Jan-Apr Traning WFH\.Net Training Final Assignment\Service Booking System\Services Booking\bin\System.Web.Helpers.xml
+E:\Gateway\Jan-Apr Traning WFH\.Net Training Final Assignment\Service Booking System\Services Booking\bin\System.Web.Mvc.xml
+E:\Gateway\Jan-Apr Traning WFH\.Net Training Final Assignment\Service Booking System\Services Booking\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Gateway\Jan-Apr Traning WFH\.Net Training Final Assignment\Service Booking System\Services Booking\obj\Debug\Services Booking.csprojAssemblyReference.cache
+E:\Gateway\Jan-Apr Traning WFH\.Net Training Final Assignment\Service Booking System\Services Booking\obj\Debug\Services Booking.csproj.CoreCompileInputs.cache
+E:\Gateway\Jan-Apr Traning WFH\.Net Training Final Assignment\Service Booking System\Services Booking\obj\Debug\Services Booking.csproj.CopyComplete
+E:\Gateway\Jan-Apr Traning WFH\.Net Training Final Assignment\Service Booking System\Services Booking\obj\Debug\Services Booking.dll
+E:\Gateway\Jan-Apr Traning WFH\.Net Training Final Assignment\Service Booking System\Services Booking\obj\Debug\Services Booking.pdb
+E:\Gateway\Jan-Apr Traning WFH\.Net Training Final Assignment\Service Booking System\Services Booking\bin\Business Entity Object.dll
+E:\Gateway\Jan-Apr Traning WFH\.Net Training Final Assignment\Service Booking System\Services Booking\bin\Business Logic.dll
+E:\Gateway\Jan-Apr Traning WFH\.Net Training Final Assignment\Service Booking System\Services Booking\bin\Business Entity Object.pdb
+E:\Gateway\Jan-Apr Traning WFH\.Net Training Final Assignment\Service Booking System\Services Booking\bin\Business Logic.pdb

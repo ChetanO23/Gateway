@@ -1,0 +1,6 @@
+E:\Gateway\Jan-Apr Traning WFH\.Net Training Final Assignment\Service Booking System\Business Entity Object\bin\Debug\Business Entity Object.dll
+E:\Gateway\Jan-Apr Traning WFH\.Net Training Final Assignment\Service Booking System\Business Entity Object\bin\Debug\Business Entity Object.pdb
+E:\Gateway\Jan-Apr Traning WFH\.Net Training Final Assignment\Service Booking System\Business Entity Object\obj\Debug\Business Entity Object.csproj.CoreCompileInputs.cache
+E:\Gateway\Jan-Apr Traning WFH\.Net Training Final Assignment\Service Booking System\Business Entity Object\obj\Debug\Business Entity Object.dll
+E:\Gateway\Jan-Apr Traning WFH\.Net Training Final Assignment\Service Booking System\Business Entity Object\obj\Debug\Business Entity Object.pdb
+E:\Gateway\Jan-Apr Traning WFH\.Net Training Final Assignment\Service Booking System\Business Entity Object\obj\Debug\Business Entity Object.csprojAssemblyReference.cache

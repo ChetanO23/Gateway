@@ -1,0 +1,11 @@
+E:\Gateway\Jan-Apr Traning WFH\.Net Training Final Assignment\Service Booking System\Business Logic\bin\Debug\Business Logic.dll
+E:\Gateway\Jan-Apr Traning WFH\.Net Training Final Assignment\Service Booking System\Business Logic\bin\Debug\Business Logic.pdb
+E:\Gateway\Jan-Apr Traning WFH\.Net Training Final Assignment\Service Booking System\Business Logic\obj\Debug\Business Logic.csprojAssemblyReference.cache
+E:\Gateway\Jan-Apr Traning WFH\.Net Training Final Assignment\Service Booking System\Business Logic\obj\Debug\Business Logic.csproj.CoreCompileInputs.cache
+E:\Gateway\Jan-Apr Traning WFH\.Net Training Final Assignment\Service Booking System\Business Logic\obj\Debug\Business Logic.dll
+E:\Gateway\Jan-Apr Traning WFH\.Net Training Final Assignment\Service Booking System\Business Logic\obj\Debug\Business Logic.pdb
+E:\Gateway\Jan-Apr Traning WFH\.Net Training Final Assignment\Service Booking System\Business Logic\bin\Debug\Business Entity Object.dll
+E:\Gateway\Jan-Apr Traning WFH\.Net Training Final Assignment\Service Booking System\Business Logic\bin\Debug\Data Access.dll
+E:\Gateway\Jan-Apr Traning WFH\.Net Training Final Assignment\Service Booking System\Business Logic\bin\Debug\Business Entity Object.pdb
+E:\Gateway\Jan-Apr Traning WFH\.Net Training Final Assignment\Service Booking System\Business Logic\bin\Debug\Data Access.pdb
+E:\Gateway\Jan-Apr Traning WFH\.Net Training Final Assignment\Service Booking System\Business Logic\obj\Debug\Business Logic.csproj.CopyComplete
