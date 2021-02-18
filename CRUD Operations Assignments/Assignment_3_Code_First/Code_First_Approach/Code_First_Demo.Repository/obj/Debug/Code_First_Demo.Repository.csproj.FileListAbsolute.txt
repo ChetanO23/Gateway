@@ -1,0 +1,16 @@
+E:\Gateway\Training Session Assignments\CRUD Operations Assignments\Assignment_3_Code_First\Code_First_Approach\Code_First_Demo.Repository\bin\Debug\Code_First_Demo.Repository.dll.config
+E:\Gateway\Training Session Assignments\CRUD Operations Assignments\Assignment_3_Code_First\Code_First_Approach\Code_First_Demo.Repository\bin\Debug\Code_First_Demo.Repository.dll
+E:\Gateway\Training Session Assignments\CRUD Operations Assignments\Assignment_3_Code_First\Code_First_Approach\Code_First_Demo.Repository\bin\Debug\Code_First_Demo.Repository.pdb
+E:\Gateway\Training Session Assignments\CRUD Operations Assignments\Assignment_3_Code_First\Code_First_Approach\Code_First_Demo.Repository\bin\Debug\EntityFramework.dll
+E:\Gateway\Training Session Assignments\CRUD Operations Assignments\Assignment_3_Code_First\Code_First_Approach\Code_First_Demo.Repository\bin\Debug\EntityFramework.SqlServer.dll
+E:\Gateway\Training Session Assignments\CRUD Operations Assignments\Assignment_3_Code_First\Code_First_Approach\Code_First_Demo.Repository\bin\Debug\EntityFramework.xml
+E:\Gateway\Training Session Assignments\CRUD Operations Assignments\Assignment_3_Code_First\Code_First_Approach\Code_First_Demo.Repository\bin\Debug\EntityFramework.SqlServer.xml
+E:\Gateway\Training Session Assignments\CRUD Operations Assignments\Assignment_3_Code_First\Code_First_Approach\Code_First_Demo.Repository\obj\Debug\Code_First_Demo.Repository.csproj.CoreCompileInputs.cache
+E:\Gateway\Training Session Assignments\CRUD Operations Assignments\Assignment_3_Code_First\Code_First_Approach\Code_First_Demo.Repository\obj\Debug\Code_First_Demo.Repository.csproj.CopyComplete
+E:\Gateway\Training Session Assignments\CRUD Operations Assignments\Assignment_3_Code_First\Code_First_Approach\Code_First_Demo.Repository\obj\Debug\Code_First_Demo.Repository.dll
+E:\Gateway\Training Session Assignments\CRUD Operations Assignments\Assignment_3_Code_First\Code_First_Approach\Code_First_Demo.Repository\obj\Debug\Code_First_Demo.Repository.pdb
+E:\Gateway\Training Session Assignments\CRUD Operations Assignments\Assignment_3_Code_First\Code_First_Approach\Code_First_Demo.Repository\obj\Debug\Code_First_Demo.Repository.csprojAssemblyReference.cache
+E:\Gateway\Training Session Assignments\CRUD Operations Assignments\Assignment_3_Code_First\Code_First_Approach\Code_First_Demo.Repository\bin\Debug\Code_First_Demo.Model.dll
+E:\Gateway\Training Session Assignments\CRUD Operations Assignments\Assignment_3_Code_First\Code_First_Approach\Code_First_Demo.Repository\bin\Debug\Code_First_Demo.Model.pdb
+E:\Gateway\Training Session Assignments\CRUD Operations Assignments\Assignment_3_Code_First\Code_First_Approach\Code_First_Demo.Repository\obj\Debug\Code_First_Demo.Repository.Migrations.MyMigration.resources
+E:\Gateway\Training Session Assignments\CRUD Operations Assignments\Assignment_3_Code_First\Code_First_Approach\Code_First_Demo.Repository\obj\Debug\Code_First_Demo.Repository.csproj.GenerateResource.cache

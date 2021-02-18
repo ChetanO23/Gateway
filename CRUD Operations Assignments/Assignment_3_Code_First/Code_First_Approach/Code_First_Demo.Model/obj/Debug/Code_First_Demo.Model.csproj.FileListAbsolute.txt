@@ -1,0 +1,5 @@
+E:\Gateway\Training Session Assignments\CRUD Operations Assignments\Assignment_3_Code_First\Code_First_Approach\Code_First_Demo.Model\bin\Debug\Code_First_Demo.Model.dll
+E:\Gateway\Training Session Assignments\CRUD Operations Assignments\Assignment_3_Code_First\Code_First_Approach\Code_First_Demo.Model\bin\Debug\Code_First_Demo.Model.pdb
+E:\Gateway\Training Session Assignments\CRUD Operations Assignments\Assignment_3_Code_First\Code_First_Approach\Code_First_Demo.Model\obj\Debug\Code_First_Demo.Model.csproj.CoreCompileInputs.cache
+E:\Gateway\Training Session Assignments\CRUD Operations Assignments\Assignment_3_Code_First\Code_First_Approach\Code_First_Demo.Model\obj\Debug\Code_First_Demo.Model.dll
+E:\Gateway\Training Session Assignments\CRUD Operations Assignments\Assignment_3_Code_First\Code_First_Approach\Code_First_Demo.Model\obj\Debug\Code_First_Demo.Model.pdb
