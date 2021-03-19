@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "UT1a3utq4h6dBHIdzFsw2BU9UJm2wV0ggn6uqW3v3aw7/LNIuav0oQIiiXt4jHT7ezWw8bXDrQmGFyz4n8pcgg==",
+  "success": true,
+  "projectFilePath": "D:\\Github-Works\\Gateway\\.Net Core Final Assignment\\ConsoleAppDemo\\ConsoleAppDemo.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Chetan.more\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
