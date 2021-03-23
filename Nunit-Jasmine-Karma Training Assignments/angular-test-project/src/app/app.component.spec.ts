@@ -34,10 +34,10 @@ describe('AppComponent', () => {
     expect(compiled.querySelector('.content span').textContent).toContain('angular-test-project app is running!'); // success
   });
   // add
-  it('should have add result', () => {
+  it('should have add result', async () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    const result = app.addFunction(2,3)
+    const result = await app.addFunction(2,3) // Added async method ->22-03-2021
     expect(result).toEqual(5);  // success
   });
 
