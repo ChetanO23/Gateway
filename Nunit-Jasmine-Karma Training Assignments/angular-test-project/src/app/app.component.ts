@@ -2,8 +2,9 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+ // templateUrl: './app.component.html',
+ templateUrl: '<h1>{{title}}</h1>', 
+ styleUrls: ['./app.component.css']
 })
 export class AppComponent {
  title = 'angular-test-project';
@@ -24,7 +25,7 @@ export class AppComponent {
       {
         return this.addFunction(a,b);
       }
-      return
+      return 0;
      }
    catch (err) {
       throw new Error("addFunction is not working")
@@ -58,6 +59,16 @@ calc = (a:number, b:number, c:String) =>
             break;
     }
     return
+  }
+
+  getNumberByString(a:string){
+    if(a){
+      return a;
+    }
+    else{
+      throw new Error;
+      
+    }
   }
 
 }
