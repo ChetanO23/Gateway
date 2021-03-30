@@ -1,0 +1,14 @@
+D:\Github-Works\Gateway\.Net Core Training Assignments\.Net Core Final Assignment\DotNetCore_HRM\HRM.BAL\bin\Debug\netcoreapp3.1\HRM.BAL.deps.json
+D:\Github-Works\Gateway\.Net Core Training Assignments\.Net Core Final Assignment\DotNetCore_HRM\HRM.BAL\bin\Debug\netcoreapp3.1\HRM.BAL.dll
+D:\Github-Works\Gateway\.Net Core Training Assignments\.Net Core Final Assignment\DotNetCore_HRM\HRM.BAL\bin\Debug\netcoreapp3.1\HRM.BAL.pdb
+D:\Github-Works\Gateway\.Net Core Training Assignments\.Net Core Final Assignment\DotNetCore_HRM\HRM.BAL\obj\Debug\netcoreapp3.1\HRM.BAL.csprojAssemblyReference.cache
+D:\Github-Works\Gateway\.Net Core Training Assignments\.Net Core Final Assignment\DotNetCore_HRM\HRM.BAL\obj\Debug\netcoreapp3.1\HRM.BAL.AssemblyInfoInputs.cache
+D:\Github-Works\Gateway\.Net Core Training Assignments\.Net Core Final Assignment\DotNetCore_HRM\HRM.BAL\obj\Debug\netcoreapp3.1\HRM.BAL.AssemblyInfo.cs
+D:\Github-Works\Gateway\.Net Core Training Assignments\.Net Core Final Assignment\DotNetCore_HRM\HRM.BAL\obj\Debug\netcoreapp3.1\HRM.BAL.csproj.CoreCompileInputs.cache
+D:\Github-Works\Gateway\.Net Core Training Assignments\.Net Core Final Assignment\DotNetCore_HRM\HRM.BAL\obj\Debug\netcoreapp3.1\HRM.BAL.dll
+D:\Github-Works\Gateway\.Net Core Training Assignments\.Net Core Final Assignment\DotNetCore_HRM\HRM.BAL\obj\Debug\netcoreapp3.1\HRM.BAL.pdb
+D:\Github-Works\Gateway\.Net Core Training Assignments\.Net Core Final Assignment\DotNetCore_HRM\HRM.BAL\bin\Debug\netcoreapp3.1\HRM.BusinessEntities.dll
+D:\Github-Works\Gateway\.Net Core Training Assignments\.Net Core Final Assignment\DotNetCore_HRM\HRM.BAL\bin\Debug\netcoreapp3.1\HRM.DAL.dll
+D:\Github-Works\Gateway\.Net Core Training Assignments\.Net Core Final Assignment\DotNetCore_HRM\HRM.BAL\bin\Debug\netcoreapp3.1\HRM.BusinessEntities.pdb
+D:\Github-Works\Gateway\.Net Core Training Assignments\.Net Core Final Assignment\DotNetCore_HRM\HRM.BAL\bin\Debug\netcoreapp3.1\HRM.DAL.pdb
+D:\Github-Works\Gateway\.Net Core Training Assignments\.Net Core Final Assignment\DotNetCore_HRM\HRM.BAL\obj\Debug\netcoreapp3.1\HRM.BAL.csproj.CopyComplete

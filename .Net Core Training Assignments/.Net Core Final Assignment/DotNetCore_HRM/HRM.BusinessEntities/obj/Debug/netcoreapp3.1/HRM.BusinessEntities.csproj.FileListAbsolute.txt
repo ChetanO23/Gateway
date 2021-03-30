@@ -1,0 +1,9 @@
+D:\Github-Works\Gateway\.Net Core Training Assignments\.Net Core Final Assignment\DotNetCore_HRM\HRM.BusinessEntities\bin\Debug\netcoreapp3.1\HRM.BusinessEntities.deps.json
+D:\Github-Works\Gateway\.Net Core Training Assignments\.Net Core Final Assignment\DotNetCore_HRM\HRM.BusinessEntities\bin\Debug\netcoreapp3.1\HRM.BusinessEntities.dll
+D:\Github-Works\Gateway\.Net Core Training Assignments\.Net Core Final Assignment\DotNetCore_HRM\HRM.BusinessEntities\bin\Debug\netcoreapp3.1\HRM.BusinessEntities.pdb
+D:\Github-Works\Gateway\.Net Core Training Assignments\.Net Core Final Assignment\DotNetCore_HRM\HRM.BusinessEntities\obj\Debug\netcoreapp3.1\HRM.BusinessEntities.AssemblyInfoInputs.cache
+D:\Github-Works\Gateway\.Net Core Training Assignments\.Net Core Final Assignment\DotNetCore_HRM\HRM.BusinessEntities\obj\Debug\netcoreapp3.1\HRM.BusinessEntities.AssemblyInfo.cs
+D:\Github-Works\Gateway\.Net Core Training Assignments\.Net Core Final Assignment\DotNetCore_HRM\HRM.BusinessEntities\obj\Debug\netcoreapp3.1\HRM.BusinessEntities.csproj.CoreCompileInputs.cache
+D:\Github-Works\Gateway\.Net Core Training Assignments\.Net Core Final Assignment\DotNetCore_HRM\HRM.BusinessEntities\obj\Debug\netcoreapp3.1\HRM.BusinessEntities.dll
+D:\Github-Works\Gateway\.Net Core Training Assignments\.Net Core Final Assignment\DotNetCore_HRM\HRM.BusinessEntities\obj\Debug\netcoreapp3.1\HRM.BusinessEntities.pdb
+D:\Github-Works\Gateway\.Net Core Training Assignments\.Net Core Final Assignment\DotNetCore_HRM\HRM.BusinessEntities\obj\Debug\netcoreapp3.1\HRM.BusinessEntities.csprojAssemblyReference.cache

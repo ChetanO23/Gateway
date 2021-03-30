@@ -1,0 +1,50 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "HRM.BAL/1.0.0": {
+        "dependencies": {
+          "HRM.BusinessEntities": "1.0.0",
+          "HRM.DAL": "1.0.0"
+        },
+        "runtime": {
+          "HRM.BAL.dll": {}
+        }
+      },
+      "HRM.BusinessEntities/1.0.0": {
+        "runtime": {
+          "HRM.BusinessEntities.dll": {}
+        }
+      },
+      "HRM.DAL/1.0.0": {
+        "dependencies": {
+          "HRM.BusinessEntities": "1.0.0"
+        },
+        "runtime": {
+          "HRM.DAL.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "HRM.BAL/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "HRM.BusinessEntities/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "HRM.DAL/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

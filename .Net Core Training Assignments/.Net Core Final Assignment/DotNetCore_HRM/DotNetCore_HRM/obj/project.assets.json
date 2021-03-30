@@ -1519,6 +1519,43 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
+      },
+      "HRM.BAL/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "HRM.BusinessEntities": "1.0.0",
+          "HRM.DAL": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/HRM.BAL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/HRM.BAL.dll": {}
+        }
+      },
+      "HRM.BusinessEntities/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/HRM.BusinessEntities.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/HRM.BusinessEntities.dll": {}
+        }
+      },
+      "HRM.DAL/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "HRM.BusinessEntities": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/HRM.DAL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/HRM.DAL.dll": {}
+        }
       }
     }
   },
@@ -5641,10 +5678,27 @@
         "system.xml.xmlserializer.4.3.0.nupkg.sha512",
         "system.xml.xmlserializer.nuspec"
       ]
+    },
+    "HRM.BAL/1.0.0": {
+      "type": "project",
+      "path": "../HRM.BAL/HRM.BAL.csproj",
+      "msbuildProject": "../HRM.BAL/HRM.BAL.csproj"
+    },
+    "HRM.BusinessEntities/1.0.0": {
+      "type": "project",
+      "path": "../HRM.BusinessEntities/HRM.BusinessEntities.csproj",
+      "msbuildProject": "../HRM.BusinessEntities/HRM.BusinessEntities.csproj"
+    },
+    "HRM.DAL/1.0.0": {
+      "type": "project",
+      "path": "../HRM.DAL/HRM.DAL.csproj",
+      "msbuildProject": "../HRM.DAL/HRM.DAL.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
+      "HRM.BAL >= 1.0.0",
+      "HRM.BusinessEntities >= 1.0.0",
       "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore >= 3.1.11",
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 3.1.11",
       "Microsoft.AspNetCore.Identity.UI >= 3.1.11",
@@ -5678,7 +5732,14 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\Github-Works\\Gateway\\.Net Core Training Assignments\\.Net Core Final Assignment\\DotNetCore_HRM\\HRM.BAL\\HRM.BAL.csproj": {
+              "projectPath": "D:\\Github-Works\\Gateway\\.Net Core Training Assignments\\.Net Core Final Assignment\\DotNetCore_HRM\\HRM.BAL\\HRM.BAL.csproj"
+            },
+            "D:\\Github-Works\\Gateway\\.Net Core Training Assignments\\.Net Core Final Assignment\\DotNetCore_HRM\\HRM.BusinessEntities\\HRM.BusinessEntities.csproj": {
+              "projectPath": "D:\\Github-Works\\Gateway\\.Net Core Training Assignments\\.Net Core Final Assignment\\DotNetCore_HRM\\HRM.BusinessEntities\\HRM.BusinessEntities.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
