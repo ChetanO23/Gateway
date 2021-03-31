@@ -1,0 +1,41 @@
+C:\Users\darsh\source\repos\WEBAPI_Assignment\HM.Models\bin\Debug\HM.Models.dll
+C:\Users\darsh\source\repos\WEBAPI_Assignment\HM.Models\bin\Debug\HM.Models.pdb
+C:\Users\darsh\source\repos\WEBAPI_Assignment\HM.Models\obj\Debug\HM.Models.csprojAssemblyReference.cache
+C:\Users\darsh\source\repos\WEBAPI_Assignment\HM.Models\obj\Debug\HM.Models.csproj.CoreCompileInputs.cache
+C:\Users\darsh\source\repos\WEBAPI_Assignment\HM.Models\obj\Debug\HM.Models.dll
+C:\Users\darsh\source\repos\WEBAPI_Assignment\HM.Models\obj\Debug\HM.Models.pdb
+C:\Users\darsh\source\repos\WEBAPI_Assignment\HM.Models\bin\Debug\AutoMapper.dll
+C:\Users\darsh\source\repos\WEBAPI_Assignment\HM.Models\bin\Debug\AutoMapper.xml
+C:\Users\darsh\source\repos\WEBAPI_Assignment\HM.Models\obj\Debug\HM.Models.csproj.CopyComplete
+C:\Users\darsh\source\repos\WEBAPI_Assignment\HM.Models\bin\Debug\HM.Models.dll.config
+C:\Users\darsh\source\repos\WEBAPI_Assignment\HM.Models\bin\Debug\EntityFramework.dll
+C:\Users\darsh\source\repos\WEBAPI_Assignment\HM.Models\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\darsh\source\repos\WEBAPI_Assignment\HM.Models\bin\Debug\EntityFramework.xml
+C:\Users\darsh\source\repos\WEBAPI_Assignment\HM.Models\bin\Debug\EntityFramework.SqlServer.xml
+E:\Gateway\Training Session Assignments\Web API Assignment\WebAPI Final Assignment\HM.Models\bin\Debug\HM.Models.dll.config
+E:\Gateway\Training Session Assignments\Web API Assignment\WebAPI Final Assignment\HM.Models\bin\Debug\HM.Models.dll
+E:\Gateway\Training Session Assignments\Web API Assignment\WebAPI Final Assignment\HM.Models\bin\Debug\HM.Models.pdb
+E:\Gateway\Training Session Assignments\Web API Assignment\WebAPI Final Assignment\HM.Models\bin\Debug\AutoMapper.dll
+E:\Gateway\Training Session Assignments\Web API Assignment\WebAPI Final Assignment\HM.Models\bin\Debug\EntityFramework.dll
+E:\Gateway\Training Session Assignments\Web API Assignment\WebAPI Final Assignment\HM.Models\bin\Debug\EntityFramework.SqlServer.dll
+E:\Gateway\Training Session Assignments\Web API Assignment\WebAPI Final Assignment\HM.Models\bin\Debug\AutoMapper.xml
+E:\Gateway\Training Session Assignments\Web API Assignment\WebAPI Final Assignment\HM.Models\bin\Debug\EntityFramework.xml
+E:\Gateway\Training Session Assignments\Web API Assignment\WebAPI Final Assignment\HM.Models\bin\Debug\EntityFramework.SqlServer.xml
+E:\Gateway\Training Session Assignments\Web API Assignment\WebAPI Final Assignment\HM.Models\obj\Debug\HM.Models.csproj.CoreCompileInputs.cache
+E:\Gateway\Training Session Assignments\Web API Assignment\WebAPI Final Assignment\HM.Models\obj\Debug\HM.Models.csproj.CopyComplete
+E:\Gateway\Training Session Assignments\Web API Assignment\WebAPI Final Assignment\HM.Models\obj\Debug\HM.Models.dll
+E:\Gateway\Training Session Assignments\Web API Assignment\WebAPI Final Assignment\HM.Models\obj\Debug\HM.Models.pdb
+D:\Github-Works\Gateway\Web API Assignment\WebAPI Final Assignment\WebAPI Final Assignment\HM.Models\bin\Debug\HM.Models.dll.config
+D:\Github-Works\Gateway\Web API Assignment\WebAPI Final Assignment\WebAPI Final Assignment\HM.Models\bin\Debug\HM.Models.dll
+D:\Github-Works\Gateway\Web API Assignment\WebAPI Final Assignment\WebAPI Final Assignment\HM.Models\bin\Debug\HM.Models.pdb
+D:\Github-Works\Gateway\Web API Assignment\WebAPI Final Assignment\WebAPI Final Assignment\HM.Models\bin\Debug\AutoMapper.dll
+D:\Github-Works\Gateway\Web API Assignment\WebAPI Final Assignment\WebAPI Final Assignment\HM.Models\bin\Debug\EntityFramework.dll
+D:\Github-Works\Gateway\Web API Assignment\WebAPI Final Assignment\WebAPI Final Assignment\HM.Models\bin\Debug\EntityFramework.SqlServer.dll
+D:\Github-Works\Gateway\Web API Assignment\WebAPI Final Assignment\WebAPI Final Assignment\HM.Models\bin\Debug\AutoMapper.xml
+D:\Github-Works\Gateway\Web API Assignment\WebAPI Final Assignment\WebAPI Final Assignment\HM.Models\bin\Debug\EntityFramework.xml
+D:\Github-Works\Gateway\Web API Assignment\WebAPI Final Assignment\WebAPI Final Assignment\HM.Models\bin\Debug\EntityFramework.SqlServer.xml
+D:\Github-Works\Gateway\Web API Assignment\WebAPI Final Assignment\WebAPI Final Assignment\HM.Models\obj\Debug\HM.Models.csprojAssemblyReference.cache
+D:\Github-Works\Gateway\Web API Assignment\WebAPI Final Assignment\WebAPI Final Assignment\HM.Models\obj\Debug\HM.Models.csproj.CoreCompileInputs.cache
+D:\Github-Works\Gateway\Web API Assignment\WebAPI Final Assignment\WebAPI Final Assignment\HM.Models\obj\Debug\HM.Models.csproj.CopyComplete
+D:\Github-Works\Gateway\Web API Assignment\WebAPI Final Assignment\WebAPI Final Assignment\HM.Models\obj\Debug\HM.Models.dll
+D:\Github-Works\Gateway\Web API Assignment\WebAPI Final Assignment\WebAPI Final Assignment\HM.Models\obj\Debug\HM.Models.pdb
