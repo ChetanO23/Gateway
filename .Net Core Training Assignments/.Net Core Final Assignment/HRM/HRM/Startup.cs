@@ -1,4 +1,5 @@
 using HRM.Data;
+using HRM.Models;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -34,6 +35,10 @@ namespace HRM
                 .AddEntityFrameworkStores<ApplicationDbContext>();
             services.AddControllersWithViews();
             services.AddRazorPages();
+
+            // Dependency Injection
+            services.AddDbContext<EmployeeContext>();
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
