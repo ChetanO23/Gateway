@@ -12,27 +12,13 @@ namespace ProductManagement.Models
     using System;
     using System.Collections.Generic;
     using System.ComponentModel.DataAnnotations;
-    
+
     public partial class tbl_User
     {
-        [Key]
-        [ScaffoldColumn(false)]
         public int Id { get; set; }
-
-        [Required(ErrorMessage = "Enter your email address here")]
-        [Display(Name = "Email Address")]
-        [MaxLength(50)]
-        [DataType(DataType.EmailAddress)]
-        [RegularExpression(@"[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}", ErrorMessage = "Incorrect email format")]
         public string Email { get; set; }
-
-        [Required(ErrorMessage = "Choose your password here")]
-        [Display(Name = "Password")]
-        [StringLength(50, MinimumLength = 8)]
-        [DataType(DataType.Password)]
         public string Password { get; set; }
     }
-
     public partial class tbl_Login
     {
         [Key]

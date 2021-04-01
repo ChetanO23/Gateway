@@ -27,7 +27,5 @@ namespace ProductManagement.Models
     
         public virtual DbSet<tbl_Product> tbl_Product { get; set; }
         public virtual DbSet<tbl_User> tbl_User { get; set; }
-
-        public System.Data.Entity.DbSet<ProductManagement.Models.tbl_Login> tbl_Login { get; set; }
     }
 }

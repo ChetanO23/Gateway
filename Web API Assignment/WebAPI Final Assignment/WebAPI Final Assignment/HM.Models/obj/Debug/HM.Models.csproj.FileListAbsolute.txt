@@ -39,3 +39,17 @@ D:\Github-Works\Gateway\Web API Assignment\WebAPI Final Assignment\WebAPI Final 
 D:\Github-Works\Gateway\Web API Assignment\WebAPI Final Assignment\WebAPI Final Assignment\HM.Models\obj\Debug\HM.Models.csproj.CopyComplete
 D:\Github-Works\Gateway\Web API Assignment\WebAPI Final Assignment\WebAPI Final Assignment\HM.Models\obj\Debug\HM.Models.dll
 D:\Github-Works\Gateway\Web API Assignment\WebAPI Final Assignment\WebAPI Final Assignment\HM.Models\obj\Debug\HM.Models.pdb
+E:\Github\Gateway\Web API Assignment\WebAPI Final Assignment\WebAPI Final Assignment\HM.Models\bin\Debug\HM.Models.dll.config
+E:\Github\Gateway\Web API Assignment\WebAPI Final Assignment\WebAPI Final Assignment\HM.Models\bin\Debug\HM.Models.dll
+E:\Github\Gateway\Web API Assignment\WebAPI Final Assignment\WebAPI Final Assignment\HM.Models\bin\Debug\HM.Models.pdb
+E:\Github\Gateway\Web API Assignment\WebAPI Final Assignment\WebAPI Final Assignment\HM.Models\bin\Debug\AutoMapper.dll
+E:\Github\Gateway\Web API Assignment\WebAPI Final Assignment\WebAPI Final Assignment\HM.Models\bin\Debug\EntityFramework.dll
+E:\Github\Gateway\Web API Assignment\WebAPI Final Assignment\WebAPI Final Assignment\HM.Models\bin\Debug\EntityFramework.SqlServer.dll
+E:\Github\Gateway\Web API Assignment\WebAPI Final Assignment\WebAPI Final Assignment\HM.Models\bin\Debug\AutoMapper.xml
+E:\Github\Gateway\Web API Assignment\WebAPI Final Assignment\WebAPI Final Assignment\HM.Models\bin\Debug\EntityFramework.xml
+E:\Github\Gateway\Web API Assignment\WebAPI Final Assignment\WebAPI Final Assignment\HM.Models\bin\Debug\EntityFramework.SqlServer.xml
+E:\Github\Gateway\Web API Assignment\WebAPI Final Assignment\WebAPI Final Assignment\HM.Models\obj\Debug\HM.Models.csprojAssemblyReference.cache
+E:\Github\Gateway\Web API Assignment\WebAPI Final Assignment\WebAPI Final Assignment\HM.Models\obj\Debug\HM.Models.csproj.CoreCompileInputs.cache
+E:\Github\Gateway\Web API Assignment\WebAPI Final Assignment\WebAPI Final Assignment\HM.Models\obj\Debug\HM.Models.csproj.CopyComplete
+E:\Github\Gateway\Web API Assignment\WebAPI Final Assignment\WebAPI Final Assignment\HM.Models\obj\Debug\HM.Models.dll
+E:\Github\Gateway\Web API Assignment\WebAPI Final Assignment\WebAPI Final Assignment\HM.Models\obj\Debug\HM.Models.pdb
