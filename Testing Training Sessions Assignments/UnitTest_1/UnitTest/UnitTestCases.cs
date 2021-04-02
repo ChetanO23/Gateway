@@ -10,8 +10,13 @@ namespace UnitTest
 {
     public class PassengerUnitTest
     {
+        // Mock object for Passenger Repository
         private readonly Mock<IPassengerManager> mockDtaRepository = new Mock<IPassengerManager>();
+
+        // Passenger Controller object
         private readonly PassengerController _passengerController;
+
+        // Constructor
         public PassengerUnitTest()
         {
             _passengerController = new PassengerController(mockDtaRepository.Object);
@@ -31,35 +36,37 @@ namespace UnitTest
         }
 
         [Fact]
-        public void GetAllPassenger1()
+        public void TestGetAllPassengerEqual()
         {
             // Arrange
-            var resultObj = mockDtaRepository.Setup(x => x.GetAllPassengers()).Returns(GetPassenger());
+            var setup = mockDtaRepository.Setup(x => x.GetAllPassengers()).Returns(GetPassenger());
 
             // Act
-            var response = _passengerController.GetPassengers();
+            var result = _passengerController.GetPassengers();
 
-            // Asert
-            Assert.Equal(4, response.Count);
+            // Assert
+            Assert.NotNull(result);
+            Assert.Equal(4, result.Count());
 
         }
 
         [Fact]
-        public void GetAllPassenger2()
+        public void TestGetAllPassengerNotEqual()
         {
             // Arrange
-            var resultObj = mockDtaRepository.Setup(x => x.GetAllPassengers()).Returns(GetPassenger());
+            var setup = mockDtaRepository.Setup(x => x.GetAllPassengers()).Returns(GetPassenger());
 
             // Act
-            var response = _passengerController.GetPassengers();
+            var result = _passengerController.GetPassengers();
 
-            // Asert
-            Assert.NotEqual(2, response.Count);
+            // Assert
+            Assert.NotNull(result);
+            Assert.NotEqual(2, result.Count);
 
         }
 
         [Fact]
-        public void GetPassengerById1()
+        public void TestGetPassengerById1()
         {
             // Arrange
             var passenger = new PassengerView();
@@ -67,21 +74,23 @@ namespace UnitTest
             passenger.FirstName = "Anil";
             passenger.LastName = "Ladumore";
             passenger.PhoneNo = "90876534321";
+            var setup = mockDtaRepository.Setup(x => x.GetPassneger(passenger.PassengerNumber)).Returns(passenger);
 
             // Act
-            var responseObj = mockDtaRepository.Setup(x => x.GetPassneger(passenger.PassengerNumber)).Returns(passenger);
             var result = _passengerController.GetPassenger(passenger.PassengerNumber);
 
             // Assert
             Assert.NotNull(result);
         }
+
         [Fact]
         public void GetPassengerById2()
         {
             // Arrange
             var passenger = new PassengerView();
+            var setup = mockDtaRepository.Setup(x => x.GetPassneger(4)).Returns(passenger);
+
             // Act
-            var responseObj = mockDtaRepository.Setup(x => x.GetPassneger(4)).Returns(passenger);
             var result = _passengerController.GetPassenger(passenger.PassengerNumber);
 
             // Assert
@@ -97,7 +106,7 @@ namespace UnitTest
             newPassenger.LastName = "Kava";
             newPassenger.PhoneNo = "1254630789";
             // Act
-            var response = mockDtaRepository.Setup(x => x.CreateNewPassneger(newPassenger)).Returns("Added succeffuly");
+            var setup = mockDtaRepository.Setup(x => x.CreateNewPassneger(newPassenger)).Returns("Added succeffuly");
             var result = _passengerController.PostPassenger(newPassenger);
 
             // Assert
@@ -110,7 +119,7 @@ namespace UnitTest
             var newPassenger = new PassengerView();
 
             // Act
-            var response = mockDtaRepository.Setup(x => x.CreateNewPassneger(newPassenger)).Returns("Model is null");
+            var result = mockDtaRepository.Setup(x => x.CreateNewPassneger(newPassenger)).Returns("Model is null");
             var result = _passengerController.PostPassenger(newPassenger);
 
             // Assert
@@ -128,9 +137,9 @@ namespace UnitTest
 
             // Act
             var resultObj = mockDtaRepository.Setup(x => x.UpdatePassneger(4, UpdatePassenger)).Returns("Passenger updated");
-            var response = _passengerController.PutPassenger(4, UpdatePassenger);
+            var result = _passengerController.PutPassenger(4, UpdatePassenger);
             // Assert
-            Assert.Equal("Passenger updated", response);
+            Assert.Equal("Passenger updated", result);
         }
         [Fact]
         public void UpdatePassenger2()
@@ -140,9 +149,9 @@ namespace UnitTest
 
             // Act
             var resultObj = mockDtaRepository.Setup(x => x.UpdatePassneger(5, UpdatePassenger)).Returns("Model is null");
-            var response = _passengerController.PutPassenger(5, UpdatePassenger);
+            var result = _passengerController.PutPassenger(5, UpdatePassenger);
             // Assert
-            Assert.NotEqual("Passenger updated", response);
+            Assert.NotEqual("Passenger updated", result);
         }
         [Fact]
         public void DeletePassenger1()
@@ -153,10 +162,10 @@ namespace UnitTest
             var resultObj = mockDtaRepository.Setup(x => x.DeletePassneger(passenger.PassengerNumber)).Returns(true);
 
             // Act
-            var response = _passengerController.DeletePassenger(passenger.PassengerNumber);
+            var result = _passengerController.DeletePassenger(passenger.PassengerNumber);
 
             //Assert
-            Assert.True(response);
+            Assert.True(result);
 
         }
         [Fact]
@@ -168,10 +177,10 @@ namespace UnitTest
             var resultObj = mockDtaRepository.Setup(x => x.DeletePassneger(passenger.PassengerNumber)).Returns(false);
 
             // Act
-            var response = _passengerController.DeletePassenger(passenger.PassengerNumber);
+            var result = _passengerController.DeletePassenger(passenger.PassengerNumber);
 
             //Assert
-            Assert.False(response);
+            Assert.False(result);
 
         }
     }

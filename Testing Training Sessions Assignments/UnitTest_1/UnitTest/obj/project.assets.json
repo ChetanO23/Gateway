@@ -6364,19 +6364,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Lenovo\\.nuget\\packages\\": {}
+    "C:\\Users\\Chetan.more\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Gateway\\Training Session Assignments\\Testing Training Sessions Assignments\\UnitTest_1\\UnitTest\\UnitTest.csproj",
+      "projectUniqueName": "D:\\Github-Works\\Gateway\\Testing Training Sessions Assignments\\UnitTest_1\\UnitTest\\UnitTest.csproj",
       "projectName": "UnitTest",
-      "projectPath": "E:\\Gateway\\Training Session Assignments\\Testing Training Sessions Assignments\\UnitTest_1\\UnitTest\\UnitTest.csproj",
-      "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
-      "outputPath": "E:\\Gateway\\Training Session Assignments\\Testing Training Sessions Assignments\\UnitTest_1\\UnitTest\\obj\\",
+      "projectPath": "D:\\Github-Works\\Gateway\\Testing Training Sessions Assignments\\UnitTest_1\\UnitTest\\UnitTest.csproj",
+      "packagesPath": "C:\\Users\\Chetan.more\\.nuget\\packages\\",
+      "outputPath": "D:\\Github-Works\\Gateway\\Testing Training Sessions Assignments\\UnitTest_1\\UnitTest\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Chetan.more\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -6390,17 +6390,17 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "E:\\Gateway\\Training Session Assignments\\Testing Training Sessions Assignments\\UnitTest_1\\BusinessEntitites\\BusinessEntitites.csproj": {
-              "projectPath": "E:\\Gateway\\Training Session Assignments\\Testing Training Sessions Assignments\\UnitTest_1\\BusinessEntitites\\BusinessEntitites.csproj"
+            "D:\\Github-Works\\Gateway\\Testing Training Sessions Assignments\\UnitTest_1\\BusinessEntitites\\BusinessEntitites.csproj": {
+              "projectPath": "D:\\Github-Works\\Gateway\\Testing Training Sessions Assignments\\UnitTest_1\\BusinessEntitites\\BusinessEntitites.csproj"
             },
-            "E:\\Gateway\\Training Session Assignments\\Testing Training Sessions Assignments\\UnitTest_1\\Business\\BusinessLogic.csproj": {
-              "projectPath": "E:\\Gateway\\Training Session Assignments\\Testing Training Sessions Assignments\\UnitTest_1\\Business\\BusinessLogic.csproj"
+            "D:\\Github-Works\\Gateway\\Testing Training Sessions Assignments\\UnitTest_1\\Business\\BusinessLogic.csproj": {
+              "projectPath": "D:\\Github-Works\\Gateway\\Testing Training Sessions Assignments\\UnitTest_1\\Business\\BusinessLogic.csproj"
             },
-            "E:\\Gateway\\Training Session Assignments\\Testing Training Sessions Assignments\\UnitTest_1\\Data\\Data.csproj": {
-              "projectPath": "E:\\Gateway\\Training Session Assignments\\Testing Training Sessions Assignments\\UnitTest_1\\Data\\Data.csproj"
+            "D:\\Github-Works\\Gateway\\Testing Training Sessions Assignments\\UnitTest_1\\Data\\Data.csproj": {
+              "projectPath": "D:\\Github-Works\\Gateway\\Testing Training Sessions Assignments\\UnitTest_1\\Data\\Data.csproj"
             },
-            "E:\\Gateway\\Training Session Assignments\\Testing Training Sessions Assignments\\UnitTest_1\\UnitTest_1\\UnitTest_1.csproj": {
-              "projectPath": "E:\\Gateway\\Training Session Assignments\\Testing Training Sessions Assignments\\UnitTest_1\\UnitTest_1\\UnitTest_1.csproj"
+            "D:\\Github-Works\\Gateway\\Testing Training Sessions Assignments\\UnitTest_1\\UnitTest_1\\UnitTest_1.csproj": {
+              "projectPath": "D:\\Github-Works\\Gateway\\Testing Training Sessions Assignments\\UnitTest_1\\UnitTest_1\\UnitTest_1.csproj"
             }
           }
         }
@@ -6459,7 +6459,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
       }
     }
   },
