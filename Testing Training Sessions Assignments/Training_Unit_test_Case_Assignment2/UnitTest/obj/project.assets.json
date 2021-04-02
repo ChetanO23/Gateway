@@ -3486,19 +3486,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Lenovo\\.nuget\\packages\\": {}
+    "C:\\Users\\Chetan.more\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Testing_Assignment\\Training_Unit_test_Case_Assignment2\\UnitTest\\UnitTest.csproj",
+      "projectUniqueName": "D:\\Github-Works\\Gateway\\Testing Training Sessions Assignments\\Training_Unit_test_Case_Assignment2\\UnitTest\\UnitTest.csproj",
       "projectName": "UnitTest",
-      "projectPath": "E:\\Testing_Assignment\\Training_Unit_test_Case_Assignment2\\UnitTest\\UnitTest.csproj",
-      "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
-      "outputPath": "E:\\Testing_Assignment\\Training_Unit_test_Case_Assignment2\\UnitTest\\obj\\",
+      "projectPath": "D:\\Github-Works\\Gateway\\Testing Training Sessions Assignments\\Training_Unit_test_Case_Assignment2\\UnitTest\\UnitTest.csproj",
+      "packagesPath": "C:\\Users\\Chetan.more\\.nuget\\packages\\",
+      "outputPath": "D:\\Github-Works\\Gateway\\Testing Training Sessions Assignments\\Training_Unit_test_Case_Assignment2\\UnitTest\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Chetan.more\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -3512,8 +3512,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "E:\\Testing_Assignment\\Training_Unit_test_Case_Assignment2\\UnitTestAssignment2\\UnitTestAssignment2.csproj": {
-              "projectPath": "E:\\Testing_Assignment\\Training_Unit_test_Case_Assignment2\\UnitTestAssignment2\\UnitTestAssignment2.csproj"
+            "D:\\Github-Works\\Gateway\\Testing Training Sessions Assignments\\Training_Unit_test_Case_Assignment2\\UnitTestAssignment2\\UnitTestAssignment2.csproj": {
+              "projectPath": "D:\\Github-Works\\Gateway\\Testing Training Sessions Assignments\\Training_Unit_test_Case_Assignment2\\UnitTestAssignment2\\UnitTestAssignment2.csproj"
             }
           }
         }
@@ -3560,7 +3560,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
       }
     }
   }

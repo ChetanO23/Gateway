@@ -6,145 +6,307 @@ namespace UnitTest
 {
     public class UnitTest1
     {
+
         [Fact]
-        public void ConvertUpperCase1()
+        public void TestConvertUpperCaseEqual()
         {
-            string a = "try";
+            // Arrange
+            string a = "chetan";
+            
+            // Act
             string result = a.ConvertUpper();
-            Assert.Equal("TRY", result);
+
+            // Assert
+            Assert.Equal("CHETAN", result);
         }
+
         [Fact]
-        public void ConvertUpperCase2()
+        public void TestConvertUpperCaseNotEqual()
         {
-            string a = "try";
+            // Arrange
+            string a = "chetan";
+
+            // Act
             string result = a.ConvertUpper();
-            Assert.NotEqual("TrY", result);
+            
+            // Assert
+            Assert.NotEqual("ChetaN", result);
         }
+
         [Fact]
-        public void ConvertLowerCase1()
+        public void TestConvertLowerCaseEqual()
         {
-            string a = "TRY";
+            // Arrange
+            string a = "CHETAN";
+
+            // Act
             string result = a.ConvertLower();
-            Assert.Equal("try", result);
+
+            // Assert
+            Assert.Equal("chetan", result);
         }
+
         [Fact]
-        public void ConvertLowerCase2()
+        public void TestConvertLowerCaseNotEqual()
         {
-            string a = "TRY";
+            // Arrange
+            string a = "CHETAN";
+
+            // Act
             string result = a.ConvertLower();
-            Assert.NotEqual("Try", result);
+
+            // Assert
+            Assert.NotEqual("Chetan", result);
         }
+
         [Fact]
-        public void ConvertTitle1()
+        public void TestConvertTitleEqual()
         {
-            string a = "try demo";
+            // Arrange
+            string a = "hello chetan";
+
+            // Act
             string result = a.ConvertTitleCase();
-            Assert.Equal("Try Demo", result);
+
+            // Assert
+            Assert.Equal("Hello Chetan", result);
         }
+
         [Fact]
-        public void ConvertTitle2()
+        public void TestConvertTitleNotEqual()
         {
-            string a = "try demo";
+            // Arrange
+            string a = "hello chetan";
+
+            // Act
             string result = a.ConvertTitleCase();
-            Assert.NotEqual("TRY Demo", result);
+
+            // Assert
+            Assert.NotEqual("HELLO Chetan", result);
         }
+
         [Fact]
-        public void IsLowerCase1()
+        public void TestIsLowerCaseTrue()
         {
-            string a = "try";
+            // Arrange
+            string a = "chetan";
+
+            // Act
             bool result = a.IsLower();
+
+            // Assert
             Assert.True(result);
         }
+
         [Fact]
-        public void IsLowerCase2()
+        public void TestIsLowerCaseFalse()
         {
-            string a = "Try";
+            // Arrange
+            string a = "Chetan";
+
+            // Act
             bool result = a.IsLower();
+
+            // Assert
             Assert.False(result);
         }
+
         [Fact]
-        public void IsUpperCase1()
+        public void TestIsUpperCaseTrue()
         {
-            string a = "TRY";
+            // Arrange
+            string a = "CHETAN";
+
+            // Act
             bool result = a.IsUpper();
+
+            // Assert
             Assert.True(result);
         }
+
         [Fact]
-        public void IsUpperCase2()
+        public void TestIsUpperCaseFalse()
         {
-            string a = "TrY";
+            // Arrange
+            string a = "Chetan";
+
+            // Act
             bool result = a.IsUpper();
+
+            // Assert
             Assert.False(result);
         }
+
         [Fact]
-        public void ConvertCapitalizeCase1()
+        public void TestConvertCapitalizeCaseEqual()
         {
-            string a = "try demo";
+            // Arrange
+            string a = "chetan more";
+
+            // Act
             string result = a.ConvertCapitalize();
-            Assert.Equal("Try demo", result);
+
+            // Assert
+            Assert.Equal("Chetan more", result);
         }
+
         [Fact]
-        public void ConvertCapitalizeCase2()
+        public void TestConvertCapitalizeCaseNotEqual()
         {
-            string a = "try demo";
+            // Arrange
+            string a = "chetan more";
+
+            // Act
             string result = a.ConvertCapitalize();
-            Assert.NotEqual("Try Demo", result);
+            
+            // Assert
+            Assert.NotEqual("Chetan More", result);
         }
+
         [Fact]
-        public void WordCountCase1()
+        public void TestWordCountCaseEqual()
         {
-            string a = "try demo";
+            // Arrange
+            string a = "chetan more";
+
+            // Act
             int result = a.WordCount();
+
+            // Assert
             Assert.Equal(2, result);
         }
+
         [Fact]
-        public void WordCountCase2()
+        public void TestWordCountCaseNotEqual()
         {
-            string a = "try demo";
+            // Arrange
+            string a = "chetan more";
+
+            // Act
             int result = a.WordCount();
+
+            // Assert
             Assert.NotEqual(1, result);
         }
+
         [Fact]
-        public void RemoveLastCharacterCase1()
+        public void TestRemoveLastCharacterCaseEqual()
         {
-            string a = "try";
+            // Arrange
+            string a = "chetan";
+
+            // Act
             string result = a.RemoveLastCharacter();
-            Assert.Equal("tr", result);
+            
+            // Assert
+            Assert.Equal("cheta", result);
         }
+
         [Fact]
-        public void RemoveLastCharacterCase2()
+        public void TestRemoveLastCharacterCaseNotEqual()
         {
-            string a = "try";
+            // Arrange
+            string a = "chetan";
+
+            // Act
             string result = a.RemoveLastCharacter();
-            Assert.NotEqual("try", result);
+            
+            // Assert
+            Assert.NotEqual("chetan", result);
         }
+
         [Fact]
-        public void ValidNumericCase1()
+        public void TestValidNumericCaseTrue()
         {
-            string a = "333";
+            // Arrange
+            string a = "123456";
+
+            // Act
             bool result = a.ValidNumeric();
+            
+            // Assert
             Assert.True(result);
         }
+
         [Fact]
-        public void ValidNumericCase2()
+        public void TestValidNumericCaseFalse()
         {
-            string a = "33a3";
+            // Arrange
+            string a = "ndbj13562";
+
+            // Act
             bool result = a.ValidNumeric();
+            
+            // Assert
             Assert.False(result);
         }
+
         [Fact]
-        public void StringToNumberCase1()
+        public void TestStringToNumberCaseEqual()
         {
+            // Arrange
             string a = "454";
+            
+            // Act                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
             int? result = a.StringToNumber();
+            
+            // Assert
             Assert.Equal(454, result);
         }
+
         [Fact]
-        public void StringToNumberCase2()
+        public void TestStringToNumberCaseNull()
         {
-            string a = "33a3";
+            // Arrange
+            string a = "22saf3432";
+            
+            // Act
             int? result = a.StringToNumber();
+            
+            // Assert
             Assert.Null(result);
+        }
+
+        [Fact]
+        public void TestInverseMethod()
+        {
+            // Arrange
+            string input = "hEllo CHEtan";
+            string expected = "HeLLO cheTAN";
+
+            // Act
+            string output = input.InverseString();
+
+            // Assert
+            Assert.Equal(expected, output);
+        }
+
+        [Fact]
+        public void TestIsNumeric_Valid_Input()
+        {
+            // Arrange
+            string input = "23";
+            string expected = "yes";
+
+            // Act
+            string ouput = input.IsNumeric();
+
+            // Assert
+            Assert.Equal(expected, ouput);
+        }
+
+        [Fact]
+        public void TestIsNumeric_Invalid_Input()
+        {
+            // Arrange
+            string input = "2 3";
+            string expected = "no";
+
+            // Act
+            string output = input.IsNumeric();
+
+            // Assert
+            Assert.Equal(expected, output);
         }
     }
 }

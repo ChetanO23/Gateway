@@ -37,3 +37,16 @@ E:\Testing_Assignment\Training_Unit_test_Case_Assignment2\UnitTestAssignment2\ob
 E:\Testing_Assignment\Training_Unit_test_Case_Assignment2\UnitTestAssignment2\obj\Debug\netcoreapp3.1\UnitTestAssignment2.dll
 E:\Testing_Assignment\Training_Unit_test_Case_Assignment2\UnitTestAssignment2\obj\Debug\netcoreapp3.1\UnitTestAssignment2.pdb
 E:\Testing_Assignment\Training_Unit_test_Case_Assignment2\UnitTestAssignment2\obj\Debug\netcoreapp3.1\UnitTestAssignment2.genruntimeconfig.cache
+D:\Github-Works\Gateway\Testing Training Sessions Assignments\Training_Unit_test_Case_Assignment2\UnitTestAssignment2\bin\Debug\netcoreapp3.1\UnitTestAssignment2.exe
+D:\Github-Works\Gateway\Testing Training Sessions Assignments\Training_Unit_test_Case_Assignment2\UnitTestAssignment2\bin\Debug\netcoreapp3.1\UnitTestAssignment2.deps.json
+D:\Github-Works\Gateway\Testing Training Sessions Assignments\Training_Unit_test_Case_Assignment2\UnitTestAssignment2\bin\Debug\netcoreapp3.1\UnitTestAssignment2.runtimeconfig.json
+D:\Github-Works\Gateway\Testing Training Sessions Assignments\Training_Unit_test_Case_Assignment2\UnitTestAssignment2\bin\Debug\netcoreapp3.1\UnitTestAssignment2.runtimeconfig.dev.json
+D:\Github-Works\Gateway\Testing Training Sessions Assignments\Training_Unit_test_Case_Assignment2\UnitTestAssignment2\bin\Debug\netcoreapp3.1\UnitTestAssignment2.dll
+D:\Github-Works\Gateway\Testing Training Sessions Assignments\Training_Unit_test_Case_Assignment2\UnitTestAssignment2\bin\Debug\netcoreapp3.1\UnitTestAssignment2.pdb
+D:\Github-Works\Gateway\Testing Training Sessions Assignments\Training_Unit_test_Case_Assignment2\UnitTestAssignment2\obj\Debug\netcoreapp3.1\UnitTestAssignment2.csprojAssemblyReference.cache
+D:\Github-Works\Gateway\Testing Training Sessions Assignments\Training_Unit_test_Case_Assignment2\UnitTestAssignment2\obj\Debug\netcoreapp3.1\UnitTestAssignment2.AssemblyInfoInputs.cache
+D:\Github-Works\Gateway\Testing Training Sessions Assignments\Training_Unit_test_Case_Assignment2\UnitTestAssignment2\obj\Debug\netcoreapp3.1\UnitTestAssignment2.AssemblyInfo.cs
+D:\Github-Works\Gateway\Testing Training Sessions Assignments\Training_Unit_test_Case_Assignment2\UnitTestAssignment2\obj\Debug\netcoreapp3.1\UnitTestAssignment2.csproj.CoreCompileInputs.cache
+D:\Github-Works\Gateway\Testing Training Sessions Assignments\Training_Unit_test_Case_Assignment2\UnitTestAssignment2\obj\Debug\netcoreapp3.1\UnitTestAssignment2.dll
+D:\Github-Works\Gateway\Testing Training Sessions Assignments\Training_Unit_test_Case_Assignment2\UnitTestAssignment2\obj\Debug\netcoreapp3.1\UnitTestAssignment2.pdb
+D:\Github-Works\Gateway\Testing Training Sessions Assignments\Training_Unit_test_Case_Assignment2\UnitTestAssignment2\obj\Debug\netcoreapp3.1\UnitTestAssignment2.genruntimeconfig.cache
