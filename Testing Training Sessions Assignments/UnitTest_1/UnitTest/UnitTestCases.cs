@@ -22,18 +22,7 @@ namespace UnitTest
             _passengerController = new PassengerController(mockDtaRepository.Object);
         }
 
-        private static List<PassengerView> GetPassenger()
-        {
-            List<PassengerView> users = new List<PassengerView>()
-            {
-                new PassengerView() {PassengerNumber=1,FirstName="Chetan",LastName="More",PhoneNo="1234567890"},
-                new PassengerView() {PassengerNumber=1,FirstName="Devyani",LastName="More",PhoneNo="7980865332"},
-                new PassengerView() {PassengerNumber=1,FirstName="Sanjay",LastName="More",PhoneNo="5263065336"},
-                new PassengerView() {PassengerNumber=1,FirstName="Vandana",LastName="More",PhoneNo="8542631079"},
-
-            };
-            return users;
-        }
+       
 
         [Fact]
         public void TestGetAllPassengerEqual()
@@ -195,6 +184,19 @@ namespace UnitTest
             // Assert
             Assert.False(result);
 
+        }
+
+        private static List<PassengerView> GetPassenger()
+        {
+            List<PassengerView> users = new List<PassengerView>()
+            {
+                new PassengerView() {PassengerNumber=1,FirstName="Chetan",LastName="More",PhoneNo="1234567890"},
+                new PassengerView() {PassengerNumber=1,FirstName="Devyani",LastName="More",PhoneNo="7980865332"},
+                new PassengerView() {PassengerNumber=1,FirstName="Sanjay",LastName="More",PhoneNo="5263065336"},
+                new PassengerView() {PassengerNumber=1,FirstName="Vandana",LastName="More",PhoneNo="8542631079"},
+
+            };
+            return users;
         }
     }
 }
