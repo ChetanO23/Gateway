@@ -26,3 +26,17 @@ E:\Gateway\Jan-Apr Traning WFH\Testing 05-02-2021\Testing_Final_Assignment\UnitT
 E:\Gateway\Jan-Apr Traning WFH\Testing 05-02-2021\Testing_Final_Assignment\UnitTest_1\Data\obj\Debug\Data.csproj.CopyComplete
 E:\Gateway\Jan-Apr Traning WFH\Testing 05-02-2021\Testing_Final_Assignment\UnitTest_1\Data\obj\Debug\Data.dll
 E:\Gateway\Jan-Apr Traning WFH\Testing 05-02-2021\Testing_Final_Assignment\UnitTest_1\Data\obj\Debug\Data.pdb
+D:\Github-Works\Gateway\Testing Training Sessions Assignments\UnitTest_1\Data\bin\Debug\Data.dll.config
+D:\Github-Works\Gateway\Testing Training Sessions Assignments\UnitTest_1\Data\bin\Debug\Data.dll
+D:\Github-Works\Gateway\Testing Training Sessions Assignments\UnitTest_1\Data\bin\Debug\Data.pdb
+D:\Github-Works\Gateway\Testing Training Sessions Assignments\UnitTest_1\Data\bin\Debug\BusinessEntitites.dll
+D:\Github-Works\Gateway\Testing Training Sessions Assignments\UnitTest_1\Data\bin\Debug\EntityFramework.dll
+D:\Github-Works\Gateway\Testing Training Sessions Assignments\UnitTest_1\Data\bin\Debug\EntityFramework.SqlServer.dll
+D:\Github-Works\Gateway\Testing Training Sessions Assignments\UnitTest_1\Data\bin\Debug\BusinessEntitites.pdb
+D:\Github-Works\Gateway\Testing Training Sessions Assignments\UnitTest_1\Data\bin\Debug\EntityFramework.xml
+D:\Github-Works\Gateway\Testing Training Sessions Assignments\UnitTest_1\Data\bin\Debug\EntityFramework.SqlServer.xml
+D:\Github-Works\Gateway\Testing Training Sessions Assignments\UnitTest_1\Data\obj\Debug\Data.csprojAssemblyReference.cache
+D:\Github-Works\Gateway\Testing Training Sessions Assignments\UnitTest_1\Data\obj\Debug\Data.csproj.CoreCompileInputs.cache
+D:\Github-Works\Gateway\Testing Training Sessions Assignments\UnitTest_1\Data\obj\Debug\Data.csproj.CopyComplete
+D:\Github-Works\Gateway\Testing Training Sessions Assignments\UnitTest_1\Data\obj\Debug\Data.dll
+D:\Github-Works\Gateway\Testing Training Sessions Assignments\UnitTest_1\Data\obj\Debug\Data.pdb

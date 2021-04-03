@@ -105,7 +105,7 @@ namespace Data.Repository
                 passenger.PhoneNo = entity.PhoneNo;
                 return passenger;
             }
-            catch (Exception ex)
+            catch
             {
                 return null;
             }

@@ -15,7 +15,7 @@ namespace Data.Model
     
     public partial class PassengerEntities : DbContext
     {
-        internal object tbl_Passenger;
+       // internal object tbl_Passenger;
 
         public PassengerEntities()
             : base("name=PassengerEntities")

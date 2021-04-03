@@ -66,7 +66,7 @@ namespace UnitTest
         }
 
         [Fact]
-        public void TestGetPassengerById1()
+        public void TestGetPassengerByIdNotNull()
         {
             // Arrange
             var passenger = new PassengerView();
@@ -74,6 +74,7 @@ namespace UnitTest
             passenger.FirstName = "Anil";
             passenger.LastName = "Ladumore";
             passenger.PhoneNo = "90876534321";
+          
             var setup = mockDtaRepository.Setup(x => x.GetPassneger(passenger.PassengerNumber)).Returns(passenger);
 
             // Act
@@ -84,7 +85,7 @@ namespace UnitTest
         }
 
         [Fact]
-        public void GetPassengerById2()
+        public void TestGetPassengerByIdNull()
         {
             // Arrange
             var passenger = new PassengerView();
@@ -98,35 +99,40 @@ namespace UnitTest
         }
 
         [Fact]
-        public void AddPassenger1()
+        public void TestAddPassengerNotNull()
         {
+            // Arrange
             var newPassenger = new PassengerView();
             newPassenger.PassengerNumber = 4;
             newPassenger.FirstName = "Darshan";
             newPassenger.LastName = "Kava";
             newPassenger.PhoneNo = "1254630789";
-            // Act
+
             var setup = mockDtaRepository.Setup(x => x.CreateNewPassneger(newPassenger)).Returns("Added succeffuly");
-            var result = _passengerController.PostPassenger(newPassenger);
-
-            // Assert
-            Assert.NotNull(result);
-        }
-
-        [Fact]
-        public void AddPassenger2()
-        {
-            var newPassenger = new PassengerView();
 
             // Act
-            var result = mockDtaRepository.Setup(x => x.CreateNewPassneger(newPassenger)).Returns("Model is null");
             var result = _passengerController.PostPassenger(newPassenger);
 
             // Assert
             Assert.NotNull(result);
         }
+
         [Fact]
-        public void UpdatePassenger1()
+        public void TestAddPassengerNull()
+        {
+            // Arrange
+            var newPassenger = new PassengerView();
+            var setup = mockDtaRepository.Setup(x => x.CreateNewPassneger(newPassenger)).Returns("Model is null");
+
+            // Act
+            var result = _passengerController.PostPassenger(newPassenger);
+
+            // Assert
+            Assert.Null(result);
+        }
+
+        [Fact]
+        public void TestUpdatePassengerEqual()
         {
             // Arrange
             var UpdatePassenger = new PassengerView();
@@ -134,52 +140,59 @@ namespace UnitTest
             UpdatePassenger.FirstName = "Rahul";
             UpdatePassenger.LastName = "Bhagat";
             UpdatePassenger.PhoneNo = "8695049752";
+           
+            var setup = mockDtaRepository.Setup(x => x.UpdatePassneger(4, UpdatePassenger)).Returns("Passenger updated");
 
             // Act
-            var resultObj = mockDtaRepository.Setup(x => x.UpdatePassneger(4, UpdatePassenger)).Returns("Passenger updated");
             var result = _passengerController.PutPassenger(4, UpdatePassenger);
+            
             // Assert
             Assert.Equal("Passenger updated", result);
         }
+
         [Fact]
-        public void UpdatePassenger2()
+        public void TestUpdatePassengerNotEqual()
         {
             // Arrange
             var UpdatePassenger = new PassengerView();
+            var setup = mockDtaRepository.Setup(x => x.UpdatePassneger(5, UpdatePassenger)).Returns("Model is null");
 
             // Act
-            var resultObj = mockDtaRepository.Setup(x => x.UpdatePassneger(5, UpdatePassenger)).Returns("Model is null");
             var result = _passengerController.PutPassenger(5, UpdatePassenger);
+           
             // Assert
             Assert.NotEqual("Passenger updated", result);
         }
+
         [Fact]
-        public void DeletePassenger1()
+        public void TestDeletePassengerTrue()
         {
+            // Arrange
             var passenger = new PassengerView();
             passenger.PassengerNumber = 1;
-            // Arrange
-            var resultObj = mockDtaRepository.Setup(x => x.DeletePassneger(passenger.PassengerNumber)).Returns(true);
+           
+            var setup = mockDtaRepository.Setup(x => x.DeletePassneger(passenger.PassengerNumber)).Returns(true);
 
             // Act
             var result = _passengerController.DeletePassenger(passenger.PassengerNumber);
 
-            //Assert
+            // Assert
             Assert.True(result);
-
         }
+
         [Fact]
-        public void DeletePassenger2()
+        public void TestDeletePassengerFalse()
         {
+            // Arrange
             var passenger = new PassengerView();
             passenger.PassengerNumber = 4;
-            // Arrange
-            var resultObj = mockDtaRepository.Setup(x => x.DeletePassneger(passenger.PassengerNumber)).Returns(false);
+            
+            var setup = mockDtaRepository.Setup(x => x.DeletePassneger(passenger.PassengerNumber)).Returns(false);
 
             // Act
             var result = _passengerController.DeletePassenger(passenger.PassengerNumber);
 
-            //Assert
+            // Assert
             Assert.False(result);
 
         }
