@@ -3,6 +3,12 @@ import { RouterModule, Routes } from '@angular/router';
 
 const routes: Routes = [];
 
+{
+  path: '',    
+  redirectTo: 'dashboard-company',    
+  pathMatch: 'full',    
+},
+
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
   exports: [RouterModule]
