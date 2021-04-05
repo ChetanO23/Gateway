@@ -37,7 +37,8 @@ namespace HRM
             services.AddRazorPages();
 
             // Dependency Injection
-            services.AddDbContext<EmployeeContext>();
+            //services.AddDbContext<ApplicationDbContext>(options =>
+            //options.UseSqlServer(Configuration.GetConnectionString("DevConnection")));
 
         }
 

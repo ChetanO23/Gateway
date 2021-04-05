@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+﻿using HRM.Models;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -12,5 +13,8 @@ namespace HRM.Data
             : base(options)
         {
         }
+        public DbSet<Employee> Employees { get; set; }
+
+        public DbSet<Department> Departments { get; set; }
     }
 }
