@@ -16,9 +16,10 @@ export class CompanyServiceService {
   company !: Company
   constructor(private httpClient: HttpClient) { }
 
-  create(comapny : Company) : Observable<Company>
+  create(company : Company) : Observable<Company>
   {
-    return this.httpClient.post<Company>(this.api + '/company', JSON.stringify(comapny), this.httpOptions)
+    debugger;
+    return this.httpClient.post<Company>(this.api + '/company', JSON.stringify(company), this.httpOptions)
   }
 
   getAllComapnies() : Observable<Company>
@@ -34,9 +35,9 @@ export class CompanyServiceService {
   }
 
   delete(id : number){
-    debugger
+    debugger;
     console.log(this.api + '/company/' + id);
-    debugger
+    debugger;
     return this.httpClient.delete<Company>(this.api + '/company/' + id, this.httpOptions)
   }
 

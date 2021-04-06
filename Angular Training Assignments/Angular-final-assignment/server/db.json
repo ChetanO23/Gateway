@@ -1,89 +1,115 @@
 {
-    "company": [
-      {
-        "id": 1,
-        "email": "admin@falcon.com",
-        "name": "Falcon Pvt. Ltd.",
-        "totalEmployees": 500,
-        "address": "Washington D.C., USA",
-        "isActive": true,
-        "totalBranch": 2,
-        "branch": [
-          {
-            "id": 1,
-            "name": "Headquaters",
-            "address": "Washington D.C., USA"
-          },
-          {
-            "id": 2,
-            "name": "Sub-branch",
-            "address": "California, USA"
-          }
-        ]
-      },
-      {
-        "id": 2,
-        "email": "stevejob@apple.com",
-        "name": "Apple Inc.",
-        "totalEmployees": 10000,
-        "address": "California, USA",
-        "isActive": true,
-        "totalBranch": 2,
-        "branch": [
-          {
-            "id": 3,
-            "name": "Headquaters",
-            "address": "California, USA"
-          },
-          {
-            "id": 4,
-            "name": "Sub-branch",
-            "address": "Washington D.C., USA"
-          }
-        ]
-      },
-      {
-        "id": 3,
-        "email": "larypage@google.com",
-        "name": "Google",
-        "totalEmployees": 6000,
-        "address": "New York, USA",
-        "isActive": true,
-        "totalBranch": 2,
-        "branch": [
-          {
-            "id": 5,
-            "name": "Headquaters",
-            "address": "New York, USA"
-          },
-          {
-            "id": 6,
-            "name": "Sub-branch",
-            "address": "California, USA"
-          }
-        ]
-      },
-      {
-        "id": 4,
-        "email": "admin@cognizant.com",
-        "name": "Cognizant Pvt. Ltd.",
-        "totalEmployees": 1000,
-        "address": "New Delhi, India",
-        "isActive": true,
-        "totalBranch": 2,
-        "branch": [
-          {
-            "id": 7,
-            "name": "Headquaters",
-            "address": "New Delhi, India"
-          },
-          {
-            "id": 8,
-            "name": "Sub-branch",
-            "address": "Kolkota, India"
-          }
-        ]
-      }
-      
-    ]
-  }
+  "company": [
+    {
+      "id": 1617688380790,
+      "name": "Gateway",
+      "email": "thegatewaycorp@co.in",
+      "address": "Ahmedabad",
+      "totalEmployees": 700,
+      "totalBranch": 2,
+      "isActive": true,
+      "branch": [
+        {
+          "id": 1617688380787,
+          "name": "Headquaters 1",
+          "address": "Corporate House, India"
+        },
+        {
+          "id": "",
+          "name": "Headquaters 2",
+          "address": "Maria montessorilaan, Netherlands"
+        }
+      ]
+    },
+    {
+      "id": 1617693826980,
+      "name": "Google",
+      "email": "admin@google.com",
+      "address": "USA",
+      "totalEmployees": 5000,
+      "totalBranch": 1,
+      "isActive": true,
+      "branch": [
+        {
+          "id": 1617693826977,
+          "name": "Headquaters",
+          "address": "USA"
+        }
+      ]
+    },
+    {
+      "id": 1617695907568,
+      "name": "Infosys",
+      "email": "admin@infosys.com",
+      "address": "Hinjwadi, Pune",
+      "totalEmployees": 1000,
+      "totalBranch": 2,
+      "isActive": true,
+      "branch": [
+        {
+          "id": 1617695907567,
+          "name": "Headquater",
+          "address": "Masour, Bangalore"
+        },
+        {
+          "id": "",
+          "name": "Main Branch",
+          "address": "Pune"
+        }
+      ]
+    },
+    {
+      "id": 1617696139516,
+      "name": "DilxCo",
+      "email": "admin@dilx.com",
+      "address": "India",
+      "totalEmployees": 500,
+      "totalBranch": 1,
+      "isActive": true,
+      "branch": [
+        {
+          "id": 1617696139523,
+          "name": "Main Branch",
+          "address": "Netheraland"
+        }
+      ]
+    },
+	 {
+      "id": 4,
+      "email": "admin@cognizant.com",
+      "name": "Cognizant Pvt. Ltd.",
+      "totalEmployees": 1000,
+      "address": "New Delhi, India",
+      "isActive": true,
+      "totalBranch": 2,
+      "branch": [
+        {
+          "id": 7,
+          "name": "Headquaters",
+          "address": "New Delhi, India"
+        },
+        {
+          "id": 8,
+          "name": "Sub-branch",
+          "address": "Kolkota, India"
+        }
+      ]
+    },
+    {
+      "id": 1617699524915,
+      "name": "gateway digital",
+      "email": "gatewaydigital@co.in",
+      "address": "Ahemdabad, India",
+      "totalEmployees": 300,
+      "totalBranch": 1,
+      "isActive": true,
+      "branch": [
+        {
+          "id": 1617699524910,
+          "name": "Main Branch",
+          "address": "Corporate House, India"
+        }
+      ]
+    }
+  ]
+}
