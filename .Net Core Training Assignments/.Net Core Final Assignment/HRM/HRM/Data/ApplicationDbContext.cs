@@ -13,6 +13,8 @@ namespace HRM.Data
             : base(options)
         {
         }
+
+        // An entity set that can be used for the database CRUD Operations
         public DbSet<Employee> Employees { get; set; }
 
         public DbSet<Department> Departments { get; set; }

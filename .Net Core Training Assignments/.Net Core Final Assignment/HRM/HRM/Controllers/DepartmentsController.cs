@@ -7,9 +7,11 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using HRM.Data;
 using HRM.Models;
+using Microsoft.AspNetCore.Authorization;
 
 namespace HRM.Controllers
 {
+    [Authorize] // Use Inbuilt Filters to Authorize the Users
     public class DepartmentsController : Controller
     {
         private readonly ApplicationDbContext _context;
@@ -95,6 +97,7 @@ namespace HRM.Controllers
 
             if (ModelState.IsValid)
             {
+                // Exception Handling
                 try
                 {
                     _context.Update(department);

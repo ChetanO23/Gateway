@@ -7,9 +7,11 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using HRM.Data;
 using HRM.Models;
+using Microsoft.AspNetCore.Authorization;
 
 namespace HRM.Controllers
 {
+    [Authorize]  // Use Inbuilt Filters to Authorize the Users
     public class EmployeesController : Controller
     {
         private readonly ApplicationDbContext _context;
