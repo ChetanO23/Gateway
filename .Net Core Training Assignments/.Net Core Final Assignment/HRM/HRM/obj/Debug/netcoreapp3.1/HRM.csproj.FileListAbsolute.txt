@@ -391,3 +391,4 @@ D:\Github-Works\Gateway\.Net Core Training Assignments\.Net Core Final Assignmen
 D:\Github-Works\Gateway\.Net Core Training Assignments\.Net Core Final Assignment\HRM\HRM\obj\Debug\netcoreapp3.1\HRM.dll
 D:\Github-Works\Gateway\.Net Core Training Assignments\.Net Core Final Assignment\HRM\HRM\obj\Debug\netcoreapp3.1\HRM.pdb
 D:\Github-Works\Gateway\.Net Core Training Assignments\.Net Core Final Assignment\HRM\HRM\obj\Debug\netcoreapp3.1\HRM.genruntimeconfig.cache
+D:\Github-Works\Gateway\.Net Core Training Assignments\.Net Core Final Assignment\HRM\HRM\bin\Debug\netcoreapp3.1\nlog.config

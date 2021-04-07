@@ -1,11 +1,12 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Routing;
-using Microsoft.Extensions.Logging;
+using NLog;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
+//using Microsoft.Extensions.Logging;
 
 namespace HRM.Logging
 {
@@ -15,8 +16,8 @@ namespace HRM.Logging
         private const string RESPONSE_HEADER_RESPONSE_TIME = "X-Response-Time-ms";
         // Handle to the next Middleware in the pipeline  
         private readonly RequestDelegate _next;
-        private readonly ILogger _logger;
-        public ResponseTimeMiddleware(RequestDelegate next, ILogger logger)
+        private readonly ILog _logger;
+        public ResponseTimeMiddleware(RequestDelegate next, ILog logger)
         {
             _next = next;
             _logger = logger;
@@ -34,7 +35,7 @@ namespace HRM.Logging
                 var responseTimeForCompleteRequest = watch.ElapsedMilliseconds;
                 // Add the Response time information in the Response headers.   
                 context.Response.Headers[RESPONSE_HEADER_RESPONSE_TIME] = responseTimeForCompleteRequest.ToString();
-                _logger.LogInformation($"{controllerName}({actionName}) Response time Captured : {responseTimeForCompleteRequest}");
+                _logger.Information($"{controllerName}({actionName}) Response time Captured : {responseTimeForCompleteRequest}");
                 return Task.CompletedTask;
             });
             // Call the next delegate/middleware in the pipeline   

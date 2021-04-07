@@ -82,6 +82,8 @@ namespace HRM.Controllers
             var employee = await _context.Employees.FindAsync(id);
             if (employee == null)
             {
+                // Exception Handling
+                throw new Exception();
                 return NotFound();
             }
             ViewData["DepartmentId"] = new SelectList(_context.Departments, "Id", "Name", employee.DepartmentId);
@@ -97,6 +99,7 @@ namespace HRM.Controllers
         {
             if (id != employee.Id)
             {
+
                 return NotFound();
             }
 
