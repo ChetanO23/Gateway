@@ -1,0 +1,4 @@
+E:\Github\Gateway\Nunit + Jasmine + Karma Training Assignments\Assignment 7\Nunit_Assignment_7\Services\obj\Debug\netcoreapp3.1\Services.csprojAssemblyReference.cache
+E:\Github\Gateway\Nunit + Jasmine + Karma Training Assignments\Assignment 7\Nunit_Assignment_7\Services\obj\Debug\netcoreapp3.1\Services.AssemblyInfoInputs.cache
+E:\Github\Gateway\Nunit + Jasmine + Karma Training Assignments\Assignment 7\Nunit_Assignment_7\Services\obj\Debug\netcoreapp3.1\Services.AssemblyInfo.cs
+E:\Github\Gateway\Nunit + Jasmine + Karma Training Assignments\Assignment 7\Nunit_Assignment_7\Services\obj\Debug\netcoreapp3.1\Services.csproj.CoreCompileInputs.cache

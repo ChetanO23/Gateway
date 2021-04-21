@@ -1,0 +1,9 @@
+2021-04-13 11:43:16.8130 INFO () Response time Captured : 579
+2021-04-13 11:43:29.2993 INFO () Response time Captured : 3479
+2021-04-13 11:43:29.4435 INFO Home(Index) Response time Captured : 77
+2021-04-13 11:43:34.8433 INFO Employees(Index) Response time Captured : 332
+2021-04-13 11:43:59.3170 INFO () Response time Captured : 1
+2021-04-13 11:44:04.2559 INFO () Response time Captured : 1
+2021-04-13 11:44:13.7480 INFO () Response time Captured : 1
+2021-04-13 11:44:26.2940 INFO Employees(Edit) Response time Captured : 131
+2021-04-13 11:44:28.8543 INFO Employees(Edit) Response time Captured : 28

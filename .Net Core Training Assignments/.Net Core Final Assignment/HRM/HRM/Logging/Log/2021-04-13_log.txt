@@ -1,0 +1,284 @@
+2021-04-13 13:35:52.4559 INFO Home(Index) Response time Captured : 1370
+2021-04-13 13:36:54.4882 INFO () Response time Captured : 665
+2021-04-13 13:37:13.6534 INFO () Response time Captured : 3168
+2021-04-13 13:37:13.9195 INFO () Response time Captured : 114
+2021-04-13 13:37:18.7630 INFO () Response time Captured : 396
+2021-04-13 13:37:21.5883 INFO () Response time Captured : 265
+2021-04-13 13:37:31.1849 INFO () Response time Captured : 487
+2021-04-13 13:37:31.2298 INFO Home(Index) Response time Captured : 8
+2021-04-13 13:37:42.5316 INFO Departments(Index) Response time Captured : 149
+2021-04-13 13:37:45.6371 INFO Departments(Create) Response time Captured : 37
+2021-04-13 13:38:02.7175 INFO Departments(Create) Response time Captured : 352
+2021-04-13 13:38:02.7420 INFO Departments(Index) Response time Captured : 11
+2021-04-13 13:38:11.2290 INFO Departments(Create) Response time Captured : 18
+2021-04-13 13:38:17.1441 INFO Departments(Create) Response time Captured : 58
+2021-04-13 13:38:17.2522 INFO Departments(Index) Response time Captured : 92
+2021-04-13 13:46:43.9063 INFO Departments(Create) Response time Captured : 22
+2021-04-13 13:47:29.0676 INFO Departments(Create) Response time Captured : 1193
+2021-04-13 13:47:29.1257 INFO Departments(Index) Response time Captured : 15
+2021-04-13 13:53:15.1924 ERROR Something went wrong: System.InvalidCastException: Unable to cast object of type 'System.Int32' to type 'System.String'.
+   at Microsoft.Data.SqlClient.SqlBuffer.get_String()
+   at Microsoft.Data.SqlClient.SqlDataReader.GetString(Int32 i)
+   at lambda_method(Closure , QueryContext , DbDataReader , ResultContext , Int32[] , ResultCoordinator )
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at HRM.Controllers.EmployeesController.Index() in E:\Github\Gateway\.Net Core Training Assignments\.Net Core Final Assignment\HRM\HRM\Controllers\EmployeesController.cs:line 28
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at HRM.Startup.<>c.<<Configure>b__5_1>d.MoveNext() in E:\Github\Gateway\.Net Core Training Assignments\.Net Core Final Assignment\HRM\HRM\Startup.cs:line 101
+--- End of stack trace from previous location where exception was thrown ---
+   at HRM.Startup.<>c.<<Configure>b__5_0>d.MoveNext() in E:\Github\Gateway\.Net Core Training Assignments\.Net Core Final Assignment\HRM\HRM\Startup.cs:line 86
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2021-04-13 13:53:15.4770 INFO Employees(Index) Response time Captured : 3025
+2021-04-13 13:53:23.1424 INFO Departments(Index) Response time Captured : 55
+2021-04-13 13:53:26.5835 INFO Home(Index) Response time Captured : 9
+2021-04-13 13:53:30.2026 ERROR Something went wrong: System.InvalidCastException: Unable to cast object of type 'System.Int32' to type 'System.String'.
+   at Microsoft.Data.SqlClient.SqlBuffer.get_String()
+   at Microsoft.Data.SqlClient.SqlDataReader.GetString(Int32 i)
+   at lambda_method(Closure , QueryContext , DbDataReader , ResultContext , Int32[] , ResultCoordinator )
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at HRM.Controllers.EmployeesController.Index() in E:\Github\Gateway\.Net Core Training Assignments\.Net Core Final Assignment\HRM\HRM\Controllers\EmployeesController.cs:line 28
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at HRM.Startup.<>c.<<Configure>b__5_1>d.MoveNext() in E:\Github\Gateway\.Net Core Training Assignments\.Net Core Final Assignment\HRM\HRM\Startup.cs:line 101
+--- End of stack trace from previous location where exception was thrown ---
+   at HRM.Startup.<>c.<<Configure>b__5_0>d.MoveNext() in E:\Github\Gateway\.Net Core Training Assignments\.Net Core Final Assignment\HRM\HRM\Startup.cs:line 86
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2021-04-13 13:53:30.2044 INFO Employees(Index) Response time Captured : 210
+2021-04-13 13:54:52.4340 INFO Home(Index) Response time Captured : 5
+2021-04-13 13:54:56.8407 ERROR Something went wrong: System.InvalidCastException: Unable to cast object of type 'System.Int32' to type 'System.String'.
+   at Microsoft.Data.SqlClient.SqlBuffer.get_String()
+   at Microsoft.Data.SqlClient.SqlDataReader.GetString(Int32 i)
+   at lambda_method(Closure , QueryContext , DbDataReader , ResultContext , Int32[] , ResultCoordinator )
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at HRM.Controllers.EmployeesController.Index() in E:\Github\Gateway\.Net Core Training Assignments\.Net Core Final Assignment\HRM\HRM\Controllers\EmployeesController.cs:line 28
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at HRM.Startup.<>c.<<Configure>b__5_1>d.MoveNext() in E:\Github\Gateway\.Net Core Training Assignments\.Net Core Final Assignment\HRM\HRM\Startup.cs:line 101
+--- End of stack trace from previous location where exception was thrown ---
+   at HRM.Startup.<>c.<<Configure>b__5_0>d.MoveNext() in E:\Github\Gateway\.Net Core Training Assignments\.Net Core Final Assignment\HRM\HRM\Startup.cs:line 86
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2021-04-13 13:54:56.8407 INFO Employees(Index) Response time Captured : 309
+2021-04-13 13:58:00.8330 INFO Home(Index) Response time Captured : 740
+2021-04-13 13:58:33.4979 INFO () Response time Captured : 114
+2021-04-13 13:58:40.7395 INFO () Response time Captured : 27
+2021-04-13 13:58:55.9322 INFO () Response time Captured : 1388
+2021-04-13 13:58:56.0253 INFO () Response time Captured : 80
+2021-04-13 13:58:58.2905 INFO () Response time Captured : 99
+2021-04-13 13:59:00.5340 INFO () Response time Captured : 57
+2021-04-13 13:59:10.3997 INFO () Response time Captured : 81
+2021-04-13 13:59:10.4178 INFO Home(Index) Response time Captured : 8
+2021-04-13 13:59:13.3356 ERROR Something went wrong: System.InvalidCastException: Unable to cast object of type 'System.Int32' to type 'System.String'.
+   at Microsoft.Data.SqlClient.SqlBuffer.get_String()
+   at Microsoft.Data.SqlClient.SqlDataReader.GetString(Int32 i)
+   at lambda_method(Closure , QueryContext , DbDataReader , ResultContext , Int32[] , ResultCoordinator )
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at HRM.Controllers.EmployeesController.Index() in E:\Github\Gateway\.Net Core Training Assignments\.Net Core Final Assignment\HRM\HRM\Controllers\EmployeesController.cs:line 28
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at HRM.Startup.<>c.<<Configure>b__5_1>d.MoveNext() in E:\Github\Gateway\.Net Core Training Assignments\.Net Core Final Assignment\HRM\HRM\Startup.cs:line 101
+--- End of stack trace from previous location where exception was thrown ---
+   at HRM.Startup.<>c.<<Configure>b__5_0>d.MoveNext() in E:\Github\Gateway\.Net Core Training Assignments\.Net Core Final Assignment\HRM\HRM\Startup.cs:line 86
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2021-04-13 13:59:13.3522 INFO Employees(Index) Response time Captured : 427
+2021-04-13 13:59:15.5170 INFO Home(Index) Response time Captured : 18
+2021-04-13 13:59:18.1788 INFO () Response time Captured : 15
+2021-04-13 13:59:26.0553 INFO () Response time Captured : 19
+2021-04-13 13:59:26.0710 INFO Home(Index) Response time Captured : 6
+2021-04-13 13:59:28.2257 ERROR Something went wrong: System.InvalidCastException: Unable to cast object of type 'System.Int32' to type 'System.String'.
+   at Microsoft.Data.SqlClient.SqlBuffer.get_String()
+   at Microsoft.Data.SqlClient.SqlDataReader.GetString(Int32 i)
+   at lambda_method(Closure , QueryContext , DbDataReader , ResultContext , Int32[] , ResultCoordinator )
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at HRM.Controllers.EmployeesController.Index() in E:\Github\Gateway\.Net Core Training Assignments\.Net Core Final Assignment\HRM\HRM\Controllers\EmployeesController.cs:line 28
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at HRM.Startup.<>c.<<Configure>b__5_1>d.MoveNext() in E:\Github\Gateway\.Net Core Training Assignments\.Net Core Final Assignment\HRM\HRM\Startup.cs:line 101
+--- End of stack trace from previous location where exception was thrown ---
+   at HRM.Startup.<>c.<<Configure>b__5_0>d.MoveNext() in E:\Github\Gateway\.Net Core Training Assignments\.Net Core Final Assignment\HRM\HRM\Startup.cs:line 86
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2021-04-13 13:59:28.2257 INFO Employees(Index) Response time Captured : 239
+2021-04-13 13:59:30.5592 INFO Home(Index) Response time Captured : 0
+2021-04-13 14:01:34.3395 INFO Departments(Index) Response time Captured : 66
+2021-04-13 14:02:03.8114 ERROR Something went wrong: System.InvalidCastException: Unable to cast object of type 'System.Int32' to type 'System.String'.
+   at Microsoft.Data.SqlClient.SqlBuffer.get_String()
+   at Microsoft.Data.SqlClient.SqlDataReader.GetString(Int32 i)
+   at lambda_method(Closure , QueryContext , DbDataReader , ResultContext , Int32[] , ResultCoordinator )
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at HRM.Controllers.EmployeesController.Index() in E:\Github\Gateway\.Net Core Training Assignments\.Net Core Final Assignment\HRM\HRM\Controllers\EmployeesController.cs:line 28
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at HRM.Startup.<>c.<<Configure>b__5_1>d.MoveNext() in E:\Github\Gateway\.Net Core Training Assignments\.Net Core Final Assignment\HRM\HRM\Startup.cs:line 101
+--- End of stack trace from previous location where exception was thrown ---
+   at HRM.Startup.<>c.<<Configure>b__5_0>d.MoveNext() in E:\Github\Gateway\.Net Core Training Assignments\.Net Core Final Assignment\HRM\HRM\Startup.cs:line 86
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2021-04-13 14:02:03.8135 INFO Employees(Index) Response time Captured : 231
+2021-04-13 14:04:00.0607 INFO Departments(Index) Response time Captured : 22901
+2021-04-13 14:06:28.6160 ERROR Something went wrong: System.InvalidCastException: Unable to cast object of type 'System.Int32' to type 'System.String'.
+   at Microsoft.Data.SqlClient.SqlBuffer.get_String()
+   at Microsoft.Data.SqlClient.SqlDataReader.GetString(Int32 i)
+   at lambda_method(Closure , QueryContext , DbDataReader , ResultContext , Int32[] , ResultCoordinator )
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at HRM.Controllers.EmployeesController.Index() in E:\Github\Gateway\.Net Core Training Assignments\.Net Core Final Assignment\HRM\HRM\Controllers\EmployeesController.cs:line 28
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at HRM.Startup.<>c.<<Configure>b__5_1>d.MoveNext() in E:\Github\Gateway\.Net Core Training Assignments\.Net Core Final Assignment\HRM\HRM\Startup.cs:line 101
+--- End of stack trace from previous location where exception was thrown ---
+   at HRM.Startup.<>c.<<Configure>b__5_0>d.MoveNext() in E:\Github\Gateway\.Net Core Training Assignments\.Net Core Final Assignment\HRM\HRM\Startup.cs:line 86
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2021-04-13 14:06:28.6160 INFO Employees(Index) Response time Captured : 186900
+2021-04-13 14:06:45.5933 INFO Employees(Index) Response time Captured : 12231
+2021-04-13 14:07:02.3386 INFO Employees(Create) Response time Captured : 2720
+2021-04-13 14:13:43.7526 INFO Home(Index) Response time Captured : 745
+2021-04-13 14:13:53.2327 INFO () Response time Captured : 1339
+2021-04-13 14:14:04.8640 INFO () Response time Captured : 1312
+2021-04-13 14:14:05.0438 INFO Employees(Index) Response time Captured : 164
+2021-04-13 14:14:13.9027 INFO Employees(Delete) Response time Captured : 243
+2021-04-13 14:14:17.7088 INFO Employees(Delete) Response time Captured : 442
+2021-04-13 14:14:17.7307 INFO Employees(Index) Response time Captured : 12
+2021-04-13 14:14:20.5581 INFO Employees(Create) Response time Captured : 119
+2021-04-13 14:16:26.0629 INFO Employees(Create) Response time Captured : 113
+2021-04-13 14:16:26.1087 INFO Employees(Index) Response time Captured : 20
+2021-04-13 14:16:31.6685 INFO Employees(Create) Response time Captured : 10
+2021-04-13 14:17:32.0285 INFO Employees(Create) Response time Captured : 16
+2021-04-13 14:17:32.0651 INFO Employees(Index) Response time Captured : 21
+2021-04-13 14:17:34.7913 INFO Employees(Create) Response time Captured : 22
+2021-04-13 14:18:06.4356 INFO Employees(Create) Response time Captured : 27
+2021-04-13 14:18:06.4670 INFO Employees(Index) Response time Captured : 20
+2021-04-13 14:18:09.0731 INFO Employees(Create) Response time Captured : 40
+2021-04-13 14:18:41.8434 INFO Employees(Create) Response time Captured : 88
+2021-04-13 14:18:41.8963 INFO Employees(Index) Response time Captured : 35
+2021-04-13 14:18:44.7375 INFO Employees(Create) Response time Captured : 16
+2021-04-13 14:19:15.1468 INFO Employees(Create) Response time Captured : 26
+2021-04-13 14:19:15.1796 INFO Employees(Index) Response time Captured : 25
+2021-04-13 14:19:39.6720 INFO Employees(Edit) Response time Captured : 82
+2021-04-13 14:19:48.7727 INFO Employees(Edit) Response time Captured : 158
+2021-04-13 14:19:48.8015 INFO Employees(Index) Response time Captured : 20
+2021-04-13 14:19:58.5272 INFO Employees(Details) Response time Captured : 51
+2021-04-13 14:20:02.1598 INFO Employees(Edit) Response time Captured : 12
+2021-04-13 14:20:04.5915 INFO Employees(Index) Response time Captured : 52
+2021-04-13 14:20:13.3110 INFO Departments(Index) Response time Captured : 43
+2021-04-13 14:20:17.7692 INFO () Response time Captured : 10
+2021-04-13 14:20:17.7692 INFO Home(Index) Response time Captured : 3
+2021-04-13 15:52:06.7649 INFO Home(Index) Response time Captured : 777
+2021-04-13 16:00:28.6543 INFO () Response time Captured : 317
+2021-04-13 16:00:41.8960 INFO () Response time Captured : 3387
+2021-04-13 16:00:42.1911 INFO Departments(Index) Response time Captured : 270
+2021-04-13 16:00:45.9440 INFO Departments(Create) Response time Captured : 76
+2021-04-13 16:00:58.5234 INFO Departments(Create) Response time Captured : 482
+2021-04-13 16:00:58.5803 INFO Departments(Index) Response time Captured : 42
+2021-04-13 16:01:03.0118 INFO Employees(Index) Response time Captured : 275
+2021-04-13 16:01:08.7905 INFO Employees(Create) Response time Captured : 317
+2021-04-13 16:01:58.9937 INFO Employees(Create) Response time Captured : 109
+2021-04-13 16:01:59.1033 INFO Employees(Index) Response time Captured : 86

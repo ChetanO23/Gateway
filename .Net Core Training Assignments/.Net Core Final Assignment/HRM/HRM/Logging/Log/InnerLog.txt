@@ -1,0 +1,755 @@
+2021-04-13 13:35:50.7283 Debug Skipping unknown 'NLog' property xmlns=http://www.nlog-project.org/schemas/NLog.xsd
+2021-04-13 13:35:50.8881 Debug Skipping unknown 'NLog' property xsi=http://www.w3.org/2001/XMLSchema-instance
+2021-04-13 13:35:50.9347 Debug ScanAssembly('NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c')
+2021-04-13 13:35:51.5911 Debug Found assembly location directory: 'E:\Github\Gateway\.Net Core Training Assignments\.Net Core Final Assignment\HRM\HRM\bin\Debug\netcoreapp3.1' (NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c)
+2021-04-13 13:35:51.5911 Debug Auto loading based on NLog-Assembly found location: E:\Github\Gateway\.Net Core Training Assignments\.Net Core Final Assignment\HRM\HRM\bin\Debug\netcoreapp3.1
+2021-04-13 13:35:51.6187 Debug Search for auto loading files in location: E:\Github\Gateway\.Net Core Training Assignments\.Net Core Final Assignment\HRM\HRM\bin\Debug\netcoreapp3.1
+2021-04-13 13:35:51.6187 Debug Start auto loading, location: E:\Github\Gateway\.Net Core Training Assignments\.Net Core Final Assignment\HRM\HRM\bin\Debug\netcoreapp3.1
+2021-04-13 13:35:51.6187 Info Auto loading assembly file: E:\Github\Gateway\.Net Core Training Assignments\.Net Core Final Assignment\HRM\HRM\bin\Debug\netcoreapp3.1\NLog.Extensions.Logging.dll
+2021-04-13 13:35:51.6187 Info Loading assembly file: E:\Github\Gateway\.Net Core Training Assignments\.Net Core Final Assignment\HRM\HRM\bin\Debug\netcoreapp3.1\NLog.Extensions.Logging.dll
+2021-04-13 13:35:51.7350 Info NLog.Extensions.Logging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 1.7.2.1548. Product version: 1.7.2+4bd1909dde91279dbdea4d1c38ff6a09de78f531. GlobalAssemblyCache: False
+2021-04-13 13:35:51.7350 Debug ScanAssembly('NLog.Extensions.Logging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c')
+2021-04-13 13:35:51.7350 Info Auto loading assembly file: E:\Github\Gateway\.Net Core Training Assignments\.Net Core Final Assignment\HRM\HRM\bin\Debug\netcoreapp3.1\NLog.Extensions.Logging.dll succeeded!
+2021-04-13 13:35:51.7350 Info Auto loading assembly file: E:\Github\Gateway\.Net Core Training Assignments\.Net Core Final Assignment\HRM\HRM\bin\Debug\netcoreapp3.1\NLog.Web.AspNetCore.dll
+2021-04-13 13:35:51.7350 Info Loading assembly file: E:\Github\Gateway\.Net Core Training Assignments\.Net Core Final Assignment\HRM\HRM\bin\Debug\netcoreapp3.1\NLog.Web.AspNetCore.dll
+2021-04-13 13:35:51.7542 Info NLog.Web.AspNetCore, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.12.0.1931. Product version: 4.12.0+bd307248ace36292cb898d91ad44f9cab5ae1f03. GlobalAssemblyCache: False
+2021-04-13 13:35:51.7542 Debug ScanAssembly('NLog.Web.AspNetCore, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c')
+2021-04-13 13:35:51.7542 Info Auto loading assembly file: E:\Github\Gateway\.Net Core Training Assignments\.Net Core Final Assignment\HRM\HRM\bin\Debug\netcoreapp3.1\NLog.Web.AspNetCore.dll succeeded!
+2021-04-13 13:35:51.7542 Trace Assembly 'Microsoft.Extensions.Logging, Version=3.1.13.0, Culture=neutral, PublicKeyToken=adb9793829ddae60' will be hidden in callsite stacktrace
+2021-04-13 13:35:51.7542 Trace Assembly 'Microsoft.Extensions.Logging.Abstractions, Version=3.1.13.0, Culture=neutral, PublicKeyToken=adb9793829ddae60' will be hidden in callsite stacktrace
+2021-04-13 13:35:51.7542 Trace Assembly 'NLog.Extensions.Logging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c' will be hidden in callsite stacktrace
+2021-04-13 13:35:51.7542 Trace Assembly 'NLog.Web.AspNetCore, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c' will be hidden in callsite stacktrace
+2021-04-13 13:35:51.7542 Debug Auto loading done
+2021-04-13 13:35:51.7542 Info Message Template Auto Format enabled
+2021-04-13 13:35:51.7665 Info Loading assembly: NLog.Extended
+2021-04-13 13:35:51.8476 Trace Try find 'NLog.Extended' in current domain
+2021-04-13 13:35:51.8476 Trace Haven't found' 'NLog.Extended' in current domain
+2021-04-13 13:35:51.8476 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Error loading extensions: NLog.Extended
+ ---> System.IO.FileNotFoundException: Could not load file or assembly 'NLog.Extended, Culture=neutral, PublicKeyToken=null'. The system cannot find the file specified.
+File name: 'NLog.Extended, Culture=neutral, PublicKeyToken=null'
+   at System.Reflection.RuntimeAssembly.nLoad(AssemblyName fileName, String codeBase, RuntimeAssembly assemblyContext, StackCrawlMark& stackMark, Boolean throwOnFileNotFound, AssemblyLoadContext assemblyLoadContext)
+   at System.Reflection.RuntimeAssembly.InternalLoadAssemblyName(AssemblyName assemblyRef, StackCrawlMark& stackMark, AssemblyLoadContext assemblyLoadContext)
+   at System.Reflection.Assembly.Load(String assemblyString)
+   at NLog.Internal.AssemblyHelpers.LoadFromName(String assemblyName)
+   at NLog.Config.LoggingConfigurationParser.ParseExtensionWithAssembly(String assemblyName, String prefix)
+
+
+   --- End of inner exception stack trace ---
+2021-04-13 13:35:52.2183 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2021-04-13 13:35:52.2223 Trace Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2021-04-13 13:35:52.2716 Debug Setting 'NLog.LayoutRenderers.Wrappers.UppercaseLayoutRendererWrapper.uppercase' to 'true'
+2021-04-13 13:35:52.2716 Trace Wrapping NLog.LayoutRenderers.LevelLayoutRenderer with NLog.LayoutRenderers.Wrappers.UppercaseLayoutRendererWrapper
+2021-04-13 13:35:52.2716 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2021-04-13 13:35:52.2716 Trace Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2021-04-13 13:35:52.2716 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2021-04-13 13:35:52.2716 Trace Scanning UppercaseLayoutRendererWrapper 'Layout Renderer: ${uppercase}'
+2021-04-13 13:35:52.2716 Trace  Scanning Property Inner 'SimpleLayout=Layout Renderer: ${level}' NLog.Layouts
+2021-04-13 13:35:52.2716 Trace  Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2021-04-13 13:35:52.2716 Trace   Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2021-04-13 13:35:52.2716 Trace   Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2021-04-13 13:35:52.2716 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2021-04-13 13:35:52.2716 Trace Scanning LoggerNameLayoutRenderer 'Layout Renderer: ${logger}'
+2021-04-13 13:35:52.2824 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2021-04-13 13:35:52.2824 Trace Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2021-04-13 13:35:52.2824 Debug Setting 'NLog.Targets.FileTarget.name' to 'logfile'
+2021-04-13 13:35:52.2824 Debug Setting 'NLog.Targets.FileTarget.fileName' to 'E:/Github/Gateway/.Net Core Training Assignments/.Net Core Final Assignment/HRM/HRM/Logging/Log/${shortdate}_log.txt'
+2021-04-13 13:35:52.2824 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2021-04-13 13:35:52.2824 Trace Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2021-04-13 13:35:52.2824 Debug Setting 'NLog.Targets.FileTarget.layout' to '${longdate} ${level:uppercase=true} ${message}'
+2021-04-13 13:35:52.2824 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2021-04-13 13:35:52.2824 Trace Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2021-04-13 13:35:52.2824 Debug Setting 'NLog.LayoutRenderers.Wrappers.UppercaseLayoutRendererWrapper.uppercase' to 'true'
+2021-04-13 13:35:52.2824 Trace Wrapping NLog.LayoutRenderers.LevelLayoutRenderer with NLog.LayoutRenderers.Wrappers.UppercaseLayoutRendererWrapper
+2021-04-13 13:35:52.2824 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2021-04-13 13:35:52.2824 Trace Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2021-04-13 13:35:52.2824 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2021-04-13 13:35:52.2824 Trace Scanning UppercaseLayoutRendererWrapper 'Layout Renderer: ${uppercase}'
+2021-04-13 13:35:52.2824 Trace  Scanning Property Inner 'SimpleLayout=Layout Renderer: ${level}' NLog.Layouts
+2021-04-13 13:35:52.2824 Trace  Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2021-04-13 13:35:52.2824 Trace   Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2021-04-13 13:35:52.2824 Trace   Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2021-04-13 13:35:52.2980 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2021-04-13 13:35:52.2980 Trace Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2021-04-13 13:35:52.2980 Info Adding target FileTarget(Name=logfile)
+2021-04-13 13:35:52.2980 Debug Registered target logfile: NLog.Targets.FileTarget
+2021-04-13 13:35:52.2980 Trace ParseRulesElement
+2021-04-13 13:35:52.3179 Debug Watching path 'E:\Github\Gateway\.Net Core Training Assignments\.Net Core Final Assignment\HRM\HRM\bin\Debug\netcoreapp3.1' filter 'NLog.config' for changes.
+2021-04-13 13:35:52.3179 Debug --- NLog configuration dump ---
+2021-04-13 13:35:52.3179 Debug Targets:
+2021-04-13 13:35:52.3179 Debug File Target[logfile]
+2021-04-13 13:35:52.3179 Debug Rules:
+2021-04-13 13:35:52.3179 Debug logNamePattern: (:All) levels: [ Debug Info Warn Error Fatal ] appendTo: [ logfile ]
+2021-04-13 13:35:52.3179 Debug --- End of NLog configuration dump ---
+2021-04-13 13:35:52.3179 Trace FindReachableObject<System.Object>:
+2021-04-13 13:35:52.3179 Trace Scanning LoggingRule 'logNamePattern: (:All) levels: [ Debug Info Warn Error Fatal ] appendTo: [ logfile ]'
+2021-04-13 13:35:52.3179 Trace  Scanning Property Targets 'System.Collections.Generic.List`1[NLog.Targets.Target]' System.Collections.Generic
+2021-04-13 13:35:52.3288 Trace  Scanning FileTarget 'File Target[logfile]'
+2021-04-13 13:35:52.3288 Trace   Scanning Property FileName ''E:/Github/Gateway/.Net Core Training Assignments/.Net Core Final Assignment/HRM/HRM/Logging/Log/${shortdate}_log.txt'' NLog.Layouts
+2021-04-13 13:35:52.3288 Trace   Scanning SimpleLayout ''E:/Github/Gateway/.Net Core Training Assignments/.Net Core Final Assignment/HRM/HRM/Logging/Log/${shortdate}_log.txt''
+2021-04-13 13:35:52.3288 Trace    Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2021-04-13 13:35:52.3288 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2021-04-13 13:35:52.3288 Trace    Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2021-04-13 13:35:52.3288 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2021-04-13 13:35:52.3288 Trace   Scanning Property Layout ''${longdate} ${level:uppercase=true} ${message}'' NLog.Layouts
+2021-04-13 13:35:52.3288 Trace   Scanning SimpleLayout ''${longdate} ${level:uppercase=true} ${message}''
+2021-04-13 13:35:52.3288 Trace    Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2021-04-13 13:35:52.3288 Trace    Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2021-04-13 13:35:52.3288 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2021-04-13 13:35:52.3288 Trace    Scanning UppercaseLayoutRendererWrapper 'Layout Renderer: ${uppercase}'
+2021-04-13 13:35:52.3288 Trace     Scanning Property Inner 'SimpleLayout=Layout Renderer: ${level}' NLog.Layouts
+2021-04-13 13:35:52.3288 Trace     Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2021-04-13 13:35:52.3288 Trace      Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2021-04-13 13:35:52.3288 Trace      Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2021-04-13 13:35:52.3288 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2021-04-13 13:35:52.3288 Trace    Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2021-04-13 13:35:52.3288 Trace   Scanning Property LineEnding 'Default' NLog.Targets
+2021-04-13 13:35:52.3288 Trace  Scanning Property ChildRules 'System.Collections.Generic.List`1[NLog.Config.LoggingRule]' System.Collections.Generic
+2021-04-13 13:35:52.3288 Trace  Scanning Property Filters 'System.Collections.Generic.List`1[NLog.Filters.Filter]' System.Collections.Generic
+2021-04-13 13:35:52.3288 Info Validating config: TargetNames=logfile, ConfigItems=14, FilePath=E:\Github\Gateway\.Net Core Training Assignments\.Net Core Final Assignment\HRM\HRM\bin\Debug\netcoreapp3.1\NLog.config
+2021-04-13 13:35:52.3452 Debug Unused target checking is started... Rule Count: 1, Target Count: 1
+2021-04-13 13:35:52.3452 Debug Unused target checking is completed. Total Rule Count: 1, Total Target Count: 1, Unused Target Count: 0
+2021-04-13 13:35:52.4006 Trace Initializing Layout Renderer: ${message}
+2021-04-13 13:35:52.4006 Trace Initializing Layout Renderer: ${literal}
+2021-04-13 13:35:52.4006 Trace Initializing Layout Renderer: ${level}
+2021-04-13 13:35:52.4006 Trace Initializing SimpleLayout=Layout Renderer: ${level}
+2021-04-13 13:35:52.4006 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2021-04-13 13:35:52.4006 Trace Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2021-04-13 13:35:52.4006 Trace  Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2021-04-13 13:35:52.4070 Trace  Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2021-04-13 13:35:52.4070 Trace Initializing Layout Renderer: ${uppercase}
+2021-04-13 13:35:52.4070 Trace Initializing Layout Renderer: ${literal}
+2021-04-13 13:35:52.4070 Trace Initializing Layout Renderer: ${longdate}
+2021-04-13 13:35:52.4070 Trace Initializing '${longdate} ${level:uppercase=true} ${message}'
+2021-04-13 13:35:52.4070 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2021-04-13 13:35:52.4070 Trace Scanning SimpleLayout ''${longdate} ${level:uppercase=true} ${message}''
+2021-04-13 13:35:52.4070 Trace  Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2021-04-13 13:35:52.4070 Trace  Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2021-04-13 13:35:52.4070 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2021-04-13 13:35:52.4070 Trace  Scanning UppercaseLayoutRendererWrapper 'Layout Renderer: ${uppercase}'
+2021-04-13 13:35:52.4070 Trace   Scanning Property Inner 'SimpleLayout=Layout Renderer: ${level}' NLog.Layouts
+2021-04-13 13:35:52.4070 Trace   Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2021-04-13 13:35:52.4070 Trace    Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2021-04-13 13:35:52.4070 Trace    Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2021-04-13 13:35:52.4295 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2021-04-13 13:35:52.4295 Trace  Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2021-04-13 13:35:52.4295 Trace Initializing Layout Renderer: ${literal}
+2021-04-13 13:35:52.4295 Trace Initializing Layout Renderer: ${shortdate}
+2021-04-13 13:35:52.4295 Trace Initializing Layout Renderer: ${literal}
+2021-04-13 13:35:52.4295 Trace Initializing 'E:/Github/Gateway/.Net Core Training Assignments/.Net Core Final Assignment/HRM/HRM/Logging/Log/${shortdate}_log.txt'
+2021-04-13 13:35:52.4295 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2021-04-13 13:35:52.4295 Trace Scanning SimpleLayout ''E:/Github/Gateway/.Net Core Training Assignments/.Net Core Final Assignment/HRM/HRM/Logging/Log/${shortdate}_log.txt''
+2021-04-13 13:35:52.4295 Trace  Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2021-04-13 13:35:52.4295 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2021-04-13 13:35:52.4295 Trace  Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2021-04-13 13:35:52.4295 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2021-04-13 13:35:52.4295 Trace Initializing File Target[logfile]
+2021-04-13 13:35:52.4408 Trace FindReachableObject<NLog.Layouts.Layout>:
+2021-04-13 13:35:52.4408 Trace Scanning FileTarget 'File Target[logfile]'
+2021-04-13 13:35:52.4408 Trace  Scanning Property FileName ''E:/Github/Gateway/.Net Core Training Assignments/.Net Core Final Assignment/HRM/HRM/Logging/Log/${shortdate}_log.txt'' NLog.Layouts
+2021-04-13 13:35:52.4408 Trace  Scanning SimpleLayout ''E:/Github/Gateway/.Net Core Training Assignments/.Net Core Final Assignment/HRM/HRM/Logging/Log/${shortdate}_log.txt''
+2021-04-13 13:35:52.4408 Trace  Scanning Property Layout ''${longdate} ${level:uppercase=true} ${message}'' NLog.Layouts
+2021-04-13 13:35:52.4408 Trace  Scanning SimpleLayout ''${longdate} ${level:uppercase=true} ${message}''
+2021-04-13 13:35:52.4408 Trace  Scanning Property LineEnding 'Default' NLog.Targets
+2021-04-13 13:35:52.4408 Trace File Target[logfile] has 2 layouts
+2021-04-13 13:35:52.4408 Trace FileTarget(Name=logfile): Using appenderFactory: NLog.Internal.FileAppenders.RetryingMultiProcessFileAppender+Factory
+2021-04-13 13:35:52.4408 Info Configuration initialized.
+2021-04-13 13:35:52.4408 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.9.12899. Product version: 4.7.9+e8712e62842e2d74d60fdf37cf74d743750e5ca2. GlobalAssemblyCache: False
+2021-04-13 13:35:52.4559 Debug Targets for HRM.Logging.LogNLog by level:
+2021-04-13 13:35:52.4559 Debug Trace =>
+2021-04-13 13:35:52.4559 Debug Debug => logfile
+2021-04-13 13:35:52.4559 Debug Info => logfile
+2021-04-13 13:35:52.4559 Debug Warn => logfile
+2021-04-13 13:35:52.4559 Debug Error => logfile
+2021-04-13 13:35:52.4559 Debug Fatal => logfile
+2021-04-13 13:35:52.6124 Debug FileTarget(Name=logfile): Preparing for new file 'E:/Github/Gateway/.Net Core Training Assignments/.Net Core Final Assignment/HRM/HRM/Logging/Log/2021-04-13_log.txt'
+2021-04-13 13:35:52.6648 Debug Creating file appender: E:/Github/Gateway/.Net Core Training Assignments/.Net Core Final Assignment/HRM/HRM/Logging/Log/2021-04-13_log.txt
+2021-04-13 13:35:52.6778 Trace Opening E:/Github/Gateway/.Net Core Training Assignments/.Net Core Final Assignment/HRM/HRM/Logging/Log/2021-04-13_log.txt with allowFileSharedWriting=False
+2021-04-13 13:36:54.4882 Trace Opening E:/Github/Gateway/.Net Core Training Assignments/.Net Core Final Assignment/HRM/HRM/Logging/Log/2021-04-13_log.txt with allowFileSharedWriting=False
+2021-04-13 13:37:13.6534 Trace Opening E:/Github/Gateway/.Net Core Training Assignments/.Net Core Final Assignment/HRM/HRM/Logging/Log/2021-04-13_log.txt with allowFileSharedWriting=False
+2021-04-13 13:37:13.9195 Trace Opening E:/Github/Gateway/.Net Core Training Assignments/.Net Core Final Assignment/HRM/HRM/Logging/Log/2021-04-13_log.txt with allowFileSharedWriting=False
+2021-04-13 13:37:18.7630 Trace Opening E:/Github/Gateway/.Net Core Training Assignments/.Net Core Final Assignment/HRM/HRM/Logging/Log/2021-04-13_log.txt with allowFileSharedWriting=False
+2021-04-13 13:37:21.5883 Trace Opening E:/Github/Gateway/.Net Core Training Assignments/.Net Core Final Assignment/HRM/HRM/Logging/Log/2021-04-13_log.txt with allowFileSharedWriting=False
+2021-04-13 13:37:31.1849 Trace Opening E:/Github/Gateway/.Net Core Training Assignments/.Net Core Final Assignment/HRM/HRM/Logging/Log/2021-04-13_log.txt with allowFileSharedWriting=False
+2021-04-13 13:37:31.2298 Trace Opening E:/Github/Gateway/.Net Core Training Assignments/.Net Core Final Assignment/HRM/HRM/Logging/Log/2021-04-13_log.txt with allowFileSharedWriting=False
+2021-04-13 13:37:42.5316 Trace Opening E:/Github/Gateway/.Net Core Training Assignments/.Net Core Final Assignment/HRM/HRM/Logging/Log/2021-04-13_log.txt with allowFileSharedWriting=False
+2021-04-13 13:37:45.6371 Trace Opening E:/Github/Gateway/.Net Core Training Assignments/.Net Core Final Assignment/HRM/HRM/Logging/Log/2021-04-13_log.txt with allowFileSharedWriting=False
+2021-04-13 13:38:02.7175 Trace Opening E:/Github/Gateway/.Net Core Training Assignments/.Net Core Final Assignment/HRM/HRM/Logging/Log/2021-04-13_log.txt with allowFileSharedWriting=False
+2021-04-13 13:38:02.7420 Trace Opening E:/Github/Gateway/.Net Core Training Assignments/.Net Core Final Assignment/HRM/HRM/Logging/Log/2021-04-13_log.txt with allowFileSharedWriting=False
+2021-04-13 13:38:11.2290 Trace Opening E:/Github/Gateway/.Net Core Training Assignments/.Net Core Final Assignment/HRM/HRM/Logging/Log/2021-04-13_log.txt with allowFileSharedWriting=False
+2021-04-13 13:38:17.1441 Trace Opening E:/Github/Gateway/.Net Core Training Assignments/.Net Core Final Assignment/HRM/HRM/Logging/Log/2021-04-13_log.txt with allowFileSharedWriting=False
+2021-04-13 13:38:17.2522 Trace Opening E:/Github/Gateway/.Net Core Training Assignments/.Net Core Final Assignment/HRM/HRM/Logging/Log/2021-04-13_log.txt with allowFileSharedWriting=False
+2021-04-13 13:46:43.9067 Trace Opening E:/Github/Gateway/.Net Core Training Assignments/.Net Core Final Assignment/HRM/HRM/Logging/Log/2021-04-13_log.txt with allowFileSharedWriting=False
+2021-04-13 13:47:29.0676 Trace Opening E:/Github/Gateway/.Net Core Training Assignments/.Net Core Final Assignment/HRM/HRM/Logging/Log/2021-04-13_log.txt with allowFileSharedWriting=False
+2021-04-13 13:47:29.1257 Trace Opening E:/Github/Gateway/.Net Core Training Assignments/.Net Core Final Assignment/HRM/HRM/Logging/Log/2021-04-13_log.txt with allowFileSharedWriting=False
+2021-04-13 13:53:15.1924 Trace Opening E:/Github/Gateway/.Net Core Training Assignments/.Net Core Final Assignment/HRM/HRM/Logging/Log/2021-04-13_log.txt with allowFileSharedWriting=False
+2021-04-13 13:53:15.4770 Trace Opening E:/Github/Gateway/.Net Core Training Assignments/.Net Core Final Assignment/HRM/HRM/Logging/Log/2021-04-13_log.txt with allowFileSharedWriting=False
+2021-04-13 13:53:23.1424 Trace Opening E:/Github/Gateway/.Net Core Training Assignments/.Net Core Final Assignment/HRM/HRM/Logging/Log/2021-04-13_log.txt with allowFileSharedWriting=False
+2021-04-13 13:53:26.5835 Trace Opening E:/Github/Gateway/.Net Core Training Assignments/.Net Core Final Assignment/HRM/HRM/Logging/Log/2021-04-13_log.txt with allowFileSharedWriting=False
+2021-04-13 13:53:30.2026 Trace Opening E:/Github/Gateway/.Net Core Training Assignments/.Net Core Final Assignment/HRM/HRM/Logging/Log/2021-04-13_log.txt with allowFileSharedWriting=False
+2021-04-13 13:53:30.2044 Trace Opening E:/Github/Gateway/.Net Core Training Assignments/.Net Core Final Assignment/HRM/HRM/Logging/Log/2021-04-13_log.txt with allowFileSharedWriting=False
+2021-04-13 13:54:52.4340 Trace Opening E:/Github/Gateway/.Net Core Training Assignments/.Net Core Final Assignment/HRM/HRM/Logging/Log/2021-04-13_log.txt with allowFileSharedWriting=False
+2021-04-13 13:54:56.8407 Trace Opening E:/Github/Gateway/.Net Core Training Assignments/.Net Core Final Assignment/HRM/HRM/Logging/Log/2021-04-13_log.txt with allowFileSharedWriting=False
+2021-04-13 13:54:56.8407 Trace Opening E:/Github/Gateway/.Net Core Training Assignments/.Net Core Final Assignment/HRM/HRM/Logging/Log/2021-04-13_log.txt with allowFileSharedWriting=False
+2021-04-13 13:57:59.9954 Debug Skipping unknown 'NLog' property xmlns=http://www.nlog-project.org/schemas/NLog.xsd
+2021-04-13 13:58:00.0201 Debug Skipping unknown 'NLog' property xsi=http://www.w3.org/2001/XMLSchema-instance
+2021-04-13 13:58:00.0441 Debug ScanAssembly('NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c')
+2021-04-13 13:58:00.2124 Debug Found assembly location directory: 'E:\Github\Gateway\.Net Core Training Assignments\.Net Core Final Assignment\HRM\HRM\bin\Debug\netcoreapp3.1' (NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c)
+2021-04-13 13:58:00.2124 Debug Auto loading based on NLog-Assembly found location: E:\Github\Gateway\.Net Core Training Assignments\.Net Core Final Assignment\HRM\HRM\bin\Debug\netcoreapp3.1
+2021-04-13 13:58:00.2124 Debug Search for auto loading files in location: E:\Github\Gateway\.Net Core Training Assignments\.Net Core Final Assignment\HRM\HRM\bin\Debug\netcoreapp3.1
+2021-04-13 13:58:00.2218 Debug Start auto loading, location: E:\Github\Gateway\.Net Core Training Assignments\.Net Core Final Assignment\HRM\HRM\bin\Debug\netcoreapp3.1
+2021-04-13 13:58:00.2218 Info Auto loading assembly file: E:\Github\Gateway\.Net Core Training Assignments\.Net Core Final Assignment\HRM\HRM\bin\Debug\netcoreapp3.1\NLog.Extensions.Logging.dll
+2021-04-13 13:58:00.2218 Info Loading assembly file: E:\Github\Gateway\.Net Core Training Assignments\.Net Core Final Assignment\HRM\HRM\bin\Debug\netcoreapp3.1\NLog.Extensions.Logging.dll
+2021-04-13 13:58:00.2646 Info NLog.Extensions.Logging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 1.7.2.1548. Product version: 1.7.2+4bd1909dde91279dbdea4d1c38ff6a09de78f531. GlobalAssemblyCache: False
+2021-04-13 13:58:00.2646 Debug ScanAssembly('NLog.Extensions.Logging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c')
+2021-04-13 13:58:00.2700 Info Auto loading assembly file: E:\Github\Gateway\.Net Core Training Assignments\.Net Core Final Assignment\HRM\HRM\bin\Debug\netcoreapp3.1\NLog.Extensions.Logging.dll succeeded!
+2021-04-13 13:58:00.2700 Info Auto loading assembly file: E:\Github\Gateway\.Net Core Training Assignments\.Net Core Final Assignment\HRM\HRM\bin\Debug\netcoreapp3.1\NLog.Web.AspNetCore.dll
+2021-04-13 13:58:00.2700 Info Loading assembly file: E:\Github\Gateway\.Net Core Training Assignments\.Net Core Final Assignment\HRM\HRM\bin\Debug\netcoreapp3.1\NLog.Web.AspNetCore.dll
+2021-04-13 13:58:00.2928 Info NLog.Web.AspNetCore, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.12.0.1931. Product version: 4.12.0+bd307248ace36292cb898d91ad44f9cab5ae1f03. GlobalAssemblyCache: False
+2021-04-13 13:58:00.3035 Debug ScanAssembly('NLog.Web.AspNetCore, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c')
+2021-04-13 13:58:00.3035 Info Auto loading assembly file: E:\Github\Gateway\.Net Core Training Assignments\.Net Core Final Assignment\HRM\HRM\bin\Debug\netcoreapp3.1\NLog.Web.AspNetCore.dll succeeded!
+2021-04-13 13:58:00.3151 Trace Assembly 'Microsoft.Extensions.Logging, Version=3.1.13.0, Culture=neutral, PublicKeyToken=adb9793829ddae60' will be hidden in callsite stacktrace
+2021-04-13 13:58:00.3151 Trace Assembly 'Microsoft.Extensions.Logging.Abstractions, Version=3.1.13.0, Culture=neutral, PublicKeyToken=adb9793829ddae60' will be hidden in callsite stacktrace
+2021-04-13 13:58:00.3151 Trace Assembly 'NLog.Extensions.Logging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c' will be hidden in callsite stacktrace
+2021-04-13 13:58:00.3151 Trace Assembly 'NLog.Web.AspNetCore, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c' will be hidden in callsite stacktrace
+2021-04-13 13:58:00.3151 Debug Auto loading done
+2021-04-13 13:58:00.3151 Info Message Template Auto Format enabled
+2021-04-13 13:58:00.3369 Info Loading assembly: NLog.Extended
+2021-04-13 13:58:00.3448 Trace Try find 'NLog.Extended' in current domain
+2021-04-13 13:58:00.3448 Trace Haven't found' 'NLog.Extended' in current domain
+2021-04-13 13:58:00.3448 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Error loading extensions: NLog.Extended
+ ---> System.IO.FileNotFoundException: Could not load file or assembly 'NLog.Extended, Culture=neutral, PublicKeyToken=null'. The system cannot find the file specified.
+File name: 'NLog.Extended, Culture=neutral, PublicKeyToken=null'
+   at System.Reflection.RuntimeAssembly.nLoad(AssemblyName fileName, String codeBase, RuntimeAssembly assemblyContext, StackCrawlMark& stackMark, Boolean throwOnFileNotFound, AssemblyLoadContext assemblyLoadContext)
+   at System.Reflection.RuntimeAssembly.InternalLoadAssemblyName(AssemblyName assemblyRef, StackCrawlMark& stackMark, AssemblyLoadContext assemblyLoadContext)
+   at System.Reflection.Assembly.Load(String assemblyString)
+   at NLog.Internal.AssemblyHelpers.LoadFromName(String assemblyName)
+   at NLog.Config.LoggingConfigurationParser.ParseExtensionWithAssembly(String assemblyName, String prefix)
+
+
+   --- End of inner exception stack trace ---
+2021-04-13 13:58:00.4849 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2021-04-13 13:58:00.4927 Trace Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2021-04-13 13:58:00.5061 Debug Setting 'NLog.LayoutRenderers.Wrappers.UppercaseLayoutRendererWrapper.uppercase' to 'true'
+2021-04-13 13:58:00.5061 Trace Wrapping NLog.LayoutRenderers.LevelLayoutRenderer with NLog.LayoutRenderers.Wrappers.UppercaseLayoutRendererWrapper
+2021-04-13 13:58:00.5061 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2021-04-13 13:58:00.5061 Trace Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2021-04-13 13:58:00.5160 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2021-04-13 13:58:00.5160 Trace Scanning UppercaseLayoutRendererWrapper 'Layout Renderer: ${uppercase}'
+2021-04-13 13:58:00.5160 Trace  Scanning Property Inner 'SimpleLayout=Layout Renderer: ${level}' NLog.Layouts
+2021-04-13 13:58:00.5160 Trace  Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2021-04-13 13:58:00.5160 Trace   Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2021-04-13 13:58:00.5344 Trace   Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2021-04-13 13:58:00.5344 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2021-04-13 13:58:00.5344 Trace Scanning LoggerNameLayoutRenderer 'Layout Renderer: ${logger}'
+2021-04-13 13:58:00.5344 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2021-04-13 13:58:00.5344 Trace Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2021-04-13 13:58:00.5624 Debug Setting 'NLog.Targets.FileTarget.name' to 'logfile'
+2021-04-13 13:58:00.5642 Debug Setting 'NLog.Targets.FileTarget.fileName' to 'E:/Github/Gateway/.Net Core Training Assignments/.Net Core Final Assignment/HRM/HRM/Logging/Log/${shortdate}_log.txt'
+2021-04-13 13:58:00.5642 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2021-04-13 13:58:00.5642 Trace Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2021-04-13 13:58:00.5642 Debug Setting 'NLog.Targets.FileTarget.layout' to '${longdate} ${level:uppercase=true} ${message}'
+2021-04-13 13:58:00.5642 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2021-04-13 13:58:00.5642 Trace Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2021-04-13 13:58:00.5642 Debug Setting 'NLog.LayoutRenderers.Wrappers.UppercaseLayoutRendererWrapper.uppercase' to 'true'
+2021-04-13 13:58:00.5642 Trace Wrapping NLog.LayoutRenderers.LevelLayoutRenderer with NLog.LayoutRenderers.Wrappers.UppercaseLayoutRendererWrapper
+2021-04-13 13:58:00.5642 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2021-04-13 13:58:00.5642 Trace Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2021-04-13 13:58:00.5785 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2021-04-13 13:58:00.5785 Trace Scanning UppercaseLayoutRendererWrapper 'Layout Renderer: ${uppercase}'
+2021-04-13 13:58:00.5785 Trace  Scanning Property Inner 'SimpleLayout=Layout Renderer: ${level}' NLog.Layouts
+2021-04-13 13:58:00.5785 Trace  Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2021-04-13 13:58:00.5785 Trace   Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2021-04-13 13:58:00.5785 Trace   Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2021-04-13 13:58:00.5785 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2021-04-13 13:58:00.5785 Trace Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2021-04-13 13:58:00.5785 Info Adding target FileTarget(Name=logfile)
+2021-04-13 13:58:00.5954 Debug Registered target logfile: NLog.Targets.FileTarget
+2021-04-13 13:58:00.5954 Trace ParseRulesElement
+2021-04-13 13:58:00.6514 Debug Watching path 'E:\Github\Gateway\.Net Core Training Assignments\.Net Core Final Assignment\HRM\HRM\bin\Debug\netcoreapp3.1' filter 'NLog.config' for changes.
+2021-04-13 13:58:00.6514 Debug --- NLog configuration dump ---
+2021-04-13 13:58:00.6514 Debug Targets:
+2021-04-13 13:58:00.6572 Debug File Target[logfile]
+2021-04-13 13:58:00.6572 Debug Rules:
+2021-04-13 13:58:00.6572 Debug logNamePattern: (:All) levels: [ Debug Info Warn Error Fatal ] appendTo: [ logfile ]
+2021-04-13 13:58:00.6572 Debug --- End of NLog configuration dump ---
+2021-04-13 13:58:00.6572 Trace FindReachableObject<System.Object>:
+2021-04-13 13:58:00.6572 Trace Scanning LoggingRule 'logNamePattern: (:All) levels: [ Debug Info Warn Error Fatal ] appendTo: [ logfile ]'
+2021-04-13 13:58:00.6727 Trace  Scanning Property Targets 'System.Collections.Generic.List`1[NLog.Targets.Target]' System.Collections.Generic
+2021-04-13 13:58:00.6727 Trace  Scanning FileTarget 'File Target[logfile]'
+2021-04-13 13:58:00.6727 Trace   Scanning Property FileName ''E:/Github/Gateway/.Net Core Training Assignments/.Net Core Final Assignment/HRM/HRM/Logging/Log/${shortdate}_log.txt'' NLog.Layouts
+2021-04-13 13:58:00.6727 Trace   Scanning SimpleLayout ''E:/Github/Gateway/.Net Core Training Assignments/.Net Core Final Assignment/HRM/HRM/Logging/Log/${shortdate}_log.txt''
+2021-04-13 13:58:00.6727 Trace    Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2021-04-13 13:58:00.6727 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2021-04-13 13:58:00.6727 Trace    Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2021-04-13 13:58:00.6727 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2021-04-13 13:58:00.6727 Trace   Scanning Property Layout ''${longdate} ${level:uppercase=true} ${message}'' NLog.Layouts
+2021-04-13 13:58:00.6727 Trace   Scanning SimpleLayout ''${longdate} ${level:uppercase=true} ${message}''
+2021-04-13 13:58:00.6727 Trace    Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2021-04-13 13:58:00.6727 Trace    Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2021-04-13 13:58:00.6727 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2021-04-13 13:58:00.6727 Trace    Scanning UppercaseLayoutRendererWrapper 'Layout Renderer: ${uppercase}'
+2021-04-13 13:58:00.6727 Trace     Scanning Property Inner 'SimpleLayout=Layout Renderer: ${level}' NLog.Layouts
+2021-04-13 13:58:00.6727 Trace     Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2021-04-13 13:58:00.6887 Trace      Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2021-04-13 13:58:00.6887 Trace      Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2021-04-13 13:58:00.6887 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2021-04-13 13:58:00.6887 Trace    Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2021-04-13 13:58:00.6887 Trace   Scanning Property LineEnding 'Default' NLog.Targets
+2021-04-13 13:58:00.6887 Trace  Scanning Property ChildRules 'System.Collections.Generic.List`1[NLog.Config.LoggingRule]' System.Collections.Generic
+2021-04-13 13:58:00.6887 Trace  Scanning Property Filters 'System.Collections.Generic.List`1[NLog.Filters.Filter]' System.Collections.Generic
+2021-04-13 13:58:00.6887 Info Validating config: TargetNames=logfile, ConfigItems=14, FilePath=E:\Github\Gateway\.Net Core Training Assignments\.Net Core Final Assignment\HRM\HRM\bin\Debug\netcoreapp3.1\NLog.config
+2021-04-13 13:58:00.7103 Debug Unused target checking is started... Rule Count: 1, Target Count: 1
+2021-04-13 13:58:00.7225 Debug Unused target checking is completed. Total Rule Count: 1, Total Target Count: 1, Unused Target Count: 0
+2021-04-13 13:58:00.7225 Trace Initializing Layout Renderer: ${message}
+2021-04-13 13:58:00.7225 Trace Initializing Layout Renderer: ${literal}
+2021-04-13 13:58:00.7225 Trace Initializing Layout Renderer: ${level}
+2021-04-13 13:58:00.7225 Trace Initializing SimpleLayout=Layout Renderer: ${level}
+2021-04-13 13:58:00.7375 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2021-04-13 13:58:00.7375 Trace Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2021-04-13 13:58:00.7375 Trace  Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2021-04-13 13:58:00.7375 Trace  Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2021-04-13 13:58:00.7375 Trace Initializing Layout Renderer: ${uppercase}
+2021-04-13 13:58:00.7375 Trace Initializing Layout Renderer: ${literal}
+2021-04-13 13:58:00.7375 Trace Initializing Layout Renderer: ${longdate}
+2021-04-13 13:58:00.7519 Trace Initializing '${longdate} ${level:uppercase=true} ${message}'
+2021-04-13 13:58:00.7519 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2021-04-13 13:58:00.7519 Trace Scanning SimpleLayout ''${longdate} ${level:uppercase=true} ${message}''
+2021-04-13 13:58:00.7519 Trace  Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2021-04-13 13:58:00.7519 Trace  Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2021-04-13 13:58:00.7519 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2021-04-13 13:58:00.7519 Trace  Scanning UppercaseLayoutRendererWrapper 'Layout Renderer: ${uppercase}'
+2021-04-13 13:58:00.7519 Trace   Scanning Property Inner 'SimpleLayout=Layout Renderer: ${level}' NLog.Layouts
+2021-04-13 13:58:00.7519 Trace   Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2021-04-13 13:58:00.7519 Trace    Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2021-04-13 13:58:00.7519 Trace    Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2021-04-13 13:58:00.7519 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2021-04-13 13:58:00.7519 Trace  Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2021-04-13 13:58:00.7519 Trace Initializing Layout Renderer: ${literal}
+2021-04-13 13:58:00.7660 Trace Initializing Layout Renderer: ${shortdate}
+2021-04-13 13:58:00.7660 Trace Initializing Layout Renderer: ${literal}
+2021-04-13 13:58:00.7660 Trace Initializing 'E:/Github/Gateway/.Net Core Training Assignments/.Net Core Final Assignment/HRM/HRM/Logging/Log/${shortdate}_log.txt'
+2021-04-13 13:58:00.7660 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2021-04-13 13:58:00.7660 Trace Scanning SimpleLayout ''E:/Github/Gateway/.Net Core Training Assignments/.Net Core Final Assignment/HRM/HRM/Logging/Log/${shortdate}_log.txt''
+2021-04-13 13:58:00.7660 Trace  Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2021-04-13 13:58:00.7660 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2021-04-13 13:58:00.7660 Trace  Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2021-04-13 13:58:00.7660 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2021-04-13 13:58:00.7660 Trace Initializing File Target[logfile]
+2021-04-13 13:58:00.7831 Trace FindReachableObject<NLog.Layouts.Layout>:
+2021-04-13 13:58:00.7831 Trace Scanning FileTarget 'File Target[logfile]'
+2021-04-13 13:58:00.7831 Trace  Scanning Property FileName ''E:/Github/Gateway/.Net Core Training Assignments/.Net Core Final Assignment/HRM/HRM/Logging/Log/${shortdate}_log.txt'' NLog.Layouts
+2021-04-13 13:58:00.7831 Trace  Scanning SimpleLayout ''E:/Github/Gateway/.Net Core Training Assignments/.Net Core Final Assignment/HRM/HRM/Logging/Log/${shortdate}_log.txt''
+2021-04-13 13:58:00.7831 Trace  Scanning Property Layout ''${longdate} ${level:uppercase=true} ${message}'' NLog.Layouts
+2021-04-13 13:58:00.7831 Trace  Scanning SimpleLayout ''${longdate} ${level:uppercase=true} ${message}''
+2021-04-13 13:58:00.7831 Trace  Scanning Property LineEnding 'Default' NLog.Targets
+2021-04-13 13:58:00.7831 Trace File Target[logfile] has 2 layouts
+2021-04-13 13:58:00.7831 Trace FileTarget(Name=logfile): Using appenderFactory: NLog.Internal.FileAppenders.RetryingMultiProcessFileAppender+Factory
+2021-04-13 13:58:00.8021 Info Configuration initialized.
+2021-04-13 13:58:00.8021 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.9.12899. Product version: 4.7.9+e8712e62842e2d74d60fdf37cf74d743750e5ca2. GlobalAssemblyCache: False
+2021-04-13 13:58:00.8165 Debug Targets for HRM.Logging.LogNLog by level:
+2021-04-13 13:58:00.8165 Debug Trace =>
+2021-04-13 13:58:00.8165 Debug Debug => logfile
+2021-04-13 13:58:00.8165 Debug Info => logfile
+2021-04-13 13:58:00.8165 Debug Warn => logfile
+2021-04-13 13:58:00.8165 Debug Error => logfile
+2021-04-13 13:58:00.8165 Debug Fatal => logfile
+2021-04-13 13:58:00.8763 Debug FileTarget(Name=logfile): Preparing for new file 'E:/Github/Gateway/.Net Core Training Assignments/.Net Core Final Assignment/HRM/HRM/Logging/Log/2021-04-13_log.txt'
+2021-04-13 13:58:00.8763 Debug Creating file appender: E:/Github/Gateway/.Net Core Training Assignments/.Net Core Final Assignment/HRM/HRM/Logging/Log/2021-04-13_log.txt
+2021-04-13 13:58:00.8986 Trace Opening E:/Github/Gateway/.Net Core Training Assignments/.Net Core Final Assignment/HRM/HRM/Logging/Log/2021-04-13_log.txt with allowFileSharedWriting=False
+2021-04-13 13:58:33.4979 Trace Opening E:/Github/Gateway/.Net Core Training Assignments/.Net Core Final Assignment/HRM/HRM/Logging/Log/2021-04-13_log.txt with allowFileSharedWriting=False
+2021-04-13 13:58:40.7395 Trace Opening E:/Github/Gateway/.Net Core Training Assignments/.Net Core Final Assignment/HRM/HRM/Logging/Log/2021-04-13_log.txt with allowFileSharedWriting=False
+2021-04-13 13:58:55.9322 Trace Opening E:/Github/Gateway/.Net Core Training Assignments/.Net Core Final Assignment/HRM/HRM/Logging/Log/2021-04-13_log.txt with allowFileSharedWriting=False
+2021-04-13 13:58:56.0253 Trace Opening E:/Github/Gateway/.Net Core Training Assignments/.Net Core Final Assignment/HRM/HRM/Logging/Log/2021-04-13_log.txt with allowFileSharedWriting=False
+2021-04-13 13:58:58.2905 Trace Opening E:/Github/Gateway/.Net Core Training Assignments/.Net Core Final Assignment/HRM/HRM/Logging/Log/2021-04-13_log.txt with allowFileSharedWriting=False
+2021-04-13 13:59:00.5340 Trace Opening E:/Github/Gateway/.Net Core Training Assignments/.Net Core Final Assignment/HRM/HRM/Logging/Log/2021-04-13_log.txt with allowFileSharedWriting=False
+2021-04-13 13:59:10.3997 Trace Opening E:/Github/Gateway/.Net Core Training Assignments/.Net Core Final Assignment/HRM/HRM/Logging/Log/2021-04-13_log.txt with allowFileSharedWriting=False
+2021-04-13 13:59:10.4178 Trace Opening E:/Github/Gateway/.Net Core Training Assignments/.Net Core Final Assignment/HRM/HRM/Logging/Log/2021-04-13_log.txt with allowFileSharedWriting=False
+2021-04-13 13:59:13.3356 Trace Opening E:/Github/Gateway/.Net Core Training Assignments/.Net Core Final Assignment/HRM/HRM/Logging/Log/2021-04-13_log.txt with allowFileSharedWriting=False
+2021-04-13 13:59:13.3522 Trace Opening E:/Github/Gateway/.Net Core Training Assignments/.Net Core Final Assignment/HRM/HRM/Logging/Log/2021-04-13_log.txt with allowFileSharedWriting=False
+2021-04-13 13:59:15.5170 Trace Opening E:/Github/Gateway/.Net Core Training Assignments/.Net Core Final Assignment/HRM/HRM/Logging/Log/2021-04-13_log.txt with allowFileSharedWriting=False
+2021-04-13 13:59:18.1788 Trace Opening E:/Github/Gateway/.Net Core Training Assignments/.Net Core Final Assignment/HRM/HRM/Logging/Log/2021-04-13_log.txt with allowFileSharedWriting=False
+2021-04-13 13:59:26.0553 Trace Opening E:/Github/Gateway/.Net Core Training Assignments/.Net Core Final Assignment/HRM/HRM/Logging/Log/2021-04-13_log.txt with allowFileSharedWriting=False
+2021-04-13 13:59:26.0710 Trace Opening E:/Github/Gateway/.Net Core Training Assignments/.Net Core Final Assignment/HRM/HRM/Logging/Log/2021-04-13_log.txt with allowFileSharedWriting=False
+2021-04-13 13:59:28.2257 Trace Opening E:/Github/Gateway/.Net Core Training Assignments/.Net Core Final Assignment/HRM/HRM/Logging/Log/2021-04-13_log.txt with allowFileSharedWriting=False
+2021-04-13 13:59:28.2257 Trace Opening E:/Github/Gateway/.Net Core Training Assignments/.Net Core Final Assignment/HRM/HRM/Logging/Log/2021-04-13_log.txt with allowFileSharedWriting=False
+2021-04-13 13:59:30.5592 Trace Opening E:/Github/Gateway/.Net Core Training Assignments/.Net Core Final Assignment/HRM/HRM/Logging/Log/2021-04-13_log.txt with allowFileSharedWriting=False
+2021-04-13 14:01:34.3395 Trace Opening E:/Github/Gateway/.Net Core Training Assignments/.Net Core Final Assignment/HRM/HRM/Logging/Log/2021-04-13_log.txt with allowFileSharedWriting=False
+2021-04-13 14:02:03.8114 Trace Opening E:/Github/Gateway/.Net Core Training Assignments/.Net Core Final Assignment/HRM/HRM/Logging/Log/2021-04-13_log.txt with allowFileSharedWriting=False
+2021-04-13 14:02:03.8135 Trace Opening E:/Github/Gateway/.Net Core Training Assignments/.Net Core Final Assignment/HRM/HRM/Logging/Log/2021-04-13_log.txt with allowFileSharedWriting=False
+2021-04-13 14:04:00.0607 Trace Opening E:/Github/Gateway/.Net Core Training Assignments/.Net Core Final Assignment/HRM/HRM/Logging/Log/2021-04-13_log.txt with allowFileSharedWriting=False
+2021-04-13 14:06:28.6160 Trace Opening E:/Github/Gateway/.Net Core Training Assignments/.Net Core Final Assignment/HRM/HRM/Logging/Log/2021-04-13_log.txt with allowFileSharedWriting=False
+2021-04-13 14:06:28.6160 Trace Opening E:/Github/Gateway/.Net Core Training Assignments/.Net Core Final Assignment/HRM/HRM/Logging/Log/2021-04-13_log.txt with allowFileSharedWriting=False
+2021-04-13 14:06:45.5933 Trace Opening E:/Github/Gateway/.Net Core Training Assignments/.Net Core Final Assignment/HRM/HRM/Logging/Log/2021-04-13_log.txt with allowFileSharedWriting=False
+2021-04-13 14:07:02.3386 Trace Opening E:/Github/Gateway/.Net Core Training Assignments/.Net Core Final Assignment/HRM/HRM/Logging/Log/2021-04-13_log.txt with allowFileSharedWriting=False
+2021-04-13 14:13:43.0385 Debug Skipping unknown 'NLog' property xmlns=http://www.nlog-project.org/schemas/NLog.xsd
+2021-04-13 14:13:43.0598 Debug Skipping unknown 'NLog' property xsi=http://www.w3.org/2001/XMLSchema-instance
+2021-04-13 14:13:43.0810 Debug ScanAssembly('NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c')
+2021-04-13 14:13:43.2259 Debug Found assembly location directory: 'E:\Github\Gateway\.Net Core Training Assignments\.Net Core Final Assignment\HRM\HRM\bin\Debug\netcoreapp3.1' (NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c)
+2021-04-13 14:13:43.2259 Debug Auto loading based on NLog-Assembly found location: E:\Github\Gateway\.Net Core Training Assignments\.Net Core Final Assignment\HRM\HRM\bin\Debug\netcoreapp3.1
+2021-04-13 14:13:43.2373 Debug Search for auto loading files in location: E:\Github\Gateway\.Net Core Training Assignments\.Net Core Final Assignment\HRM\HRM\bin\Debug\netcoreapp3.1
+2021-04-13 14:13:43.2373 Debug Start auto loading, location: E:\Github\Gateway\.Net Core Training Assignments\.Net Core Final Assignment\HRM\HRM\bin\Debug\netcoreapp3.1
+2021-04-13 14:13:43.2373 Info Auto loading assembly file: E:\Github\Gateway\.Net Core Training Assignments\.Net Core Final Assignment\HRM\HRM\bin\Debug\netcoreapp3.1\NLog.Extensions.Logging.dll
+2021-04-13 14:13:43.2373 Info Loading assembly file: E:\Github\Gateway\.Net Core Training Assignments\.Net Core Final Assignment\HRM\HRM\bin\Debug\netcoreapp3.1\NLog.Extensions.Logging.dll
+2021-04-13 14:13:43.2798 Info NLog.Extensions.Logging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 1.7.2.1548. Product version: 1.7.2+4bd1909dde91279dbdea4d1c38ff6a09de78f531. GlobalAssemblyCache: False
+2021-04-13 14:13:43.2798 Debug ScanAssembly('NLog.Extensions.Logging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c')
+2021-04-13 14:13:43.2844 Info Auto loading assembly file: E:\Github\Gateway\.Net Core Training Assignments\.Net Core Final Assignment\HRM\HRM\bin\Debug\netcoreapp3.1\NLog.Extensions.Logging.dll succeeded!
+2021-04-13 14:13:43.2844 Info Auto loading assembly file: E:\Github\Gateway\.Net Core Training Assignments\.Net Core Final Assignment\HRM\HRM\bin\Debug\netcoreapp3.1\NLog.Web.AspNetCore.dll
+2021-04-13 14:13:43.2844 Info Loading assembly file: E:\Github\Gateway\.Net Core Training Assignments\.Net Core Final Assignment\HRM\HRM\bin\Debug\netcoreapp3.1\NLog.Web.AspNetCore.dll
+2021-04-13 14:13:43.3034 Info NLog.Web.AspNetCore, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.12.0.1931. Product version: 4.12.0+bd307248ace36292cb898d91ad44f9cab5ae1f03. GlobalAssemblyCache: False
+2021-04-13 14:13:43.3034 Debug ScanAssembly('NLog.Web.AspNetCore, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c')
+2021-04-13 14:13:43.3034 Info Auto loading assembly file: E:\Github\Gateway\.Net Core Training Assignments\.Net Core Final Assignment\HRM\HRM\bin\Debug\netcoreapp3.1\NLog.Web.AspNetCore.dll succeeded!
+2021-04-13 14:13:43.3144 Trace Assembly 'Microsoft.Extensions.Logging, Version=3.1.13.0, Culture=neutral, PublicKeyToken=adb9793829ddae60' will be hidden in callsite stacktrace
+2021-04-13 14:13:43.3144 Trace Assembly 'Microsoft.Extensions.Logging.Abstractions, Version=3.1.13.0, Culture=neutral, PublicKeyToken=adb9793829ddae60' will be hidden in callsite stacktrace
+2021-04-13 14:13:43.3144 Trace Assembly 'NLog.Extensions.Logging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c' will be hidden in callsite stacktrace
+2021-04-13 14:13:43.3144 Trace Assembly 'NLog.Web.AspNetCore, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c' will be hidden in callsite stacktrace
+2021-04-13 14:13:43.3144 Debug Auto loading done
+2021-04-13 14:13:43.3144 Info Message Template Auto Format enabled
+2021-04-13 14:13:43.3300 Info Loading assembly: NLog.Extended
+2021-04-13 14:13:43.3300 Trace Try find 'NLog.Extended' in current domain
+2021-04-13 14:13:43.3300 Trace Haven't found' 'NLog.Extended' in current domain
+2021-04-13 14:13:43.3300 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Error loading extensions: NLog.Extended
+ ---> System.IO.FileNotFoundException: Could not load file or assembly 'NLog.Extended, Culture=neutral, PublicKeyToken=null'. The system cannot find the file specified.
+File name: 'NLog.Extended, Culture=neutral, PublicKeyToken=null'
+   at System.Reflection.RuntimeAssembly.nLoad(AssemblyName fileName, String codeBase, RuntimeAssembly assemblyContext, StackCrawlMark& stackMark, Boolean throwOnFileNotFound, AssemblyLoadContext assemblyLoadContext)
+   at System.Reflection.RuntimeAssembly.InternalLoadAssemblyName(AssemblyName assemblyRef, StackCrawlMark& stackMark, AssemblyLoadContext assemblyLoadContext)
+   at System.Reflection.Assembly.Load(String assemblyString)
+   at NLog.Internal.AssemblyHelpers.LoadFromName(String assemblyName)
+   at NLog.Config.LoggingConfigurationParser.ParseExtensionWithAssembly(String assemblyName, String prefix)
+
+
+   --- End of inner exception stack trace ---
+2021-04-13 14:13:43.4472 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2021-04-13 14:13:43.4553 Trace Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2021-04-13 14:13:43.4553 Debug Setting 'NLog.LayoutRenderers.Wrappers.UppercaseLayoutRendererWrapper.uppercase' to 'true'
+2021-04-13 14:13:43.4705 Trace Wrapping NLog.LayoutRenderers.LevelLayoutRenderer with NLog.LayoutRenderers.Wrappers.UppercaseLayoutRendererWrapper
+2021-04-13 14:13:43.4705 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2021-04-13 14:13:43.4705 Trace Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2021-04-13 14:13:43.4705 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2021-04-13 14:13:43.4705 Trace Scanning UppercaseLayoutRendererWrapper 'Layout Renderer: ${uppercase}'
+2021-04-13 14:13:43.4705 Trace  Scanning Property Inner 'SimpleLayout=Layout Renderer: ${level}' NLog.Layouts
+2021-04-13 14:13:43.4705 Trace  Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2021-04-13 14:13:43.4705 Trace   Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2021-04-13 14:13:43.4886 Trace   Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2021-04-13 14:13:43.4886 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2021-04-13 14:13:43.4886 Trace Scanning LoggerNameLayoutRenderer 'Layout Renderer: ${logger}'
+2021-04-13 14:13:43.4886 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2021-04-13 14:13:43.4886 Trace Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2021-04-13 14:13:43.5091 Debug Setting 'NLog.Targets.FileTarget.name' to 'logfile'
+2021-04-13 14:13:43.5091 Debug Setting 'NLog.Targets.FileTarget.fileName' to 'E:/Github/Gateway/.Net Core Training Assignments/.Net Core Final Assignment/HRM/HRM/Logging/Log/${shortdate}_log.txt'
+2021-04-13 14:13:43.5091 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2021-04-13 14:13:43.5091 Trace Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2021-04-13 14:13:43.5164 Debug Setting 'NLog.Targets.FileTarget.layout' to '${longdate} ${level:uppercase=true} ${message}'
+2021-04-13 14:13:43.5164 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2021-04-13 14:13:43.5164 Trace Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2021-04-13 14:13:43.5164 Debug Setting 'NLog.LayoutRenderers.Wrappers.UppercaseLayoutRendererWrapper.uppercase' to 'true'
+2021-04-13 14:13:43.5164 Trace Wrapping NLog.LayoutRenderers.LevelLayoutRenderer with NLog.LayoutRenderers.Wrappers.UppercaseLayoutRendererWrapper
+2021-04-13 14:13:43.5164 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2021-04-13 14:13:43.5164 Trace Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2021-04-13 14:13:43.5164 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2021-04-13 14:13:43.5164 Trace Scanning UppercaseLayoutRendererWrapper 'Layout Renderer: ${uppercase}'
+2021-04-13 14:13:43.5164 Trace  Scanning Property Inner 'SimpleLayout=Layout Renderer: ${level}' NLog.Layouts
+2021-04-13 14:13:43.5164 Trace  Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2021-04-13 14:13:43.5164 Trace   Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2021-04-13 14:13:43.5164 Trace   Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2021-04-13 14:13:43.5164 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2021-04-13 14:13:43.5164 Trace Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2021-04-13 14:13:43.5164 Info Adding target FileTarget(Name=logfile)
+2021-04-13 14:13:43.5336 Debug Registered target logfile: NLog.Targets.FileTarget
+2021-04-13 14:13:43.5336 Trace ParseRulesElement
+2021-04-13 14:13:43.5830 Debug Watching path 'E:\Github\Gateway\.Net Core Training Assignments\.Net Core Final Assignment\HRM\HRM\bin\Debug\netcoreapp3.1' filter 'NLog.config' for changes.
+2021-04-13 14:13:43.5830 Debug --- NLog configuration dump ---
+2021-04-13 14:13:43.5830 Debug Targets:
+2021-04-13 14:13:43.5830 Debug File Target[logfile]
+2021-04-13 14:13:43.5830 Debug Rules:
+2021-04-13 14:13:43.6005 Debug logNamePattern: (:All) levels: [ Debug Info Warn Error Fatal ] appendTo: [ logfile ]
+2021-04-13 14:13:43.6005 Debug --- End of NLog configuration dump ---
+2021-04-13 14:13:43.6110 Trace FindReachableObject<System.Object>:
+2021-04-13 14:13:43.6110 Trace Scanning LoggingRule 'logNamePattern: (:All) levels: [ Debug Info Warn Error Fatal ] appendTo: [ logfile ]'
+2021-04-13 14:13:43.6110 Trace  Scanning Property Targets 'System.Collections.Generic.List`1[NLog.Targets.Target]' System.Collections.Generic
+2021-04-13 14:13:43.6110 Trace  Scanning FileTarget 'File Target[logfile]'
+2021-04-13 14:13:43.6110 Trace   Scanning Property FileName ''E:/Github/Gateway/.Net Core Training Assignments/.Net Core Final Assignment/HRM/HRM/Logging/Log/${shortdate}_log.txt'' NLog.Layouts
+2021-04-13 14:13:43.6110 Trace   Scanning SimpleLayout ''E:/Github/Gateway/.Net Core Training Assignments/.Net Core Final Assignment/HRM/HRM/Logging/Log/${shortdate}_log.txt''
+2021-04-13 14:13:43.6110 Trace    Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2021-04-13 14:13:43.6110 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2021-04-13 14:13:43.6110 Trace    Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2021-04-13 14:13:43.6110 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2021-04-13 14:13:43.6110 Trace   Scanning Property Layout ''${longdate} ${level:uppercase=true} ${message}'' NLog.Layouts
+2021-04-13 14:13:43.6110 Trace   Scanning SimpleLayout ''${longdate} ${level:uppercase=true} ${message}''
+2021-04-13 14:13:43.6110 Trace    Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2021-04-13 14:13:43.6110 Trace    Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2021-04-13 14:13:43.6110 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2021-04-13 14:13:43.6110 Trace    Scanning UppercaseLayoutRendererWrapper 'Layout Renderer: ${uppercase}'
+2021-04-13 14:13:43.6263 Trace     Scanning Property Inner 'SimpleLayout=Layout Renderer: ${level}' NLog.Layouts
+2021-04-13 14:13:43.6263 Trace     Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2021-04-13 14:13:43.6263 Trace      Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2021-04-13 14:13:43.6263 Trace      Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2021-04-13 14:13:43.6263 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2021-04-13 14:13:43.6263 Trace    Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2021-04-13 14:13:43.6263 Trace   Scanning Property LineEnding 'Default' NLog.Targets
+2021-04-13 14:13:43.6263 Trace  Scanning Property ChildRules 'System.Collections.Generic.List`1[NLog.Config.LoggingRule]' System.Collections.Generic
+2021-04-13 14:13:43.6263 Trace  Scanning Property Filters 'System.Collections.Generic.List`1[NLog.Filters.Filter]' System.Collections.Generic
+2021-04-13 14:13:43.6263 Info Validating config: TargetNames=logfile, ConfigItems=14, FilePath=E:\Github\Gateway\.Net Core Training Assignments\.Net Core Final Assignment\HRM\HRM\bin\Debug\netcoreapp3.1\NLog.config
+2021-04-13 14:13:43.6443 Debug Unused target checking is started... Rule Count: 1, Target Count: 1
+2021-04-13 14:13:43.6443 Debug Unused target checking is completed. Total Rule Count: 1, Total Target Count: 1, Unused Target Count: 0
+2021-04-13 14:13:43.6570 Trace Initializing Layout Renderer: ${message}
+2021-04-13 14:13:43.6570 Trace Initializing Layout Renderer: ${literal}
+2021-04-13 14:13:43.6570 Trace Initializing Layout Renderer: ${level}
+2021-04-13 14:13:43.6570 Trace Initializing SimpleLayout=Layout Renderer: ${level}
+2021-04-13 14:13:43.6570 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2021-04-13 14:13:43.6570 Trace Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2021-04-13 14:13:43.6570 Trace  Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2021-04-13 14:13:43.6570 Trace  Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2021-04-13 14:13:43.6794 Trace Initializing Layout Renderer: ${uppercase}
+2021-04-13 14:13:43.6794 Trace Initializing Layout Renderer: ${literal}
+2021-04-13 14:13:43.6794 Trace Initializing Layout Renderer: ${longdate}
+2021-04-13 14:13:43.6794 Trace Initializing '${longdate} ${level:uppercase=true} ${message}'
+2021-04-13 14:13:43.6794 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2021-04-13 14:13:43.6794 Trace Scanning SimpleLayout ''${longdate} ${level:uppercase=true} ${message}''
+2021-04-13 14:13:43.6794 Trace  Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2021-04-13 14:13:43.6794 Trace  Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2021-04-13 14:13:43.6887 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2021-04-13 14:13:43.6887 Trace  Scanning UppercaseLayoutRendererWrapper 'Layout Renderer: ${uppercase}'
+2021-04-13 14:13:43.6887 Trace   Scanning Property Inner 'SimpleLayout=Layout Renderer: ${level}' NLog.Layouts
+2021-04-13 14:13:43.6887 Trace   Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2021-04-13 14:13:43.6887 Trace    Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2021-04-13 14:13:43.6887 Trace    Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2021-04-13 14:13:43.6887 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2021-04-13 14:13:43.6887 Trace  Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2021-04-13 14:13:43.6887 Trace Initializing Layout Renderer: ${literal}
+2021-04-13 14:13:43.6887 Trace Initializing Layout Renderer: ${shortdate}
+2021-04-13 14:13:43.6887 Trace Initializing Layout Renderer: ${literal}
+2021-04-13 14:13:43.6887 Trace Initializing 'E:/Github/Gateway/.Net Core Training Assignments/.Net Core Final Assignment/HRM/HRM/Logging/Log/${shortdate}_log.txt'
+2021-04-13 14:13:43.6887 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2021-04-13 14:13:43.6887 Trace Scanning SimpleLayout ''E:/Github/Gateway/.Net Core Training Assignments/.Net Core Final Assignment/HRM/HRM/Logging/Log/${shortdate}_log.txt''
+2021-04-13 14:13:43.6887 Trace  Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2021-04-13 14:13:43.6887 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2021-04-13 14:13:43.7052 Trace  Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2021-04-13 14:13:43.7052 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2021-04-13 14:13:43.7052 Trace Initializing File Target[logfile]
+2021-04-13 14:13:43.7052 Trace FindReachableObject<NLog.Layouts.Layout>:
+2021-04-13 14:13:43.7052 Trace Scanning FileTarget 'File Target[logfile]'
+2021-04-13 14:13:43.7052 Trace  Scanning Property FileName ''E:/Github/Gateway/.Net Core Training Assignments/.Net Core Final Assignment/HRM/HRM/Logging/Log/${shortdate}_log.txt'' NLog.Layouts
+2021-04-13 14:13:43.7052 Trace  Scanning SimpleLayout ''E:/Github/Gateway/.Net Core Training Assignments/.Net Core Final Assignment/HRM/HRM/Logging/Log/${shortdate}_log.txt''
+2021-04-13 14:13:43.7052 Trace  Scanning Property Layout ''${longdate} ${level:uppercase=true} ${message}'' NLog.Layouts
+2021-04-13 14:13:43.7052 Trace  Scanning SimpleLayout ''${longdate} ${level:uppercase=true} ${message}''
+2021-04-13 14:13:43.7195 Trace  Scanning Property LineEnding 'Default' NLog.Targets
+2021-04-13 14:13:43.7195 Trace File Target[logfile] has 2 layouts
+2021-04-13 14:13:43.7195 Trace FileTarget(Name=logfile): Using appenderFactory: NLog.Internal.FileAppenders.RetryingMultiProcessFileAppender+Factory
+2021-04-13 14:13:43.7195 Info Configuration initialized.
+2021-04-13 14:13:43.7195 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.9.12899. Product version: 4.7.9+e8712e62842e2d74d60fdf37cf74d743750e5ca2. GlobalAssemblyCache: False
+2021-04-13 14:13:43.7397 Debug Targets for HRM.Logging.LogNLog by level:
+2021-04-13 14:13:43.7397 Debug Trace =>
+2021-04-13 14:13:43.7397 Debug Debug => logfile
+2021-04-13 14:13:43.7397 Debug Info => logfile
+2021-04-13 14:13:43.7397 Debug Warn => logfile
+2021-04-13 14:13:43.7397 Debug Error => logfile
+2021-04-13 14:13:43.7397 Debug Fatal => logfile
+2021-04-13 14:13:43.8139 Debug FileTarget(Name=logfile): Preparing for new file 'E:/Github/Gateway/.Net Core Training Assignments/.Net Core Final Assignment/HRM/HRM/Logging/Log/2021-04-13_log.txt'
+2021-04-13 14:13:43.8383 Debug Creating file appender: E:/Github/Gateway/.Net Core Training Assignments/.Net Core Final Assignment/HRM/HRM/Logging/Log/2021-04-13_log.txt
+2021-04-13 14:13:43.8383 Trace Opening E:/Github/Gateway/.Net Core Training Assignments/.Net Core Final Assignment/HRM/HRM/Logging/Log/2021-04-13_log.txt with allowFileSharedWriting=False
+2021-04-13 14:13:53.2360 Trace Opening E:/Github/Gateway/.Net Core Training Assignments/.Net Core Final Assignment/HRM/HRM/Logging/Log/2021-04-13_log.txt with allowFileSharedWriting=False
+2021-04-13 14:14:04.8640 Trace Opening E:/Github/Gateway/.Net Core Training Assignments/.Net Core Final Assignment/HRM/HRM/Logging/Log/2021-04-13_log.txt with allowFileSharedWriting=False
+2021-04-13 14:14:05.0438 Trace Opening E:/Github/Gateway/.Net Core Training Assignments/.Net Core Final Assignment/HRM/HRM/Logging/Log/2021-04-13_log.txt with allowFileSharedWriting=False
+2021-04-13 14:14:13.9027 Trace Opening E:/Github/Gateway/.Net Core Training Assignments/.Net Core Final Assignment/HRM/HRM/Logging/Log/2021-04-13_log.txt with allowFileSharedWriting=False
+2021-04-13 14:14:17.7088 Trace Opening E:/Github/Gateway/.Net Core Training Assignments/.Net Core Final Assignment/HRM/HRM/Logging/Log/2021-04-13_log.txt with allowFileSharedWriting=False
+2021-04-13 14:14:17.7307 Trace Opening E:/Github/Gateway/.Net Core Training Assignments/.Net Core Final Assignment/HRM/HRM/Logging/Log/2021-04-13_log.txt with allowFileSharedWriting=False
+2021-04-13 14:14:20.5581 Trace Opening E:/Github/Gateway/.Net Core Training Assignments/.Net Core Final Assignment/HRM/HRM/Logging/Log/2021-04-13_log.txt with allowFileSharedWriting=False
+2021-04-13 14:16:26.0699 Trace Opening E:/Github/Gateway/.Net Core Training Assignments/.Net Core Final Assignment/HRM/HRM/Logging/Log/2021-04-13_log.txt with allowFileSharedWriting=False
+2021-04-13 14:16:26.1087 Trace Opening E:/Github/Gateway/.Net Core Training Assignments/.Net Core Final Assignment/HRM/HRM/Logging/Log/2021-04-13_log.txt with allowFileSharedWriting=False
+2021-04-13 14:16:31.6685 Trace Opening E:/Github/Gateway/.Net Core Training Assignments/.Net Core Final Assignment/HRM/HRM/Logging/Log/2021-04-13_log.txt with allowFileSharedWriting=False
+2021-04-13 14:17:32.0285 Trace Opening E:/Github/Gateway/.Net Core Training Assignments/.Net Core Final Assignment/HRM/HRM/Logging/Log/2021-04-13_log.txt with allowFileSharedWriting=False
+2021-04-13 14:17:32.0651 Trace Opening E:/Github/Gateway/.Net Core Training Assignments/.Net Core Final Assignment/HRM/HRM/Logging/Log/2021-04-13_log.txt with allowFileSharedWriting=False
+2021-04-13 14:17:34.7913 Trace Opening E:/Github/Gateway/.Net Core Training Assignments/.Net Core Final Assignment/HRM/HRM/Logging/Log/2021-04-13_log.txt with allowFileSharedWriting=False
+2021-04-13 14:18:06.4356 Trace Opening E:/Github/Gateway/.Net Core Training Assignments/.Net Core Final Assignment/HRM/HRM/Logging/Log/2021-04-13_log.txt with allowFileSharedWriting=False
+2021-04-13 14:18:06.4670 Trace Opening E:/Github/Gateway/.Net Core Training Assignments/.Net Core Final Assignment/HRM/HRM/Logging/Log/2021-04-13_log.txt with allowFileSharedWriting=False
+2021-04-13 14:18:09.0731 Trace Opening E:/Github/Gateway/.Net Core Training Assignments/.Net Core Final Assignment/HRM/HRM/Logging/Log/2021-04-13_log.txt with allowFileSharedWriting=False
+2021-04-13 14:18:41.8434 Trace Opening E:/Github/Gateway/.Net Core Training Assignments/.Net Core Final Assignment/HRM/HRM/Logging/Log/2021-04-13_log.txt with allowFileSharedWriting=False
+2021-04-13 14:18:41.8963 Trace Opening E:/Github/Gateway/.Net Core Training Assignments/.Net Core Final Assignment/HRM/HRM/Logging/Log/2021-04-13_log.txt with allowFileSharedWriting=False
+2021-04-13 14:18:44.7375 Trace Opening E:/Github/Gateway/.Net Core Training Assignments/.Net Core Final Assignment/HRM/HRM/Logging/Log/2021-04-13_log.txt with allowFileSharedWriting=False
+2021-04-13 14:19:15.1468 Trace Opening E:/Github/Gateway/.Net Core Training Assignments/.Net Core Final Assignment/HRM/HRM/Logging/Log/2021-04-13_log.txt with allowFileSharedWriting=False
+2021-04-13 14:19:15.1796 Trace Opening E:/Github/Gateway/.Net Core Training Assignments/.Net Core Final Assignment/HRM/HRM/Logging/Log/2021-04-13_log.txt with allowFileSharedWriting=False
+2021-04-13 14:19:39.6720 Trace Opening E:/Github/Gateway/.Net Core Training Assignments/.Net Core Final Assignment/HRM/HRM/Logging/Log/2021-04-13_log.txt with allowFileSharedWriting=False
+2021-04-13 14:19:48.7727 Trace Opening E:/Github/Gateway/.Net Core Training Assignments/.Net Core Final Assignment/HRM/HRM/Logging/Log/2021-04-13_log.txt with allowFileSharedWriting=False
+2021-04-13 14:19:48.8015 Trace Opening E:/Github/Gateway/.Net Core Training Assignments/.Net Core Final Assignment/HRM/HRM/Logging/Log/2021-04-13_log.txt with allowFileSharedWriting=False
+2021-04-13 14:19:58.5272 Trace Opening E:/Github/Gateway/.Net Core Training Assignments/.Net Core Final Assignment/HRM/HRM/Logging/Log/2021-04-13_log.txt with allowFileSharedWriting=False
+2021-04-13 14:20:02.1598 Trace Opening E:/Github/Gateway/.Net Core Training Assignments/.Net Core Final Assignment/HRM/HRM/Logging/Log/2021-04-13_log.txt with allowFileSharedWriting=False
+2021-04-13 14:20:04.5915 Trace Opening E:/Github/Gateway/.Net Core Training Assignments/.Net Core Final Assignment/HRM/HRM/Logging/Log/2021-04-13_log.txt with allowFileSharedWriting=False
+2021-04-13 14:20:13.3110 Trace Opening E:/Github/Gateway/.Net Core Training Assignments/.Net Core Final Assignment/HRM/HRM/Logging/Log/2021-04-13_log.txt with allowFileSharedWriting=False
+2021-04-13 14:20:17.7692 Trace Opening E:/Github/Gateway/.Net Core Training Assignments/.Net Core Final Assignment/HRM/HRM/Logging/Log/2021-04-13_log.txt with allowFileSharedWriting=False
+2021-04-13 14:20:17.7692 Trace Opening E:/Github/Gateway/.Net Core Training Assignments/.Net Core Final Assignment/HRM/HRM/Logging/Log/2021-04-13_log.txt with allowFileSharedWriting=False
+2021-04-13 15:52:06.0476 Debug Skipping unknown 'NLog' property xmlns=http://www.nlog-project.org/schemas/NLog.xsd
+2021-04-13 15:52:06.0726 Debug Skipping unknown 'NLog' property xsi=http://www.w3.org/2001/XMLSchema-instance
+2021-04-13 15:52:06.0970 Debug ScanAssembly('NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c')
+2021-04-13 15:52:06.2426 Debug Found assembly location directory: 'E:\Github\Gateway\.Net Core Training Assignments\.Net Core Final Assignment\HRM\HRM\bin\Debug\netcoreapp3.1' (NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c)
+2021-04-13 15:52:06.2426 Debug Auto loading based on NLog-Assembly found location: E:\Github\Gateway\.Net Core Training Assignments\.Net Core Final Assignment\HRM\HRM\bin\Debug\netcoreapp3.1
+2021-04-13 15:52:06.2426 Debug Search for auto loading files in location: E:\Github\Gateway\.Net Core Training Assignments\.Net Core Final Assignment\HRM\HRM\bin\Debug\netcoreapp3.1
+2021-04-13 15:52:06.2426 Debug Start auto loading, location: E:\Github\Gateway\.Net Core Training Assignments\.Net Core Final Assignment\HRM\HRM\bin\Debug\netcoreapp3.1
+2021-04-13 15:52:06.2426 Info Auto loading assembly file: E:\Github\Gateway\.Net Core Training Assignments\.Net Core Final Assignment\HRM\HRM\bin\Debug\netcoreapp3.1\NLog.Extensions.Logging.dll
+2021-04-13 15:52:06.2426 Info Loading assembly file: E:\Github\Gateway\.Net Core Training Assignments\.Net Core Final Assignment\HRM\HRM\bin\Debug\netcoreapp3.1\NLog.Extensions.Logging.dll
+2021-04-13 15:52:06.2883 Info NLog.Extensions.Logging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 1.7.2.1548. Product version: 1.7.2+4bd1909dde91279dbdea4d1c38ff6a09de78f531. GlobalAssemblyCache: False
+2021-04-13 15:52:06.2883 Debug ScanAssembly('NLog.Extensions.Logging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c')
+2021-04-13 15:52:06.2883 Info Auto loading assembly file: E:\Github\Gateway\.Net Core Training Assignments\.Net Core Final Assignment\HRM\HRM\bin\Debug\netcoreapp3.1\NLog.Extensions.Logging.dll succeeded!
+2021-04-13 15:52:06.2883 Info Auto loading assembly file: E:\Github\Gateway\.Net Core Training Assignments\.Net Core Final Assignment\HRM\HRM\bin\Debug\netcoreapp3.1\NLog.Web.AspNetCore.dll
+2021-04-13 15:52:06.2883 Info Loading assembly file: E:\Github\Gateway\.Net Core Training Assignments\.Net Core Final Assignment\HRM\HRM\bin\Debug\netcoreapp3.1\NLog.Web.AspNetCore.dll
+2021-04-13 15:52:06.3113 Info NLog.Web.AspNetCore, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.12.0.1931. Product version: 4.12.0+bd307248ace36292cb898d91ad44f9cab5ae1f03. GlobalAssemblyCache: False
+2021-04-13 15:52:06.3113 Debug ScanAssembly('NLog.Web.AspNetCore, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c')
+2021-04-13 15:52:06.3166 Info Auto loading assembly file: E:\Github\Gateway\.Net Core Training Assignments\.Net Core Final Assignment\HRM\HRM\bin\Debug\netcoreapp3.1\NLog.Web.AspNetCore.dll succeeded!
+2021-04-13 15:52:06.3166 Trace Assembly 'Microsoft.Extensions.Logging, Version=3.1.13.0, Culture=neutral, PublicKeyToken=adb9793829ddae60' will be hidden in callsite stacktrace
+2021-04-13 15:52:06.3166 Trace Assembly 'Microsoft.Extensions.Logging.Abstractions, Version=3.1.13.0, Culture=neutral, PublicKeyToken=adb9793829ddae60' will be hidden in callsite stacktrace
+2021-04-13 15:52:06.3166 Trace Assembly 'NLog.Extensions.Logging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c' will be hidden in callsite stacktrace
+2021-04-13 15:52:06.3166 Trace Assembly 'NLog.Web.AspNetCore, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c' will be hidden in callsite stacktrace
+2021-04-13 15:52:06.3166 Debug Auto loading done
+2021-04-13 15:52:06.3166 Info Message Template Auto Format enabled
+2021-04-13 15:52:06.3427 Info Loading assembly: NLog.Extended
+2021-04-13 15:52:06.3509 Trace Try find 'NLog.Extended' in current domain
+2021-04-13 15:52:06.3509 Trace Haven't found' 'NLog.Extended' in current domain
+2021-04-13 15:52:06.3509 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Error loading extensions: NLog.Extended
+ ---> System.IO.FileNotFoundException: Could not load file or assembly 'NLog.Extended, Culture=neutral, PublicKeyToken=null'. The system cannot find the file specified.
+File name: 'NLog.Extended, Culture=neutral, PublicKeyToken=null'
+   at System.Reflection.RuntimeAssembly.nLoad(AssemblyName fileName, String codeBase, RuntimeAssembly assemblyContext, StackCrawlMark& stackMark, Boolean throwOnFileNotFound, AssemblyLoadContext assemblyLoadContext)
+   at System.Reflection.RuntimeAssembly.InternalLoadAssemblyName(AssemblyName assemblyRef, StackCrawlMark& stackMark, AssemblyLoadContext assemblyLoadContext)
+   at System.Reflection.Assembly.Load(String assemblyString)
+   at NLog.Internal.AssemblyHelpers.LoadFromName(String assemblyName)
+   at NLog.Config.LoggingConfigurationParser.ParseExtensionWithAssembly(String assemblyName, String prefix)
+
+
+   --- End of inner exception stack trace ---
+2021-04-13 15:52:06.4780 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2021-04-13 15:52:06.4780 Trace Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2021-04-13 15:52:06.4956 Debug Setting 'NLog.LayoutRenderers.Wrappers.UppercaseLayoutRendererWrapper.uppercase' to 'true'
+2021-04-13 15:52:06.4956 Trace Wrapping NLog.LayoutRenderers.LevelLayoutRenderer with NLog.LayoutRenderers.Wrappers.UppercaseLayoutRendererWrapper
+2021-04-13 15:52:06.4956 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2021-04-13 15:52:06.5009 Trace Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2021-04-13 15:52:06.5009 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2021-04-13 15:52:06.5009 Trace Scanning UppercaseLayoutRendererWrapper 'Layout Renderer: ${uppercase}'
+2021-04-13 15:52:06.5009 Trace  Scanning Property Inner 'SimpleLayout=Layout Renderer: ${level}' NLog.Layouts
+2021-04-13 15:52:06.5009 Trace  Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2021-04-13 15:52:06.5009 Trace   Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2021-04-13 15:52:06.5166 Trace   Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2021-04-13 15:52:06.5166 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2021-04-13 15:52:06.5166 Trace Scanning LoggerNameLayoutRenderer 'Layout Renderer: ${logger}'
+2021-04-13 15:52:06.5166 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2021-04-13 15:52:06.5166 Trace Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2021-04-13 15:52:06.5380 Debug Setting 'NLog.Targets.FileTarget.name' to 'logfile'
+2021-04-13 15:52:06.5380 Debug Setting 'NLog.Targets.FileTarget.fileName' to 'E:/Github/Gateway/.Net Core Training Assignments/.Net Core Final Assignment/HRM/HRM/Logging/Log/${shortdate}_log.txt'
+2021-04-13 15:52:06.5380 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2021-04-13 15:52:06.5380 Trace Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2021-04-13 15:52:06.5380 Debug Setting 'NLog.Targets.FileTarget.layout' to '${longdate} ${level:uppercase=true} ${message}'
+2021-04-13 15:52:06.5490 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2021-04-13 15:52:06.5490 Trace Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2021-04-13 15:52:06.5490 Debug Setting 'NLog.LayoutRenderers.Wrappers.UppercaseLayoutRendererWrapper.uppercase' to 'true'
+2021-04-13 15:52:06.5490 Trace Wrapping NLog.LayoutRenderers.LevelLayoutRenderer with NLog.LayoutRenderers.Wrappers.UppercaseLayoutRendererWrapper
+2021-04-13 15:52:06.5490 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2021-04-13 15:52:06.5490 Trace Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2021-04-13 15:52:06.5490 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2021-04-13 15:52:06.5490 Trace Scanning UppercaseLayoutRendererWrapper 'Layout Renderer: ${uppercase}'
+2021-04-13 15:52:06.5490 Trace  Scanning Property Inner 'SimpleLayout=Layout Renderer: ${level}' NLog.Layouts
+2021-04-13 15:52:06.5490 Trace  Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2021-04-13 15:52:06.5490 Trace   Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2021-04-13 15:52:06.5490 Trace   Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2021-04-13 15:52:06.5490 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2021-04-13 15:52:06.5490 Trace Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2021-04-13 15:52:06.5490 Info Adding target FileTarget(Name=logfile)
+2021-04-13 15:52:06.5490 Debug Registered target logfile: NLog.Targets.FileTarget
+2021-04-13 15:52:06.5691 Trace ParseRulesElement
+2021-04-13 15:52:06.6160 Debug Watching path 'E:\Github\Gateway\.Net Core Training Assignments\.Net Core Final Assignment\HRM\HRM\bin\Debug\netcoreapp3.1' filter 'NLog.config' for changes.
+2021-04-13 15:52:06.6160 Debug --- NLog configuration dump ---
+2021-04-13 15:52:06.6160 Debug Targets:
+2021-04-13 15:52:06.6160 Debug File Target[logfile]
+2021-04-13 15:52:06.6160 Debug Rules:
+2021-04-13 15:52:06.6278 Debug logNamePattern: (:All) levels: [ Debug Info Warn Error Fatal ] appendTo: [ logfile ]
+2021-04-13 15:52:06.6278 Debug --- End of NLog configuration dump ---
+2021-04-13 15:52:06.6278 Trace FindReachableObject<System.Object>:
+2021-04-13 15:52:06.6278 Trace Scanning LoggingRule 'logNamePattern: (:All) levels: [ Debug Info Warn Error Fatal ] appendTo: [ logfile ]'
+2021-04-13 15:52:06.6278 Trace  Scanning Property Targets 'System.Collections.Generic.List`1[NLog.Targets.Target]' System.Collections.Generic
+2021-04-13 15:52:06.6278 Trace  Scanning FileTarget 'File Target[logfile]'
+2021-04-13 15:52:06.6278 Trace   Scanning Property FileName ''E:/Github/Gateway/.Net Core Training Assignments/.Net Core Final Assignment/HRM/HRM/Logging/Log/${shortdate}_log.txt'' NLog.Layouts
+2021-04-13 15:52:06.6278 Trace   Scanning SimpleLayout ''E:/Github/Gateway/.Net Core Training Assignments/.Net Core Final Assignment/HRM/HRM/Logging/Log/${shortdate}_log.txt''
+2021-04-13 15:52:06.6278 Trace    Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2021-04-13 15:52:06.6278 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2021-04-13 15:52:06.6278 Trace    Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2021-04-13 15:52:06.6278 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2021-04-13 15:52:06.6278 Trace   Scanning Property Layout ''${longdate} ${level:uppercase=true} ${message}'' NLog.Layouts
+2021-04-13 15:52:06.6415 Trace   Scanning SimpleLayout ''${longdate} ${level:uppercase=true} ${message}''
+2021-04-13 15:52:06.6415 Trace    Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2021-04-13 15:52:06.6415 Trace    Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2021-04-13 15:52:06.6415 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2021-04-13 15:52:06.6415 Trace    Scanning UppercaseLayoutRendererWrapper 'Layout Renderer: ${uppercase}'
+2021-04-13 15:52:06.6415 Trace     Scanning Property Inner 'SimpleLayout=Layout Renderer: ${level}' NLog.Layouts
+2021-04-13 15:52:06.6415 Trace     Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2021-04-13 15:52:06.6415 Trace      Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2021-04-13 15:52:06.6415 Trace      Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2021-04-13 15:52:06.6415 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2021-04-13 15:52:06.6415 Trace    Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2021-04-13 15:52:06.6415 Trace   Scanning Property LineEnding 'Default' NLog.Targets
+2021-04-13 15:52:06.6415 Trace  Scanning Property ChildRules 'System.Collections.Generic.List`1[NLog.Config.LoggingRule]' System.Collections.Generic
+2021-04-13 15:52:06.6415 Trace  Scanning Property Filters 'System.Collections.Generic.List`1[NLog.Filters.Filter]' System.Collections.Generic
+2021-04-13 15:52:06.6415 Info Validating config: TargetNames=logfile, ConfigItems=14, FilePath=E:\Github\Gateway\.Net Core Training Assignments\.Net Core Final Assignment\HRM\HRM\bin\Debug\netcoreapp3.1\NLog.config
+2021-04-13 15:52:06.6415 Debug Unused target checking is started... Rule Count: 1, Target Count: 1
+2021-04-13 15:52:06.6693 Debug Unused target checking is completed. Total Rule Count: 1, Total Target Count: 1, Unused Target Count: 0
+2021-04-13 15:52:06.6693 Trace Initializing Layout Renderer: ${message}
+2021-04-13 15:52:06.6693 Trace Initializing Layout Renderer: ${literal}
+2021-04-13 15:52:06.6693 Trace Initializing Layout Renderer: ${level}
+2021-04-13 15:52:06.6693 Trace Initializing SimpleLayout=Layout Renderer: ${level}
+2021-04-13 15:52:06.6843 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2021-04-13 15:52:06.6843 Trace Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2021-04-13 15:52:06.6843 Trace  Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2021-04-13 15:52:06.6843 Trace  Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2021-04-13 15:52:06.6933 Trace Initializing Layout Renderer: ${uppercase}
+2021-04-13 15:52:06.6933 Trace Initializing Layout Renderer: ${literal}
+2021-04-13 15:52:06.6933 Trace Initializing Layout Renderer: ${longdate}
+2021-04-13 15:52:06.6933 Trace Initializing '${longdate} ${level:uppercase=true} ${message}'
+2021-04-13 15:52:06.6933 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2021-04-13 15:52:06.6933 Trace Scanning SimpleLayout ''${longdate} ${level:uppercase=true} ${message}''
+2021-04-13 15:52:06.6933 Trace  Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2021-04-13 15:52:06.6933 Trace  Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2021-04-13 15:52:06.6933 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2021-04-13 15:52:06.6933 Trace  Scanning UppercaseLayoutRendererWrapper 'Layout Renderer: ${uppercase}'
+2021-04-13 15:52:06.6933 Trace   Scanning Property Inner 'SimpleLayout=Layout Renderer: ${level}' NLog.Layouts
+2021-04-13 15:52:06.6933 Trace   Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2021-04-13 15:52:06.6933 Trace    Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2021-04-13 15:52:06.6933 Trace    Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2021-04-13 15:52:06.6933 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2021-04-13 15:52:06.6933 Trace  Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2021-04-13 15:52:06.6933 Trace Initializing Layout Renderer: ${literal}
+2021-04-13 15:52:06.6933 Trace Initializing Layout Renderer: ${shortdate}
+2021-04-13 15:52:06.6933 Trace Initializing Layout Renderer: ${literal}
+2021-04-13 15:52:06.6933 Trace Initializing 'E:/Github/Gateway/.Net Core Training Assignments/.Net Core Final Assignment/HRM/HRM/Logging/Log/${shortdate}_log.txt'
+2021-04-13 15:52:06.6933 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2021-04-13 15:52:06.6933 Trace Scanning SimpleLayout ''E:/Github/Gateway/.Net Core Training Assignments/.Net Core Final Assignment/HRM/HRM/Logging/Log/${shortdate}_log.txt''
+2021-04-13 15:52:06.7112 Trace  Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2021-04-13 15:52:06.7112 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2021-04-13 15:52:06.7112 Trace  Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2021-04-13 15:52:06.7112 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2021-04-13 15:52:06.7112 Trace Initializing File Target[logfile]
+2021-04-13 15:52:06.7112 Trace FindReachableObject<NLog.Layouts.Layout>:
+2021-04-13 15:52:06.7203 Trace Scanning FileTarget 'File Target[logfile]'
+2021-04-13 15:52:06.7203 Trace  Scanning Property FileName ''E:/Github/Gateway/.Net Core Training Assignments/.Net Core Final Assignment/HRM/HRM/Logging/Log/${shortdate}_log.txt'' NLog.Layouts
+2021-04-13 15:52:06.7203 Trace  Scanning SimpleLayout ''E:/Github/Gateway/.Net Core Training Assignments/.Net Core Final Assignment/HRM/HRM/Logging/Log/${shortdate}_log.txt''
+2021-04-13 15:52:06.7203 Trace  Scanning Property Layout ''${longdate} ${level:uppercase=true} ${message}'' NLog.Layouts
+2021-04-13 15:52:06.7203 Trace  Scanning SimpleLayout ''${longdate} ${level:uppercase=true} ${message}''
+2021-04-13 15:52:06.7203 Trace  Scanning Property LineEnding 'Default' NLog.Targets
+2021-04-13 15:52:06.7203 Trace File Target[logfile] has 2 layouts
+2021-04-13 15:52:06.7203 Trace FileTarget(Name=logfile): Using appenderFactory: NLog.Internal.FileAppenders.RetryingMultiProcessFileAppender+Factory
+2021-04-13 15:52:06.7363 Info Configuration initialized.
+2021-04-13 15:52:06.7363 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.9.12899. Product version: 4.7.9+e8712e62842e2d74d60fdf37cf74d743750e5ca2. GlobalAssemblyCache: False
+2021-04-13 15:52:06.7363 Debug Targets for HRM.Logging.LogNLog by level:
+2021-04-13 15:52:06.7363 Debug Trace =>
+2021-04-13 15:52:06.7363 Debug Debug => logfile
+2021-04-13 15:52:06.7363 Debug Info => logfile
+2021-04-13 15:52:06.7363 Debug Warn => logfile
+2021-04-13 15:52:06.7363 Debug Error => logfile
+2021-04-13 15:52:06.7363 Debug Fatal => logfile
+2021-04-13 15:52:06.8191 Debug FileTarget(Name=logfile): Preparing for new file 'E:/Github/Gateway/.Net Core Training Assignments/.Net Core Final Assignment/HRM/HRM/Logging/Log/2021-04-13_log.txt'
+2021-04-13 15:52:06.8377 Debug Creating file appender: E:/Github/Gateway/.Net Core Training Assignments/.Net Core Final Assignment/HRM/HRM/Logging/Log/2021-04-13_log.txt
+2021-04-13 15:52:06.8377 Trace Opening E:/Github/Gateway/.Net Core Training Assignments/.Net Core Final Assignment/HRM/HRM/Logging/Log/2021-04-13_log.txt with allowFileSharedWriting=False
+2021-04-13 16:00:28.6543 Trace Opening E:/Github/Gateway/.Net Core Training Assignments/.Net Core Final Assignment/HRM/HRM/Logging/Log/2021-04-13_log.txt with allowFileSharedWriting=False
+2021-04-13 16:00:41.8960 Trace Opening E:/Github/Gateway/.Net Core Training Assignments/.Net Core Final Assignment/HRM/HRM/Logging/Log/2021-04-13_log.txt with allowFileSharedWriting=False
+2021-04-13 16:00:42.1911 Trace Opening E:/Github/Gateway/.Net Core Training Assignments/.Net Core Final Assignment/HRM/HRM/Logging/Log/2021-04-13_log.txt with allowFileSharedWriting=False
+2021-04-13 16:00:45.9440 Trace Opening E:/Github/Gateway/.Net Core Training Assignments/.Net Core Final Assignment/HRM/HRM/Logging/Log/2021-04-13_log.txt with allowFileSharedWriting=False
+2021-04-13 16:00:58.5234 Trace Opening E:/Github/Gateway/.Net Core Training Assignments/.Net Core Final Assignment/HRM/HRM/Logging/Log/2021-04-13_log.txt with allowFileSharedWriting=False
+2021-04-13 16:00:58.5803 Trace Opening E:/Github/Gateway/.Net Core Training Assignments/.Net Core Final Assignment/HRM/HRM/Logging/Log/2021-04-13_log.txt with allowFileSharedWriting=False
+2021-04-13 16:01:03.0118 Trace Opening E:/Github/Gateway/.Net Core Training Assignments/.Net Core Final Assignment/HRM/HRM/Logging/Log/2021-04-13_log.txt with allowFileSharedWriting=False
+2021-04-13 16:01:08.7905 Trace Opening E:/Github/Gateway/.Net Core Training Assignments/.Net Core Final Assignment/HRM/HRM/Logging/Log/2021-04-13_log.txt with allowFileSharedWriting=False
+2021-04-13 16:01:58.9937 Trace Opening E:/Github/Gateway/.Net Core Training Assignments/.Net Core Final Assignment/HRM/HRM/Logging/Log/2021-04-13_log.txt with allowFileSharedWriting=False
+2021-04-13 16:01:59.1033 Trace Opening E:/Github/Gateway/.Net Core Training Assignments/.Net Core Final Assignment/HRM/HRM/Logging/Log/2021-04-13_log.txt with allowFileSharedWriting=False

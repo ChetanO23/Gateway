@@ -24,7 +24,8 @@ namespace HRM.Models
         public bool IsManager { get; set; }
 
         [Required]
-        public int Manager { get; set; }
+        [Column(TypeName = "nvarchar(50)")]
+        public string Manager { get; set; }
 
         [Required]
         [Column(TypeName ="nvarchar(10)")]

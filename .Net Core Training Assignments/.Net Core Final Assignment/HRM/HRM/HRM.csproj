@@ -24,4 +24,8 @@
     <PackageReference Include="NLog.Web.AspNetCore" Version="4.12.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Logging\Log\" />
+  </ItemGroup>
+
 </Project>

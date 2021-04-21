@@ -153,7 +153,6 @@ E:\Github\Gateway\.Net Core Training Assignments\.Net Core Final Assignment\HRM\
 E:\Github\Gateway\.Net Core Training Assignments\.Net Core Final Assignment\HRM\HRM\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
 E:\Github\Gateway\.Net Core Training Assignments\.Net Core Final Assignment\HRM\HRM\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
 E:\Github\Gateway\.Net Core Training Assignments\.Net Core Final Assignment\HRM\HRM\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
-E:\Github\Gateway\.Net Core Training Assignments\.Net Core Final Assignment\HRM\HRM\obj\Debug\netcoreapp3.1\HRM.csprojAssemblyReference.cache
 E:\Github\Gateway\.Net Core Training Assignments\.Net Core Final Assignment\HRM\HRM\obj\Debug\netcoreapp3.1\HRM.AssemblyInfoInputs.cache
 E:\Github\Gateway\.Net Core Training Assignments\.Net Core Final Assignment\HRM\HRM\obj\Debug\netcoreapp3.1\HRM.AssemblyInfo.cs
 E:\Github\Gateway\.Net Core Training Assignments\.Net Core Final Assignment\HRM\HRM\obj\Debug\netcoreapp3.1\HRM.csproj.CoreCompileInputs.cache
@@ -392,3 +391,7 @@ D:\Github-Works\Gateway\.Net Core Training Assignments\.Net Core Final Assignmen
 D:\Github-Works\Gateway\.Net Core Training Assignments\.Net Core Final Assignment\HRM\HRM\obj\Debug\netcoreapp3.1\HRM.pdb
 D:\Github-Works\Gateway\.Net Core Training Assignments\.Net Core Final Assignment\HRM\HRM\obj\Debug\netcoreapp3.1\HRM.genruntimeconfig.cache
 D:\Github-Works\Gateway\.Net Core Training Assignments\.Net Core Final Assignment\HRM\HRM\bin\Debug\netcoreapp3.1\nlog.config
+E:\Github\Gateway\.Net Core Training Assignments\.Net Core Final Assignment\HRM\HRM\bin\Debug\netcoreapp3.1\nlog.config
+E:\Github\Gateway\.Net Core Training Assignments\.Net Core Final Assignment\HRM\HRM\bin\Debug\netcoreapp3.1\NLog.dll
+E:\Github\Gateway\.Net Core Training Assignments\.Net Core Final Assignment\HRM\HRM\bin\Debug\netcoreapp3.1\NLog.Extensions.Logging.dll
+E:\Github\Gateway\.Net Core Training Assignments\.Net Core Final Assignment\HRM\HRM\bin\Debug\netcoreapp3.1\NLog.Web.AspNetCore.dll

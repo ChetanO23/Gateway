@@ -83,7 +83,7 @@ namespace HRM.Controllers
             if (employee == null)
             {
                 // Exception Handling
-                throw new Exception();
+                //throw new Exception();
                 return NotFound();
             }
             ViewData["DepartmentId"] = new SelectList(_context.Departments, "Id", "Name", employee.DepartmentId);
