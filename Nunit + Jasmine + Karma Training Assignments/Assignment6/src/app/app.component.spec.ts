@@ -1,8 +1,12 @@
-import { TestBed, fakeAsync, tick} from '@angular/core/testing';
+import { TestBed, fakeAsync, tick, ComponentFixture} from '@angular/core/testing';
 import { RouterTestingModule } from '@angular/router/testing';
 import { AppComponent } from './app.component';
+import { DebugElement } from '@angular/core';
+import { By } from '@angular/platform-browser';
 
 describe('AppComponent', () => {
+  let fixture: ComponentFixture<AppComponent>;
+  let debugElement: DebugElement;
   beforeEach(async () => {
     await TestBed.configureTestingModule({
       imports: [
@@ -12,6 +16,8 @@ describe('AppComponent', () => {
         AppComponent
       ],
     }).compileComponents();
+    fixture = TestBed.createComponent(AppComponent);
+    debugElement = fixture.debugElement;
   });
 
   it('should create the app', () => {
@@ -26,42 +32,20 @@ describe('AppComponent', () => {
     expect(app.title).toEqual('Assignment6');
   });
 
-  it('should render title', () => {
-    const fixture = TestBed.createComponent(AppComponent);
+  it('should increment in template after 5 seconds', fakeAsync(() => {
+    debugElement
+      .query(By.css('button.increment'))
+      .triggerEventHandler('click', null);
+    tick(2000);
     fixture.detectChanges();
-    const compiled = fixture.nativeElement;
-    expect(compiled.querySelector('.content span').textContent).toContain('Assignment6 app is running!');
-  });
+    let value = debugElement.query(By.css('h1')).nativeElement.innerText;
+    expect(value).toEqual('0'); // value should still be 0 after 2 seconds
 
-  it('should return user data', async() => {
-    
-    // Act
-    const result = await component.getAllusers();
-    
-    // Assert
-    expect(result).toBeTruthy();
-    expect(result.length).toBe(2);
-  });
+    tick(3000);
+    fixture.detectChanges();
 
-  it('should return user data', (done) => {
-    
-    // Act
-    const result = component.getAllusers().then(value => {
-      
-    });
-    
-    // Assert
-    expect(result).toBeTruthy();
-    expect(result.length).toBe(2);
-  });
-
-  it('should return user data with fake async', fakeAsync(() => { (1)
-    // Act
-    const result = component.getAllusers().then(value => {
-    
-    tick(); (2)
-    // Assert
-    expect(result).toBeTruthy();
-    expect(result.length).toBe(2);
- }));
+    value = debugElement.query(By.css('h1')).nativeElement.innerText;
+    expect(value).toEqual('1'); // 3 seconds later, our value should now be 1
+  }));
+  
 });

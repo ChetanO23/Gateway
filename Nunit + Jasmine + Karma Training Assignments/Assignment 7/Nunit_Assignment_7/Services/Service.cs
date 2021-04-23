@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace Services
 {
-   public class ServicesOperations
+    public class Service
     {
         public bool CheckPrimeNumber(int num)
         {
@@ -138,6 +138,7 @@ namespace Services
             return users;
         }
     }
+
 
     public class User
     {
