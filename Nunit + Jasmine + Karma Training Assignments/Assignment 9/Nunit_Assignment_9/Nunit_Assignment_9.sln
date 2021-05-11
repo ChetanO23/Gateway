@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.30717.126
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NUnit_Assignment_9", "NUnit_Assignment_9\NUnit_Assignment_9.csproj", "{114A2B0C-90AF-4E7E-87BF-336CB9FC6636}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Service", "Service\Service.csproj", "{02445C29-09B5-4A4C-94BF-806C68F399A6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{114A2B0C-90AF-4E7E-87BF-336CB9FC6636}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{114A2B0C-90AF-4E7E-87BF-336CB9FC6636}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{114A2B0C-90AF-4E7E-87BF-336CB9FC6636}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02445C29-09B5-4A4C-94BF-806C68F399A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02445C29-09B5-4A4C-94BF-806C68F399A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02445C29-09B5-4A4C-94BF-806C68F399A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02445C29-09B5-4A4C-94BF-806C68F399A6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

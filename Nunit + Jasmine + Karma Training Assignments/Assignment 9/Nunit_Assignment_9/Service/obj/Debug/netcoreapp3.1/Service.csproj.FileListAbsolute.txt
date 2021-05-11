@@ -1,0 +1,8 @@
+E:\Github\Gateway\Nunit + Jasmine + Karma Training Assignments\Assignment 9\NUnit_Assignment_9\Service\obj\Debug\netcoreapp3.1\Service.AssemblyInfoInputs.cache
+E:\Github\Gateway\Nunit + Jasmine + Karma Training Assignments\Assignment 9\NUnit_Assignment_9\Service\obj\Debug\netcoreapp3.1\Service.AssemblyInfo.cs
+E:\Github\Gateway\Nunit + Jasmine + Karma Training Assignments\Assignment 9\NUnit_Assignment_9\Service\bin\Debug\netcoreapp3.1\Service.deps.json
+E:\Github\Gateway\Nunit + Jasmine + Karma Training Assignments\Assignment 9\NUnit_Assignment_9\Service\bin\Debug\netcoreapp3.1\Service.dll
+E:\Github\Gateway\Nunit + Jasmine + Karma Training Assignments\Assignment 9\NUnit_Assignment_9\Service\bin\Debug\netcoreapp3.1\Service.pdb
+E:\Github\Gateway\Nunit + Jasmine + Karma Training Assignments\Assignment 9\NUnit_Assignment_9\Service\obj\Debug\netcoreapp3.1\Service.csproj.CoreCompileInputs.cache
+E:\Github\Gateway\Nunit + Jasmine + Karma Training Assignments\Assignment 9\NUnit_Assignment_9\Service\obj\Debug\netcoreapp3.1\Service.dll
+E:\Github\Gateway\Nunit + Jasmine + Karma Training Assignments\Assignment 9\NUnit_Assignment_9\Service\obj\Debug\netcoreapp3.1\Service.pdb
