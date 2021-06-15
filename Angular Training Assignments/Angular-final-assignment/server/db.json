@@ -10,11 +10,6 @@
       "isActive": true,
       "branch": [
         {
-          "id": 1617688380787,
-          "name": "Headquaters 1",
-          "address": "Corporate House, India"
-        },
-        {
           "id": "",
           "name": "Headquaters 2",
           "address": "Maria montessorilaan, Netherlands"
@@ -74,7 +69,7 @@
         }
       ]
     },
-	 {
+    {
       "id": 4,
       "email": "admin@cognizant.com",
       "name": "Cognizant Pvt. Ltd.",
@@ -108,6 +103,137 @@
           "id": 1617699524910,
           "name": "Main Branch",
           "address": "Corporate House, India"
+        }
+      ]
+    },
+    {
+      "id": 1622815254478,
+      "name": "Crest Data System",
+      "email": "crestds@gmail.com",
+      "address": "Ahmedabad",
+      "totalEmployees": 200,
+      "totalBranch": 3,
+      "isActive": true,
+      "branch": [
+        {
+          "id": 1622815254479,
+          "name": "Crest 1",
+          "address": "Ahmedabad"
+        },
+        {
+          "id": "",
+          "name": "Crest 2",
+          "address": "Anand"
+        },
+        {
+          "id": "",
+          "name": "Crest 3",
+          "address": "Pune"
+        }
+      ]
+    },
+    {
+      "id": 1622868410623,
+      "name": "TATA Group of Companies",
+      "email": "tatacompanies@gmail.com",
+      "address": "Hinjwadi, Pune.",
+      "totalEmployees": 5000,
+      "totalBranch": 2,
+      "isActive": true,
+      "branch": [
+        {
+          "id": 1622868410620,
+          "name": "TCS ",
+          "address": "Pune"
+        },
+        {
+          "id": "",
+          "name": "TATA Steel",
+          "address": "Jarkhand"
+        }
+      ]
+    },
+    {
+      "id": 1622868683522,
+      "name": "Capgemini",
+      "email": "capgemini@gmail.com",
+      "address": "Pune",
+      "totalEmployees": 900,
+      "totalBranch": 3,
+      "isActive": true,
+      "branch": [
+        {
+          "id": 1622868683522,
+          "name": "Capgemini 1",
+          "address": "Pune"
+        },
+        {
+          "id": 1622868784198,
+          "name": "Capgemini 2",
+          "address": "Mumbai"
+        },
+        {
+          "id": 1622868800169,
+          "name": "Capgemini 3",
+          "address": "Banglore"
+        }
+      ]
+    },
+    {
+      "id": 1622868914479,
+      "name": "Amazon",
+      "email": "amazon@gmail.com",
+      "address": "Bangalore",
+      "totalEmployees": 3000,
+      "totalBranch": 2,
+      "isActive": true,
+      "branch": [
+        {
+          "id": 1622868914478,
+          "name": "Amazon 1",
+          "address": "Pune"
+        },
+        {
+          "id": 1622868977900,
+          "name": "Amazon 2",
+          "address": "Mumbai"
+        }
+      ]
+    },
+    {
+      "id": 1622872901900,
+      "name": "Paypal",
+      "email": "paypal@gmail.com",
+      "address": "Pune",
+      "totalEmployees": 500,
+      "totalBranch": 1,
+      "isActive": true,
+      "branch": [
+        {
+          "id": 1622872901896,
+          "name": "Main Branch",
+          "address": "Pune"
+        }
+      ]
+    },
+    {
+      "id": 1622877959859,
+      "name": "chetan",
+      "email": "chetan@gmail.com",
+      "address": "jvjv",
+      "totalEmployees": 500,
+      "totalBranch": 2,
+      "isActive": true,
+      "branch": [
+        {
+          "id": 1622877959858,
+          "name": "kbkjb",
+          "address": "bjkb"
+        },
+        {
+          "id": "",
+          "name": "nvjjvhj",
+          "address": "jbkjh"
         }
       ]
     }

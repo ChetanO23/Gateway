@@ -48,7 +48,7 @@ export class CompanyServiceService {
   
   companyDetails(companyDetails : Company)
   {
-    debugger;
+   // debugger;
     this.company = companyDetails;
   }
 
